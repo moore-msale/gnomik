@@ -13,6 +13,8 @@
     <!-- Scripts -->
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -35,8 +37,31 @@
     </main>
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/owl.carousel.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 @stack('scripts')
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        nav: true,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+</script>
 <script>
     $(document).ready(function() {
         $(window).scroll(function() {
