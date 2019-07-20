@@ -342,10 +342,14 @@ img.sun {
     font-size: 16px;
     border:none;
     color:white;
-    background: #FF6A72;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    width: 250px;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    transform: translateY(-5px);
+
 }
 #call-back form {
     background: linear-gradient(180deg, #FF6A74 0%, #FF6F5B 100%);
@@ -443,4 +447,90 @@ button:focus {
 #contact-us p {
     margin-bottom: 0;
     margin-left: 7%;
+}
+
+#divider-before-map {
+    background-image: url(/images/3.png);
+    background-size: 100% 100%;
+    background-position: bottom;
+    height: 137px;
+    position: absolute;
+}
+#footer {
+    background: #ff9a66;
+}
+.divider-before-footer {
+    background-image: url(/images/4.png);
+    background-size: 100% 100%;
+    height: 200px;
+    transform: translateY(-180px);
+    position: absolute;
+    width: 100%;
+}
+.row-with-animation {
+    position: absolute;
+    right: 5%;
+}
+.row-with-animation2 {
+    position: absolute;
+    left: 20%;
+    top: -110px;
+}
+.row-with-animation3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.parallax {
+    overflow: hidden;
+    left: 0;
+}
+.water {
+    position: absolute;
+    font-family: pt-narrow!important;
+    font-size: 220px;
+    color: #000000;
+}
+.water2 {
+    position: absolute;
+    width: 298px;
+    border: 1px solid #000;
+    height: 384px;
+}
+.blokparallax {
+    position: absolute;
+    left: 22%;
+    top: -15%;
+    z-index: 9999;
+}
+.blokparallax2 {
+    position: absolute;
+    left: 6%;
+    top: 0%;
+    z-index: 0;
+}
+.parallax-effects {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#gallery {
+    padding-top: 6%;
+}
+#menu {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+img {
+    width: 100%;
+}
+.blok1-h1 {
+    font-size: 55px;
+    line-height: 120%;
+    font-family: 'Coiny';
+}
+.blok1-span {
+    font-size:13px;
+    line-height: 17px;
 }

@@ -36,6 +36,7 @@
         @yield('content')
     </main>
 </div>
+@include('_partials.footer')
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.js') }}"></script>
@@ -48,6 +49,7 @@
         loop: true,
         autoplay: true,
         nav: true,
+        smartSpeed: 1000,
         autoplayTimeout: 5000,
         responsive: {
             0: {
