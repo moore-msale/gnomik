@@ -398,7 +398,7 @@ img.sun {
     padding-left: 5%;
 }
 .carousel-block-2 {
-    height: 325px;
+    height: 322px;
 }
 #employees .owl-nav {
     width: 108%;
@@ -485,6 +485,10 @@ button:focus {
     overflow: hidden;
     left: 0;
 }
+.parallax2 {
+    overflow: hidden;
+    left: 0;
+}
 .water {
     position: absolute;
     font-family: pt-narrow!important;
@@ -509,6 +513,12 @@ button:focus {
     top: 0%;
     z-index: 0;
 }
+.blokparallax3 {
+    position: absolute;
+    right: 16%;
+    top: -5%;
+    z-index: 0;
+}
 .parallax-effects {
     width: 100%;
     height: 100%;
@@ -522,15 +532,114 @@ button:focus {
     padding-bottom: 2%;
 }
 
-img {
-    width: 100%;
-}
+
 .blok1-h1 {
     font-size: 55px;
     line-height: 120%;
     font-family: 'Coiny';
 }
 .blok1-span {
-    font-size:13px;
+    font-size:16px;
     line-height: 17px;
+}
+.lb-data .lb-details {
+    display: none;
+}
+.lb-outerContainer {
+    background-color: transparent;
+}
+.soc-icons {
+    background: rgb(241, 241, 241);
+    width: 71px;
+    height: 71px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.soc-icons img {
+    transition: all 0.5s ease;
+    transform: scale(0.9);
+}
+.soc-icons:hover img {
+    transform: scale(1);
+}
+#courses ul {
+    list-style: none;
+}
+#courses ul li::before {
+    content: "\2022";
+    color: #FF6C6A;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1.7em;
+    position: absolute;
+}
+
+@media (min-width: 690px) and (max-width: 770px) {
+    img {
+        width: 100%;
+    }
+    .blok1-span {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .img-in-first-block {
+        max-width: 70%;
+    }
+    .text-slogan {
+        font-size: 44px!important;
+        line-height: 59px!important;
+    }
+    .img_new img {
+        position: absolute;
+        top: -160px;
+        left: -41px;
+    }
+    .main-ht {
+        height: 80vh!important;
+    }
+
+}
+
+@media (max-width: 690px) {
+    img {
+        width: 100%;
+    }
+    .blok1-h1 {
+        font-size: 25px;
+    }
+    .text-slogan {
+        font-size: 17p!important;
+        line-height: 27px!important;
+    }
+    .img_new img {
+        position: absolute;
+        top: -104px;
+        left: -27px;
+    }
+    .in-left {
+        position: relative!important;
+    }
+    #about_us .col-lg-3 .p-lg-5 img {
+        width: 20%;
+    }
+    .clouds {
+        display: none;
+    }
+    #about_us .col-lg-3 .p-lg-5 p{
+        padding-top: 0!important;
+    }
+    #about_us {
+        height: 210vh!important;
+    }
+    .meropriyatiya {
+        font-size: 30px!important;
+        line-height: 32px!important;
+    }
+    .noposa {
+        position: relative!important;
+        right: 0!important;
+    }
+    
 }

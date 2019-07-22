@@ -11,16 +11,16 @@
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-3">
-                            <a href="#main" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Главная</a>
+                            <a href="/" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Главная</a>
                         </li>
                         <li class="nav-item p-3 ">
                             <a href="#about_us" class="text-white text-fut-bold menu-point" style="text-decoration: none;">О нас</a>
                         </li>
                         <li class="nav-item p-3">
-                            <a href="#lesson" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Список занятий</a>
+                            <a href="/lessons" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Список занятий</a>
                         </li>
                         <li class="nav-item p-3">
-                            <a href="#gallery" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Галерея</a>
+                            <a href="/gallery" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-3">
                             <a href="#event" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Мероприятия</a>

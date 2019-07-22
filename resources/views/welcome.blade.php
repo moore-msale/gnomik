@@ -6,31 +6,29 @@
         <div class="container-fluid main-ht" style="padding-left: 8%; height: 110vh;">
             <div class="row">
 
-                <div class="col-md-6 col-12 text-coin" style="padding-top: 12%;">
+                <div class="col-lg-6 col-12 text-coin" style="padding-top: 12%;">
                     <h1 class="text-media text-white blok1-h1">
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД "ГНОМИК"
                     </h1>
 
                 <div class="container-fluid row pt-2">
-                    <div class="col-2">
-                        <img style="width: 100%;" src="{{asset('images/main1.png')}}" alt="">
+                    <div class="col-lg-2 col-3">
+                        <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main1.png')}}" alt="">
                     </div>
-                    <div class="col-4">
-                                     <span class="text-fut-light text-white blok1-span">Сайт рыбатекст поможет дизайнеру, верстальщику
-дизайнеру, верстальщику</span>
+                    <div class="col-lg-4 col-9">
+                        <span class="text-fut-light text-white blok1-span">Сайт рыбатекст поможет дизайнеру, верстальщику дизайнеру, верстальщику</span>
                     </div>
-                    <div class="col-2">
-                        <img style="width: 100%;" src="{{asset('images/main2.png')}}" alt="">
+                    <div class="col-lg-2 col-3">
+                        <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main2.png')}}" alt="">
                     </div>
-                    <div class="col-4">
-                                     <span class="text-fut-light text-white" >Сайт рыбатекст поможет дизайнеру, верстальщику
-дизайнеру, верстальщику</span>
+                    <div class="col-lg-4 col-9">
+                        <span class="text-fut-light text-white blok1-span" >Сайт рыбатекст поможет дизайнеру, верстальщику дизайнеру, верстальщику</span>
                     </div>
                 </div>
                 <div class="container-fluid row" style="padding-top: 5%;">
                     <div class="col-12 text-left" style="padding-left: 40%;">
-                        <p class="text-white" style="font-family: 'Segoe Print'; font-size:25px; line-height: 44px;
+                        <p class="text-white text-slogan" style="font-family: 'Segoe Print'; font-size:25px; line-height: 44px;
 
   transform: rotate(-22.54deg);
   -webkit-transform: rotate(-22.54deg);
@@ -44,7 +42,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 img_new">
                     <img src="{{ asset('images/bmain.png') }}" alt="">
                 </div>
         </div>
@@ -56,11 +54,11 @@
             <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Почему мы?</h2>
         </div>
         <div class="container-fluid row">
-            <div class="col-4" style="padding-left: 8%;">
+            <div class="col-lg-4" style="padding-left: 8%;">
                 <img class="in-left" style="z-index:100; position: absolute;" src="{{ asset('images/toy.png') }}" alt="">
             </div>
-            <div class="col-3" style="padding-top: 10%; padding-left: 5%;">
-                <div class="p-5" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
+            <div class="col-lg-3" style="padding-top: 10%; padding-left: 5%;">
+                <div class="p-lg-5 p-3 text-center" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
 border-radius: 10px; z-index:-500;">
                     <img src="{{ asset('images/smiling-baby.png') }}" alt="">
                     <p class="text-fut-bold pt-4 text-white" style="font-size: 16px; line-height: 21px;">
@@ -74,7 +72,7 @@ border-radius: 10px; z-index:-500;">
                 </div>
                 <img class="clouds" style="position: absolute; right:-30%; bottom:-15%;" src="{{ asset('images/cloud.png') }}" alt="">
             </div>
-            <div class="col-4 in-right" style="padding-left:5%; padding-top: 14%;">
+            <div class="col-lg-4 col-12 in-right" style="padding-left:5%; padding-top: 14%;">
                 <div class="container-fluid row">
                     <div class="col-2">
                         <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
@@ -83,7 +81,9 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Сайт рыбатекст поможет дизайнеру Сайт рыбатекст поможет Сайт
+Детский психолог, логопед — дефектолог, врач – педиатр систематически проводят
+интегрированную диагностическую работу, консультируют родителей.
+
                     </span>
                     </div>
                 </div>
@@ -96,7 +96,8 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Сайт рыбатекст поможет дизайнеру Сайт рыбатекст поможет Сайт
+4-х разовое питание. Каждый ребенок получает сбалансированное питание высокого
+качества.
                     </span>
                     </div>
                 </div>
@@ -109,7 +110,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Сайт рыбатекст поможет дизайнеру Сайт рыбатекст поможет Сайт
+В детском саду функционирует летний детский бассейн.
                     </span>
                     </div>
                 </div>
@@ -135,7 +136,7 @@ border-radius: 10px; z-index:-500;">
             </div>
         </div>
         <div class="col-12 text-center" style="margin-top: 11%;">
-            <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Наши мероприятия</h2>
+            <h2 class="meropriyatiya" style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Наши мероприятия</h2>
             <div class="row row-with-animation2">
                 <img class="cloud-right" style="position:absolute; right:3%; top:50px; z-index: -5;" src="{{ asset('images/cloud-right.png') }}" alt="">
                 <img class="cloud-left" style="position:absolute; right:8%; top: 80px; z-index: -5;" src="{{ asset('images/cloud-left.png') }}" alt="">
@@ -145,9 +146,9 @@ border-radius: 10px; z-index:-500;">
 
     <div class="container" style="padding-bottom: 7%;">
         <div class="row">
-            <div class="col-9">
+            <div class="col-lg-9 col-12">
                 <div class="container-fluid row">
-                    <div class="col-5 px-2 pb-3 mr-3" style="background-color: #EF827F;">
+                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
                         <div class="container-fluid row">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -162,7 +163,7 @@ border-radius: 10px; z-index:-500;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 px-2 pb-3 mr-3" style="background-color: #EF827F;">
+                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
                         <div class="container-fluid row">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -177,7 +178,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
                 <div class="container-fluid row mt-3">
-                    <div class="col-5 px-2 pb-3 mr-3" style="background-color: #EF827F;">
+                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
                         <div class="container-fluid row">
                             <div class="col-6 pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -190,7 +191,7 @@ border-radius: 10px; z-index:-500;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 px-2 pb-3 mr-3" style="background-color: #EF827F;">
+                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
                         <div class="container-fluid row">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -207,7 +208,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
             </div>
-            <div class="col-3 pr-5" style="padding-top:7%; position: absolute; right:11%;">
+            <div class="col-lg-3 col-12 pr-5 noposa" style="padding-top:7%; position: absolute; right:11%;">
                 <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
                     Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
                 </p>
@@ -243,7 +244,7 @@ border-radius: 10px; z-index:-500;">
                 </p>
 
                 <button class="py-3 px-5 text-fut-light btn" style="background-color: #518CDC;">
-                    Перейти к списку занятий
+                    <a style="text-decoration: none;color: #fff;" href="http://gnomik/lessons">Перейти к списку занятий </a>
                 </button>
             </div>
             <div class="col-6 pt-5">
@@ -276,7 +277,7 @@ border-radius: 10px; z-index:-500;">
                         </p>
                         <p>
                             <button class="py-3 px-5 text-fut-light btn" style="background-color: #518CDC; width: 210px;">
-                                Перейти в галерею
+                                <a style="text-decoration: none;color: #fff;" href="http://gnomik/gallery">Перейти в галерею</a>
                             </button>
                         </p>
                     </div>
@@ -326,38 +327,50 @@ border-radius: 10px; z-index:-500;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Пример меню на
                     неделю</h2>
                 <div class="container">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center flex-nowrap">
                         <img class="col-1 mr-3" src="{{asset('images/fruit1.png')}}" alt="">
-                        <ul class="col-3 pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
+                        <ul class="col-10 justify-content-center pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light active"
                                    style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #FFA4A3;"
-                                   data-toggle="tab" href="#Пн" role="tab" aria-controls=""
-                                   aria-selected="true">Пн</a>
+                                   data-toggle="tab" href="#каша" role="tab" aria-controls=""
+                                   aria-selected="true">Каша</a>
                             </li>
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light"
                                    style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #F9FF85;"
-                                   data-toggle="tab" href="#Вт" role="tab" aria-controls=""
-                                   aria-selected="true">Вт</a>
+                                   data-toggle="tab" href="#завтраки" role="tab" aria-controls=""
+                                   aria-selected="true">Завтраки (на второе)</a>
                             </li>
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light"
                                    style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #92D7FE;"
-                                   data-toggle="tab" href="#Ср" role="tab" aria-controls=""
-                                   aria-selected="true">Ср</a>
+                                   data-toggle="tab" href="#полдник" role="tab" aria-controls=""
+                                   aria-selected="true">Полдник</a>
                             </li>
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light"
                                    style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #BEF077;"
-                                   data-toggle="tab" href="#Чт" role="tab" aria-controls=""
-                                   aria-selected="true">Чт</a>
+                                   data-toggle="tab" href="#напитки" role="tab" aria-controls=""
+                                   aria-selected="true">Напитки и молочная продукция</a>
                             </li>
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light"
                                    style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #E2CFFD;"
-                                   data-toggle="tab" href="#Пт" role="tab" aria-controls=""
-                                   aria-selected="true">Пт</a>
+                                   data-toggle="tab" href="#супы" role="tab" aria-controls=""
+                                   aria-selected="true">Супы</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link p-md-2 text-center text-fut-light"
+                                   style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #E2CFFD;"
+                                   data-toggle="tab" href="#второе " role="tab" aria-controls=""
+                                   aria-selected="true">На второе </a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link p-md-2 text-center text-fut-light"
+                                   style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #E2CFFD;"
+                                   data-toggle="tab" href="#салаты " role="tab" aria-controls=""
+                                   aria-selected="true">Салаты </a>
                             </li>
                         </ul>
                         <img class="col-1" src="{{asset('images/fruit2.png')}}" alt="">
@@ -365,75 +378,40 @@ border-radius: 10px; z-index:-500;">
                 </div>
             </div>
             <div class="tab-content col-12" id="myTabContent">
-                <div class="tab-pane fade active show" id="Пн" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade active show" id="каша" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
-                                Понедельник
+                                Каши и фрукты
                             </h2>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-2">
+                            <div class="col-3">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Завтрак
+                                    Каши
                                 </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Манная каша <br>
+                                    Кукурузная каша <br>
+                                    Гречневая каша <br>
+                                    Рисовая каша <br>
+                                    Геркулесовая каша <br>
+                                    Ячневая каша <br>
                                 </p>
                             </div>
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Обед
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center" style="padding-top: 3%;">
                             <div class="col-3">
-                                <img src="{{ asset('images/food3.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Полдник
+                                    Фрукты
                                 </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                            <div class="col-3">
-                                <img src="{{ asset('images/food4.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Ужин
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Яблоки <br>
+                                    Бананы <br>
                                 </p>
                             </div>
                         </div>
@@ -441,267 +419,142 @@ border-radius: 10px; z-index:-500;">
                 </div>
 
 
-                <div class="tab-pane fade" id="Вт" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade" id="завтраки" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
-                                Вторник
+                                Завтраки (на второе)
                             </h2>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Завтрак
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Сырники <br>
+                                    Оладьи <br>
+                                    Гренки <br>
+                                    Бутерброды с маслом/ с сыром <br>
                                 </p>
                             </div>
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Обед
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center" style="padding-top: 3%;">
                             <div class="col-3">
-                                <img src="{{ asset('images/food3.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Полдник
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                            <div class="col-3">
-                                <img src="{{ asset('images/food4.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Ужин
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Блинчики <br>
+                                    Бутерброды с икрой <br>
+                                    Бутерброд с шоколадным маслом <br>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="Ср" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade" id="полдник" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
-                                Среда
+                                Полдник
                             </h2>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Завтрак
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Булочки с разными начинками <br>
+                                    Ватрушка с сахарной пудрой <br>
+                                    Песочное печенье <br>
+                                    Кукурузные палочки <br>
+                                    Вафли молочные <br>
                                 </p>
                             </div>
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Обед
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center" style="padding-top: 3%;">
                             <div class="col-3">
-                                <img src="{{ asset('images/food3.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Полдник
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                            <div class="col-3">
-                                <img src="{{ asset('images/food4.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Ужин
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Крекеры «рыбка» <br>
+                                    Бамбуковые палочки <br>
+                                    Маффины <br>
+                                    Кексы <br>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="Чт" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade" id="напитки" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
-                                Четверг
+                                Напитки и молочная продукция
                             </h2>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-2">
+                            <div class="col-3">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Завтрак
+                                    Напитки
                                 </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Компот из сухофруктов <br>
+                                    Морс из ягод чай с лимоном чай с шиповником <br>
+                                    Сок натуральный в банках <br>
                                 </p>
                             </div>
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Обед
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center" style="padding-top: 3%;">
                             <div class="col-3">
-                                <img src="{{ asset('images/food3.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Полдник
+                                    Молочная продукция
                                 </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
-                                </p>
-                            </div>
-                            <div class="col-3">
-                                <img src="{{ asset('images/food4.png') }}" alt="">
-                            </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Ужин
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Кефир <br>
+                                    Творог <br>
+                                    Айран <br>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="Пт" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade" id="супы" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
-                                Пятница
+                                Супы
                             </h2>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Завтрак
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Чечевичный суп с мясом <br>
+                                    Борщ со сметаной с мясом <br>
+                                    Пшенной суп с мясом <br>
+                                    Гороховый суп с мясом <br>
+                                    Гречневый суп с мясом <br>
                                 </p>
                             </div>
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Обед
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Рисовый суп с мясом <br>
+                                    Суп картофельный с мясом <br>
+                                    Картофельный суп с мясом <br>
+                                    Щи из щавеля со сметаной <br>
+                                    Суп вермишелевый с мясом <br>
                                 </p>
                             </div>
                         </div>
@@ -710,31 +563,86 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food3.png') }}" alt="">
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Полдник
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Уха из семги с пшеном <br>
+                                    Жидкий лагман (детский) <br>
+                                    Свекольник со сметаной <br>
+                                    Суп с клецками с мясом <br>
+                                    Куриный суп лапша <br>
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food4.png') }}" alt="">
+
                             </div>
-                            <div class="col-2">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
-                                    Ужин
-                                </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px; padding-right: 20%;">
-                                    Картофельный суп с овощами
-                                    Поджарка из курицы с cпагетти
-                                    Огурцы свежие
-                                    Xлеб
-                                    Компот
+                            <div class="col-3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="второе" role="tabpanel" aria-labelledby="">
+                    <div class="container">
+                        <div class="col-12 text-center" style="margin-bottom: 5%;">
+                            <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
+                                На второе
+                            </h2>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <img src="{{ asset('images/food1.png') }}" alt="">
+                            </div>
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Плов с мясом <br>
+                                    Макароны по - флотски <br>
+                                    Бефстроганов с пюре <br>
+                                    Оромо (картошка, фарш, лук, тесто) <br>
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <img src="{{ asset('images/food2.png') }}" alt="">
+                            </div>
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Спагетти с мясным подливом <br>
+                                    Рагу (мясо, капуста, картошка) <br>
+                                    Мясо по-французски <br>
+                                    Тефтели с гречкой <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="салаты" role="tabpanel" aria-labelledby="">
+                    <div class="container">
+                        <div class="col-12 text-center" style="margin-bottom: 5%;">
+                            <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
+                                Салаты
+                            </h2>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <img src="{{ asset('images/food1.png') }}" alt="">
+                            </div>
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Помидоры, огурцы, сметана <br>
+                                    Салат овощной (морковь, огурцы, капуста) <br>
+                                    Салат (морковный) <br>
+                                    Салат (капустный) <br>
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <img src="{{ asset('images/food2.png') }}" alt="">
+                            </div>
+                            <div class="col-3">
+                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                    Салат (свекольный) <br>
+                                    Салат (оливье) <br>
+                                    Салат (винегрет) <br>
+                                    Салат (крабовый) <br>
                                 </p>
                             </div>
                         </div>
@@ -756,26 +664,8 @@ border-radius: 10px; z-index:-500;">
                         <div class="item">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-6 pt-4 pr-2">
+                                    <div class="col-12 pt-4 pr-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
-                                            <div class="row h-100">
-                                                <div class="col-6">
-                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
-                                                </div>
-                                                <div class="col-6 pl-5 align-self-center">
-                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Наталья Петровна</h3>
-                                                    <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
-                                                    <div class="row">
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 pt-4 pl-2">
-                                        <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-6">
                                                     <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
@@ -798,25 +688,7 @@ border-radius: 10px; z-index:-500;">
                         <div class="item">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-6 pt-4 pr-2">
-                                        <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
-                                            <div class="row h-100">
-                                                <div class="col-6">
-                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
-                                                </div>
-                                                <div class="col-6 pl-5 align-self-center">
-                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Наталья Петровна</h3>
-                                                    <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
-                                                    <div class="row">
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6 pt-4 pl-2">
+                                    <div class="col-12 pt-4 pl-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-6">
@@ -881,8 +753,13 @@ border-radius: 10px; z-index:-500;">
                 </div>
             </div>
             <div class="blokparallax2">
-                <div class="parallax">
+                <div class="parallax2">
                     <div class="water"><img class="" src="{{ asset('images/Vector.png') }}" alt=""></div>
+                </div>
+            </div>
+            <div class="blokparallax3">
+                <div class="parallax2">
+                    <div class="water"><img class="" src="{{ asset('images/Ellipse-2.png') }}" alt=""></div>
                 </div>
             </div>
         </div>
@@ -907,12 +784,8 @@ border-radius: 10px; z-index:-500;">
                 <div class="col-7">
                     <h3 style="font-family: Coiny; font-size: 30px; line-height: 33px; padding-bottom:3%; color: #fff;">Лист ожидания открыт</h3>
                     <p style="font-size: 16px;line-height: 21px;color: #FFFFFF;">Если Вы хотите забронировать место для Вашего ребенка, запишитесь онлайн для получения подробной информации и наш администратор свяжется с Вами.</p>
-                    <p style="font-size: 16px;line-height: 21px;color: #FFFFFF;">Если Вы хотите забронировать место для Вашего ребенка, запишитесь онлайн для получения подробной информации и наш администратор свяжется с Вами.</p>
-                    <p style="font-size: 16px;line-height: 21px;color: #FFFFFF;">Перечень документов, необходимых для поступления.</p>
-
-                    <button class="py-3 px-5 text-fut-light btn btn-join mt-3" style="background: #FF6A72;width: 250px;">
-                        Документы
-                    </button>
+                    <p style="font-weight: bold;font-size: 18px;line-height: 21px;color: #FFFFFF; margin-bottom: 2px; margin-top: 5%;">Документы, необходимые для поступления:</p>
+                    <h2 style="font-size: 18px;line-height: 21px;color: #FFFFFF;">Форма 26 и форма 63</h2>
                 </div>
                 <div class="col-5">
                     <form>
@@ -967,9 +840,21 @@ border-radius: 10px; z-index:-500;">
                 <div class="col-4 pl-5 pr-5">
                     <div class="container">
                         <div class="row">
-                            <div class="col-4"><img src="{{ asset('images/instagram.png') }}" alt=""></div>
-                            <div class="col-4"><img src="{{ asset('images/fb.png') }}" alt=""></div>
-                            <div class="col-4"><img src="{{ asset('images/whattsapp.png') }}" alt=""></div>
+                            <div class="col-4">
+                                <div class="soc-icons">
+                                    <img src="{{ asset('images/instagram.png') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="soc-icons">
+                                    <img src="{{ asset('images/fb.png') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="soc-icons">
+                                    <img src="{{ asset('images/whattsapp.png') }}" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -978,9 +863,7 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container-fluid" id="divider-before-map">
-
-    </div>
+    <div class="container-fluid" id="divider-before-map"></div>
     <div class="container-fluid pl-0 pr-0" id="map-block">
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HYAqAFk578JUrPPqoesDQW3JtaSLwgdK" width="100%" height="550"></iframe>
     </div>
@@ -1009,5 +892,29 @@ border-radius: 10px; z-index:-500;">
                 });
             });
         </script>
+        <script>
+            jQuery(function ($) {
+                var currentX = '';
+                var currentY = '';
+                var movementConstant = .015;
+                $(document).mousemove(function(e) {
+                    if(currentX == '') currentX = e.pageX;
+                    var xdiff = e.pageX - currentX;
+                    currentX = e.pageX;
+                    if(currentY == '') currentY = e.pageY;
+                    var ydiff = e.pageY - currentY;
+                    currentY = e.pageY;
+                    $('.parallax2 div').each(function(i, el) {
+                        var movement = (i - 1) * (xdiff * movementConstant);
+                        var movementy = (i + 1) * (ydiff * movementConstant);
+                        var newX = $(el).position().left + movement;
+                        var newY = $(el).position().top + movementy;
+                        $(el).css('left', newX + 'px');
+                        $(el).css('top', newY + 'px');
+                    });
+                });
+            });
+        </script>
+
     @endpush
 @endsection
