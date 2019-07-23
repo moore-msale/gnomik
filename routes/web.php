@@ -25,6 +25,6 @@ Route::get('/lessons', function () {
 
 
 // Ajax запрос в Controller
-Route::post('/message', 'MailController@mail')->name('message');
+Route::post('/mail', 'MailController@mail')->name('mail');
 
 

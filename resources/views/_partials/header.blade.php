@@ -9,12 +9,12 @@
             </div>
             <div class="col-md-11 col-8 collapse navbar-collapse"  id="navbarSupportedContent">
                 <nav class="ml-md-auto ml-0">
-                    <ul class="navbar-nav" id="pick">
+                    <ul class="navbar-nav">
                         <li class="nav-item p-3">
                             <a href="/" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Главная</a>
                         </li>
-                        <li class="nav-item p-3 ">
-                            <a href="/#about_us" class="text-white text-fut-bold menu-point" style="text-decoration: none;">О нас</a>
+                        <li class="nav-item p-3" id="pick">
+                            <a href="#about_us" class="text-white text-fut-bold menu-point" style="text-decoration: none;">О нас</a>
                         </li>
                         <li class="nav-item p-3">
                             <a href="/lessons" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Список занятий</a>
@@ -22,10 +22,10 @@
                         <li class="nav-item p-3">
                             <a href="/gallery" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Галерея</a>
                         </li>
-                        <li class="nav-item p-3">
-                            <a href="/#event" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Мероприятия</a>
+                        <li class="nav-item p-3" id="pick">
+                            <a href="#event" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Мероприятия</a>
                         </li>
-                        <li class="nav-item p-3">
+                        <li class="nav-item p-3" id="pick">
                             <a href="#footer" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Контакты</a>
                         </li>
                     </ul>

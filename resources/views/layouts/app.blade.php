@@ -96,30 +96,39 @@
 <script>
     $('#ajax-message').click(e => {
         e.preventDefault();
-        let btn = $(e.currentTarget);
         let name = $('#form-name');
         let phone = $('#form-phone');
         let message = $('#form-message');
 
         $.ajax({
-            url: '{{ route('message') }}',
+            url: '{{ route('mail') }}',
             method: 'POST',
             data: {
                 "_token": "{{ csrf_token() }}",
                 "name": name.val(),
                 "phone": phone.val(),
-                "email": email.val()
+                "message": message.val()
             },
             success: data => {
-                $(".send-success-message-1").removeClass('d-none');
+                $('#form-name').val('');
+                $('#form-phone').val('');
+                $('#form-message').val('');
+                $(".send-success-mail").removeClass('d-none');
             },
             error: () => {
-                $(".send-error-message-1").removeClass('d-none');
             }
         });
-
-
     })
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#pick").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 500);
+        });
+    });
 </script>
 
 </body>
