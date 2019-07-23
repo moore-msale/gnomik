@@ -575,7 +575,41 @@ button:focus {
     margin-left: -1.7em;
     position: absolute;
 }
-
+@media (min-width: 771px) and (max-width: 1024px) {
+    .main-ht {
+        height: 60vh!important;
+    }
+    img{
+        max-width: 100%;
+    }
+    #about_us {
+        height: 60vh!important;
+    }
+    .height118 {
+        height: 48vh!important;
+    }
+    .fixedheight img {
+        top: 18.5%!important;
+    }
+    #menu img.d-lg-block.d-none.col-1 {
+        height: 40px;
+    }
+    .carousel-block-2 {
+        height: 285px!important;
+    }
+    #reviews {
+        height: 53vh;
+        background-size: cover;
+    }
+    #news {
+        height: 40vh;
+        background-size: cover;
+    }
+    #call-back {
+        background-size: cover;
+        height: 30vh;
+    }
+}
 @media (min-width: 690px) and (max-width: 770px) {
     .gallery-block .nav-item a {
         width: 162px!important;
