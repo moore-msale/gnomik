@@ -6,27 +6,27 @@
         <div class="container-fluid main-ht" style="padding-left: 8%; height: 110vh;">
             <div class="row">
 
-                <div class="col-lg-6 col-12 text-coin" style="padding-top: 12%;">
+                <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 12%;">
                     <h1 class="text-media text-white blok1-h1">
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД "ГНОМИК"
                     </h1>
 
-                <div class="container-fluid row pt-2">
+                <div class="container-fluid row pt-2 nomarnopad">
                     <div class="col-lg-2 col-3">
                         <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main1.png')}}" alt="">
                     </div>
                     <div class="col-lg-4 col-9">
-                        <span class="text-fut-light text-white blok1-span">Сайт рыбатекст поможет дизайнеру, верстальщику дизайнеру, верстальщику</span>
+                        <span class="text-fut-light text-white blok1-span">Малыши чувствуют заботу и внимание воспитателей с первых дней пребывания  в нашем саду</span>
                     </div>
                     <div class="col-lg-2 col-3">
                         <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main2.png')}}" alt="">
                     </div>
                     <div class="col-lg-4 col-9">
-                        <span class="text-fut-light text-white blok1-span" >Сайт рыбатекст поможет дизайнеру, верстальщику дизайнеру, верстальщику</span>
+                        <span class="text-fut-light text-white blok1-span" >Команда профессиональных педагогов обеспечивает всестороннее развитие личности ребенка</span>
                     </div>
                 </div>
-                <div class="container-fluid row" style="padding-top: 5%;">
+                <div class="container-fluid row nomarnopad" style="padding-top: 5%;">
                     <div class="col-12 text-left" style="padding-left: 40%;">
                         <p class="text-white text-slogan" style="font-family: 'Segoe Print'; font-size:25px; line-height: 44px;
 
@@ -49,15 +49,15 @@
     </div>
     </div>
 
-    <div class="" id="about_us" style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover; height:120vh;">
+    <div class="" id="about_us" style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover; height:126vh;">
         <div class="col-12 text-center">
             <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Почему мы?</h2>
         </div>
-        <div class="container-fluid row">
-            <div class="col-lg-4" style="padding-left: 8%;">
+        <div class="container-fluid nomarnopad row">
+            <div class="col-lg-4 col-md-6" style="padding-left: 8%;">
                 <img class="in-left" style="z-index:100; position: absolute;" src="{{ asset('images/toy.png') }}" alt="">
             </div>
-            <div class="col-lg-3" style="padding-top: 10%; padding-left: 5%;">
+            <div class="col-lg-3 col-md-6" style="padding-top: 10%; padding-left: 5%;">
                 <div class="p-lg-5 p-3 text-center" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
 border-radius: 10px; z-index:-500;">
                     <img src="{{ asset('images/smiling-baby.png') }}" alt="">
@@ -67,13 +67,13 @@ border-radius: 10px; z-index:-500;">
                         от 2 до 7 лет.
                     </p>
                     <p class="text-fut-light text-white" style="font-size: 13px; line-height: 17px; padding-top: 10%;">
-                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                        Частный детский сад «Гномик» имеет ряд преимуществ:
                     </p>
                 </div>
                 <img class="clouds" style="position: absolute; right:-30%; bottom:-15%;" src="{{ asset('images/cloud.png') }}" alt="">
             </div>
             <div class="col-lg-4 col-12 in-right" style="padding-left:5%; padding-top: 14%;">
-                <div class="container-fluid row">
+                <div class="container-fluid row nomarnopad">
                     <div class="col-2">
                         <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
                     1
@@ -81,14 +81,12 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Детский психолог, логопед — дефектолог, врач – педиатр систематически проводят
-интегрированную диагностическую работу, консультируют родителей.
-
+Детский психолог, логопед — дефектолог, врач – педиатр, стоматолог
                     </span>
                     </div>
                 </div>
 
-                <div class="container-fluid row mt-3">
+                <div class="container-fluid row mt-3 nomarnopad">
                     <div class="col-2">
                         <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
                     2
@@ -96,13 +94,12 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-4-х разовое питание. Каждый ребенок получает сбалансированное питание высокого
-качества.
+Организуются праздники, проводятся утренники и развлекательные мероприятия
                     </span>
                     </div>
                 </div>
 
-                <div class="container-fluid row  mt-3">
+                <div class="container-fluid row mt-3 nomarnopad">
                     <div class="col-2">
                         <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
                     3
@@ -110,12 +107,14 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-В детском саду функционирует летний детский бассейн.
+4-х разовое питание. Каждый ребенок получает сбалансированное питание высокого
+качества
+
                     </span>
                     </div>
                 </div>
 
-                <div class="container-fluid row mt-3">
+                <div class="container-fluid row mt-3 nomarnopad">
                     <div class="col-2">
                         <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
                    4
@@ -123,7 +122,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                     <div class="col-10">
                         <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Сайт рыбатекст поможет дизайнеру Сайт рыбатекст поможет Сайт
+Проводится подготовка к школе (тестирование)
                     </span>
                     </div>
                 </div>
@@ -144,12 +143,12 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container" style="padding-bottom: 7%;">
+    <div class="container" id="event" style="padding-bottom: 7%;">
         <div class="row">
             <div class="col-lg-9 col-12">
-                <div class="container-fluid row">
-                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row">
+                <div class="container-fluid row nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-lg-3 mb-3" style="background-color: #EF827F;">
+                        <div class="container-fluid row nomarnopad">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Культурный
@@ -163,8 +162,8 @@ border-radius: 10px; z-index:-500;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-0" style="background-color: #EF827F;">
+                        <div class="container-fluid row nomarnopad">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Праздники
@@ -177,9 +176,9 @@ border-radius: 10px; z-index:-500;">
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid row mt-3">
-                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row">
+                <div class="container-fluid row mt-3 nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
+                        <div class="container-fluid row nomarnopad">
                             <div class="col-6 pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Экскурсии
@@ -191,8 +190,8 @@ border-radius: 10px; z-index:-500;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
+                        <div class="container-fluid row nomarnopad">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Активный
@@ -208,7 +207,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-12 pr-5 noposa" style="padding-top:7%; position: absolute; right:11%;">
+            <div class="col-lg-3 col-12 pr-lg-5 pr-3 noposa" style="padding-top:7%; position: absolute; right:11%;">
                 <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
                     Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
                 </p>
@@ -220,13 +219,13 @@ border-radius: 10px; z-index:-500;">
     </div>
 
     <div class="container-fluid">
-        <div class="row" style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom; height:107vh;">
-            <div class="col-6" style="padding-left:12%; padding-top: 10%;">
+        <div class="row height118" style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom; height:107vh;">
+            <div class="col-lg-6 col-12" style="padding-left:12%; padding-top: 10%;">
                 <h2 class="" style="font-family: Coiny; font-size: 39px; line-height: 43px; color: white;">
                     О наших занятиях
                 </h2>
                 
-                <p style="padding-top:10%;">
+                <p class="maxwidth" style="padding-top:10%;">
                     <img src="{{asset('images/31.png')}}" alt="">
                     <img src="{{asset('images/32.png')}}" style="padding-left:5%;" alt="">
                     <img src="{{asset('images/33.png')}}" style="padding-left:5%;" alt="">
@@ -243,58 +242,49 @@ border-radius: 10px; z-index:-500;">
                     Мы следуем главному принципу: в детском саду ребёнку должно быть уютно, интересно и радостно — как дома.
                 </p>
 
-                <button class="py-3 px-5 text-fut-light btn" style="background-color: #518CDC;">
+                <button class="py-lg-3 px-lg-5 py-2 px-3 text-fut-light btn" style="background-color: #518CDC;">
                     <a style="text-decoration: none;color: #fff;" href="http://gnomik/lessons">Перейти к списку занятий </a>
                 </button>
             </div>
             <div class="col-6 pt-5">
-                <img class="in-bottom" src="{{ asset('images/kid.png')  }}" alt="">
+                <img class="d-lg-block d-none in-bottom" src="{{ asset('images/kid.png')  }}" alt="">
             </div>
         </div>
     </div>
 
     <div class="container-fluid" id="gallery" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
-        <div class="row" style="padding-left:9%; padding-right:9%;">
+        <div class="row nopadsides" style="padding-left:9%; padding-right:9%;">
             <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Галерея</h2>
             </div>
 
-            <div class="col-8">
+            <div class="col-lg-8 col-md-8 col-12 nopadsides">
                 <div class="container" style="background: linear-gradient(180deg, #FF6976 0%, #FF6F59 100%); border-radius:10px;">
-                    <div class="row">
-                    <div class="col-6" style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
+                    <div class="row fixedheight">
+                    <div class="col-lg-6 col-md-6 col-12" style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
                         <p class="text-white text-fut-bold" style="font-size: 24px; line-height: 31px;">
-                            Сайт рыбатекст
-                            <br>
-                            поможет дизайнеру
-                        </p>
-                        <p class="text-white text-fut-light" style="font-size:16px; line-height: 21px;">
-                            Сайт рыбатекст поможет
-                            <br>
-                            дизайнеру, верстальщику,
-                            <br>
-                            вебмастеру
+                            Мы ценим каждый момент, проведенный с детьми в нашем детском саду «Гномик»
                         </p>
                         <p>
-                            <button class="py-3 px-5 text-fut-light btn" style="background-color: #518CDC; width: 210px;">
+                            <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn" style="background-color: #518CDC; width: 210px;">
                                 <a style="text-decoration: none;color: #fff;" href="http://gnomik/gallery">Перейти в галерею</a>
                             </button>
                         </p>
                     </div>
-                    <div class="col-6">
-                        <img style="position:absolute; top:-19.5%; left:-10%;" src="{{'images/gallery1.png'}}" alt="">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <img class="d-lg-block d-md-block d-none" style="position:absolute; top:-25.5%; left:-10%;" src="{{'images/gallery1.png'}}" alt="">
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="col-4" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
-            <p class="text-fut-bold" style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
-                Сад
-            </p>
+            <div class="col-lg-4 col-md-4 col-12 h40 " style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
+                <p class="text-fut-bold" style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
+                    Сад
+                </p>
             </div>
             <div class="container-fluid pt-3">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-12 h40 padbot">
                         <div class="container"
                              style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery3.png')}}); background-size: cover; border-radius: 10px;">
                             <p class="text-fut-bold"
@@ -304,7 +294,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                     </div>
 
-                    <div class="col-8"
+                    <div class="col-lg-8 col-md-6 col-12 h40"
                          style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
                         <p class="text-fut-bold"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
@@ -322,14 +312,14 @@ border-radius: 10px; z-index:-500;">
     </div>
 
     <div class="container-fluid" id="menu" style="background-image: url('{{ asset('images/6.png') }}'); background-size: cover;">
-        <div class="row" style="padding-left:9%; padding-right:9%;">
+        <div class="row nopadsides" style="padding-left:9%; padding-right:9%;">
             <div class="col-12 text-center" style="margin-top: 10%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Пример меню на
                     неделю</h2>
                 <div class="container">
                     <div class="row justify-content-center flex-nowrap">
-                        <img class="col-1 mr-3" src="{{asset('images/fruit1.png')}}" alt="">
-                        <ul class="col-10 justify-content-center pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
+                        <img class="d-lg-block d-none col-1 mr-3" src="{{asset('images/fruit1.png')}}" alt="">
+                        <ul class="col-lg-10 col-12 justify-content-center pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light active"
                                    style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #FFA4A3;"
@@ -356,7 +346,7 @@ border-radius: 10px; z-index:-500;">
                             </li>
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light"
-                                   style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #E2CFFD;"
+                                   style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #cffbfd;"
                                    data-toggle="tab" href="#супы" role="tab" aria-controls=""
                                    aria-selected="true">Супы</a>
                             </li>
@@ -368,12 +358,12 @@ border-radius: 10px; z-index:-500;">
                             </li>
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light"
-                                   style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #E2CFFD;"
+                                   style="color:black; font-size:18px; line-height: 23px; border-radius:15px; background-color: #fde4cf;"
                                    data-toggle="tab" href="#салаты " role="tab" aria-controls=""
                                    aria-selected="true">Салаты </a>
                             </li>
                         </ul>
-                        <img class="col-1" src="{{asset('images/fruit2.png')}}" alt="">
+                        <img class="d-lg-block d-none col-1" src="{{asset('images/fruit2.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -389,7 +379,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Каши
                                 </h3>
@@ -405,7 +395,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Фрукты
                                 </h3>
@@ -430,7 +420,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Сырники <br>
                                     Оладьи <br>
@@ -441,7 +431,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Блинчики <br>
                                     Бутерброды с икрой <br>
@@ -463,7 +453,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Булочки с разными начинками <br>
                                     Ватрушка с сахарной пудрой <br>
@@ -475,7 +465,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Крекеры «рыбка» <br>
                                     Бамбуковые палочки <br>
@@ -498,7 +488,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Напитки
                                 </h3>
@@ -511,7 +501,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Молочная продукция
                                 </h3>
@@ -536,7 +526,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Чечевичный суп с мясом <br>
                                     Борщ со сметаной с мясом <br>
@@ -548,7 +538,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Рисовый суп с мясом <br>
                                     Суп картофельный с мясом <br>
@@ -563,7 +553,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food3.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Уха из семги с пшеном <br>
                                     Жидкий лагман (детский) <br>
@@ -592,7 +582,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Плов с мясом <br>
                                     Макароны по - флотски <br>
@@ -603,7 +593,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Спагетти с мясным подливом <br>
                                     Рагу (мясо, капуста, картошка) <br>
@@ -626,7 +616,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food1.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Помидоры, огурцы, сметана <br>
                                     Салат овощной (морковь, огурцы, капуста) <br>
@@ -637,7 +627,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="col-3">
                                 <img src="{{ asset('images/food2.png') }}" alt="">
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Салат (свекольный) <br>
                                     Салат (оливье) <br>
@@ -652,8 +642,8 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container pt-5 mt-5 mb-5 pb-5" id="employees">
-        <div class="col-12 text-center pb-5">
+    <div class="container pt-lg-5 pt-0 mt-5 mb-5 pb-lg-5 pb-0" id="employees">
+        <div class="col-12 text-center pb-lg-5 pb-3">
             <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Наши сотрудники</h2>
         </div>
 
@@ -667,16 +657,15 @@ border-radius: 10px; z-index:-500;">
                                     <div class="col-12 pt-4 pr-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
-                                                <div class="col-6">
+                                                <div class="col-lg-6 col-md-6 col-12">
                                                     <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
                                                 </div>
-                                                <div class="col-6 pl-5 align-self-center">
-                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Наталья Петровна</h3>
+                                                <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
+                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Махмудова Насиба</h3>
                                                     <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
                                                     <div class="row">
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
+                                                        <div class="col-3"> <a data-fancybox="nasiba" href="images/nasiba1.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-3"> <a data-fancybox="nasiba" href="images/nasiba2.jpg"><img class="" src="{{ asset('images/diploma.png') }}" alt=""></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -691,16 +680,63 @@ border-radius: 10px; z-index:-500;">
                                     <div class="col-12 pt-4 pl-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
-                                                <div class="col-6">
+                                                <div class="col-lg-6 col-md-6 col-12">
                                                     <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
                                                 </div>
-                                                <div class="col-6 pl-5 align-self-center">
-                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Наталья Петровна</h3>
+                                                <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
+                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Жаналиева Нургуль</h3>
                                                     <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
                                                     <div class="row">
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
-                                                        <div class="col-3"> <img class="" src="{{ asset('images/diploma.png') }}" alt=""></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul1.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul2.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul3.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul4.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul5.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 pt-4 pl-2">
+                                        <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
+                                            <div class="row h-100">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
+                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Атанаева Гульнура</h3>
+                                                    <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
+                                                    <div class="row">
+                                                        <div class="col-3"> <a data-fancybox="gulnur" href="images/gulnur1.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-3"> <a data-fancybox="gulnur" href="images/gulnur2.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 pt-4 pl-2">
+                                        <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
+                                            <div class="row h-100">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
+                                                    <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Бийбосунова Жылдыз</h3>
+                                                    <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
+                                                    <div class="row">
+                                                        <div class="col-3"> <a data-fancybox="jyldyz" href="images/jyldyz.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -722,18 +758,35 @@ border-radius: 10px; z-index:-500;">
             </div>
             <div class="row">
                 <div class="col-4"></div>
-                <div class="col-5 mt-5 pt-3 paddingleft">
+                <div class="col-lg-5 col-md-5 col-12 mt-5 pt-0 paddingleft">
                     <img src="{{ asset('images/right-quotation-mark.png') }}" alt="">
-                    <div class="owl-carousel pt-5">
+                    <div class="owl-carousel pt-lg-5 pt-2">
                         <div class="item">
-                            <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке</p>
+                            <p>Большое спасибо! Теперь моя доча хочет еще больше к вам в садик!</p>
+                            <h5 class="mb-0">Роза</h5>
+                            <h6>мама</h6>
+                        </div>
+                        <div class="item">
+                            <p>Супер! Заходишь во двор садика и попадаешь в сказку!</p>
                             <h5 class="mb-0">Айнура</h5>
                             <h6>мама</h6>
                         </div>
                         <div class="item">
-                            <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке</p>
+                            <p>Спасибо Вам за неимоверно теплую и добрую атмосферу. Приветливых воспитателей и замечательных деток!</p>
+                            <h5 class="mb-0"> Elstudio event</h5>
+                        </div>
+                        <div class="item">
+                            <p>Супер! Заходишь во двор садика и попадаешь в сказку!</p>
                             <h5 class="mb-0">Айнура</h5>
                             <h6>мама</h6>
+                        </div>
+                        <div class="item">
+                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «Гномик»! Все было на высшем уровне! Спасибо за ваш труд. Мы были в восторге, а дети до космоса счастливы. Ну а подарочки всегда самые крутые!</p>
+                            <h5 class="mb-0">Асель Бакыт</h5>
+                        </div>
+                        <div class="item">
+                            <p>Нургуль Сайниловна, Вы у нас самый лучший и ответственный директор! Очень приятно наблюдать за Вашим подходом к своему делу, то с какой заботой вы относитесь  к вашим детям. Очень любим Вас и благодарим. Желаем вам процветания в вашем ответственном деле!</p>
+                            <h5 class="mb-0">Чолпон</h5>
                         </div>
                     </div>
                 </div>
@@ -746,7 +799,7 @@ border-radius: 10px; z-index:-500;">
 
 
     <div class="container-fluid" id="news">
-        <div class="row parallax-effects">
+        <div class="row parallax-effects d-lg-block d-none">
             <div class="blokparallax">
                 <div class="parallax">
                     <div class="water"><img class="" src="{{ asset('images/Ellipse.png') }}" alt=""></div>
@@ -763,16 +816,16 @@ border-radius: 10px; z-index:-500;">
                 </div>
             </div>
         </div>
-        <div class="row row-with-animation3">
+        <div class="row row-with-animation3 d-lg-block d-none">
             <img class="sun" style="position:absolute;right:9%; top:40%; z-index: 99999;" src="{{ asset('images/Polygon.png') }}" alt="">
         </div>
 
         <div class="row h-100">
             <div class="col-1"></div>
-            <div class="col-5 align-self-center pt-5" style="padding-left: 5%;">
+            <div class="col-lg-5 col-md-6 col-12 align-self-center pt-lg-5 pt-0" style="padding-left: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 4%;">Открытие нашего второго филиала!</h2>
-                <p style="font-size: 16px;line-height: 21px;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке</p>
-                <p style="font-size: 16px;line-height: 21px;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке</p>
+                <p style="font-size: 16px;line-height: 21px;">В скором времени частный детский сад «Гномик» расширится</p>
+                <p style="font-size: 16px;line-height: 21px;">И мы будем рады видеть еще больше деток и их счастливые лица в нашем втором филиале очень скоро!</p>
             </div>
             <div class="col-6"></div>
         </div>
@@ -781,13 +834,13 @@ border-radius: 10px; z-index:-500;">
     <div class="container-fluid" id="call-back">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
-                <div class="col-7">
+                <div class="col-lg-7 col-md-6 col-12">
                     <h3 style="font-family: Coiny; font-size: 30px; line-height: 33px; padding-bottom:3%; color: #fff;">Лист ожидания открыт</h3>
                     <p style="font-size: 16px;line-height: 21px;color: #FFFFFF;">Если Вы хотите забронировать место для Вашего ребенка, запишитесь онлайн для получения подробной информации и наш администратор свяжется с Вами.</p>
                     <p style="font-weight: bold;font-size: 18px;line-height: 21px;color: #FFFFFF; margin-bottom: 2px; margin-top: 5%;">Документы, необходимые для поступления:</p>
                     <h2 style="font-size: 18px;line-height: 21px;color: #FFFFFF;">Форма 26 и форма 63</h2>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5 col-md-6 col-12">
                     <form>
                         <div class="form-group">
                             <label style="font-weight: bold;font-size: 20px;line-height: 27px;text-align: center;color: #FFFFFF;">
@@ -809,40 +862,40 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container-fluid pt-5 mt-5" id="contact-us">
+    <div class="container-fluid pt-5 mt-lg-5 mt-0" id="contact-us">
         <div class="row justify-content-center">
             <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px;">Или приезжайте в гости знакомиться</h2>
         </div>
-        <div class="container pt-5">
+        <div class="container pt-lg-5 pt-3">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="phone">
                         <img src="{{ asset('images/phone-call.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">(0556) 75-94-44</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="map">
                         <img src="{{ asset('images/map-location.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">ул. Радищева 23 (ул. Советская/Дружбы,
                             магазин ”Планета электроники”)</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="time">
                         <img src="{{ asset('images/time.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">Время работы детского сада с 7.30 до 18.30</p>
                     </div>
                 </div>
             </div>
-            <div class="row pt-5">
+            <div class="row pt-lg-5 pt-3">
                 <div class="col-4"> </div>
-                <div class="col-4 pl-5 pr-5">
+                <div class="col-lg-4 col-md-4 col-12 pl-lg-5 pl-3 pr-lg-5 pl-3">
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
                                 <div class="soc-icons">
-                                    <img src="{{ asset('images/instagram.png') }}" alt="">
+                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img src="{{ asset('images/instagram.png') }}" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-4">
@@ -915,6 +968,5 @@ border-radius: 10px; z-index:-500;">
                 });
             });
         </script>
-
     @endpush
 @endsection

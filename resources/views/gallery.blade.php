@@ -6,14 +6,14 @@
         </div>
     </div>
 
-    <div class="container-fluid pt-5 pb-5 pl-5 pr-5">
-        <div class="row pl-5 pr-5">
+    <div class="container-fluid pt-lg-5 pb-lg-5 pl-5 pr-5">
+        <div class="row pl-lg-5 pr-lg-5">
             <p class="text-fut-light" style="font-size: 22px;line-height: 28px;color: #000000;">Детские эмоции нельзя сыграть, нельзя спрогнозировать, и в них нельзя сфальшивить – всего этого дети еще не умеют, они искренни и непосредственны в своих мыслях и чувствах. Детские эмоции можно только почувствовать! Работа всего нашего коллектива направлена на то, чтобы эмоции детей, посещающих наш детский сад, были яркие, насыщенные, позитивные.</p>
         </div>
     </div>
 
     <div class="container-fluid gallery-block">
-        <ul class="col-10 justify-content-around ml-auto mr-auto pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
+        <ul class="col-lg-10 col-md-12 col-10 justify-content-around ml-auto mr-auto pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
             <li class="nav-item pr-3">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light active"
                    style="width: 207px;height: 54px;background: #FFA4A3;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
@@ -40,7 +40,7 @@
             </li>
         </ul>
 
-        <div class="tab-content col-12 pt-5 pb-5" id="myTabContent">
+        <div class="tab-content col-12 pt-5 pb-lg-5" id="myTabContent">
             <div class="tab-pane fade active show" id="спальные" role="tabpanel" aria-labelledby="">
                 <div class="photo-gallery">
                     <div class="container">
@@ -49,7 +49,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                         </div>
-                        <div class="row photos pt-4">
+                        <div class="row photos pt-lg-4">
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
@@ -66,7 +66,7 @@
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                         </div>
-                        <div class="row photos pt-4">
+                        <div class="row photos pt-lg-4">
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
                             <div class="col-sm-6 col-md-4 col-lg-4 item text-center"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
@@ -86,26 +86,26 @@
         </div>
     </div>
 
-    <div class="container-fluid pt-5" id="contact-us">
+    <div class="container-fluid pt-lg-5 pt-4" id="contact-us">
         <div class="row justify-content-center">
             <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px;">Или приезжайте в гости знакомиться</h2>
         </div>
-        <div class="container pt-5">
+        <div class="container pt-lg-5 pt-3">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="phone">
                         <img src="{{ asset('images/phone-call.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">(0556) 75-94-44</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="map">
                         <img src="{{ asset('images/map-location.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">ул. Радищева 23 (ул. Советская/Дружбы,
                             магазин ”Планета электроники”)</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-4 col-12">
                     <div class="time">
                         <img src="{{ asset('images/time.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">Время работы детского сада с 7.30 до 18.30</p>
@@ -114,12 +114,12 @@
             </div>
             <div class="row pt-5">
                 <div class="col-4"> </div>
-                <div class="col-4 pl-5 pr-5">
+                <div class="col-lg-4 col-md-4 col-12 pl-lg-5 pr-lg-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-4">
                                 <div class="soc-icons">
-                                    <img src="{{ asset('images/instagram.png') }}" alt="">
+                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img src="{{ asset('images/instagram.png') }}" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-4">

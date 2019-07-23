@@ -14,7 +14,7 @@
                             <a href="/" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Главная</a>
                         </li>
                         <li class="nav-item p-3 ">
-                            <a href="#about_us" class="text-white text-fut-bold menu-point" style="text-decoration: none;">О нас</a>
+                            <a href="/#about_us" class="text-white text-fut-bold menu-point" style="text-decoration: none;">О нас</a>
                         </li>
                         <li class="nav-item p-3">
                             <a href="/lessons" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Список занятий</a>
@@ -23,10 +23,10 @@
                             <a href="/gallery" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-3">
-                            <a href="#event" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Мероприятия</a>
+                            <a href="/#event" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Мероприятия</a>
                         </li>
                         <li class="nav-item p-3">
-                            <a href="#contact" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Контакты</a>
+                            <a href="#footer" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -51,22 +51,22 @@
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-2">
-                            <a href="#main" class="text-dark text-fut-bold" style="text-decoration: none;">Главная</a>
+                            <a href="/" class="text-dark text-fut-bold" style="text-decoration: none;">Главная</a>
                         </li>
                         <li class="nav-item p-2 ">
-                            <a href="#type" class="text-dark text-fut-bold" style="text-decoration: none;">Виды</a>
+                            <a href="/#about_us" class="text-dark text-fut-bold" style="text-decoration: none;">О нас</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#advantages" class="text-dark text-fut-bold" style="text-decoration: none;">Преимущества</a>
+                            <a href="/lessons" class="text-dark text-fut-bold" style="text-decoration: none;">Список занятий</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#feedback" class="text-dark text-fut-bold" style="text-decoration: none;">Отзывы</a>
+                            <a href="/gallery" class="text-dark text-fut-bold" style="text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#galler" class="text-dark text-fut-bold" style="text-decoration: none;">Галерея</a>
+                            <a href="/#event" class="text-dark text-fut-bold" style="text-decoration: none;">Мероприятия</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#contact" class="text-dark text-fut-bold" style="text-decoration: none;">Контакты</a>
+                            <a href="#footer" class="text-dark text-fut-bold" style="text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>
