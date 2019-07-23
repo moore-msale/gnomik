@@ -841,7 +841,11 @@ border-radius: 10px; z-index:-500;">
                     <h2 style="font-size: 18px;line-height: 21px;color: #FFFFFF;">Форма 26 и форма 63</h2>
                 </div>
                 <div class="col-lg-5 col-md-6 col-12">
+
                     <form>
+                        <div class="send-success-mail p-1 d-none" >
+                            <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-white" style="font-family:'Coiny'; font-size:12px;">Отзыв успешно отправлен!</span>
+                        </div>
                         <div class="form-group">
                             <label style="font-weight: bold;font-size: 20px;line-height: 27px;text-align: center;color: #FFFFFF;">
                                 Заказать обратный звонок</label>
@@ -855,7 +859,7 @@ border-radius: 10px; z-index:-500;">
                             <textarea class="form-control" id="form-message" rows="3" placeholder="Коментарии"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-submit">Перезвоните мне</button>
+                        <button id="ajax-message" type="submit" class="btn btn-submit">Перезвоните мне</button>
                     </form>
                 </div>
             </div>
