@@ -852,7 +852,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" placeholder="Коментарии"></textarea>
+                            <textarea class="form-control" id="form-message" rows="3" placeholder="Коментарии"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-submit">Перезвоните мне</button>

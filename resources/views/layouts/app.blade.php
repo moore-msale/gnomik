@@ -93,6 +93,34 @@
         });
     });
 </script>
+<script>
+    $('#ajax-message').click(e => {
+        e.preventDefault();
+        let btn = $(e.currentTarget);
+        let name = $('#form-name');
+        let phone = $('#form-phone');
+        let message = $('#form-message');
+
+        $.ajax({
+            url: '{{ route('message') }}',
+            method: 'POST',
+            data: {
+                "_token": "{{ csrf_token() }}",
+                "name": name.val(),
+                "phone": phone.val(),
+                "email": email.val()
+            },
+            success: data => {
+                $(".send-success-message-1").removeClass('d-none');
+            },
+            error: () => {
+                $(".send-error-message-1").removeClass('d-none');
+            }
+        });
+
+
+    })
+</script>
 
 </body>
 </html>
