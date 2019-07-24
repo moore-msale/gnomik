@@ -6,9 +6,9 @@
         <br>
         <span class="text-fut-bold" style="font-size:40px; color:#d90003">Гномик</span>
         <br>
-        <h2 class="text-fut-bold"><strong>Новый запрос о стоимости</strong></h2>
+        <h2 class="text-fut-bold"><strong>Новый заявка на звонок</strong></h2>
         <br>
-        Информация о новом клиенте
+        Информация о клиенте
         <br>
         <br>
         <strong class="text-fut-bold">Имя:</strong> {{ $formData['name'] }}<br>
