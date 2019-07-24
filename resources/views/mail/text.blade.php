@@ -2,7 +2,7 @@
     <html>
     <body>
     <div class="text-fut-bold" style="padding:7%; border:1px #d91500 solid; border-radius:30px;">
-        <img src="http://sadikg8f.beget.tech/images/logo.png" style="width:50px; height:60px;" alt="">
+        <img src="http://sadikg8f.beget.tech/images/logo.png" style="width:102px; height:53px;" alt="">
         <br>
         <span class="text-fut-bold" style="font-size:40px; color:#d90003">Гномик</span>
         <br>
