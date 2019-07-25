@@ -850,6 +850,13 @@ button:focus {
 }
 
 @media (max-width: 690px) {
+    #contact-us h2{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .padbot .container {
+        padding-bottom: 48%!important;
+    }
     img {
         width: 100%;
     }
@@ -935,7 +942,12 @@ button:focus {
         line-height: 26px!important;
     }
     #employees .owl-nav .owl-prev span, #employees .owl-nav .owl-next span {
-        font-size: 70px;
+        font-size: 41px;
+    }
+    #employees .owl-nav {
+        top: 44%;
+        width: 100%;
+        left: 0%;
     }
     #reviews .paddingleft img {
         max-width: 10%;
@@ -1289,6 +1301,9 @@ button:focus {
         font-size: 24px!important;
         line-height: 31px!important;
     }
+    #call-back form {
+        height: 314px;
+    }
     .h40 {
         height: 38vh;
     }
@@ -1302,7 +1317,7 @@ button:focus {
         height: 47vh;
     }
     #call-back {
-        height: 114vh;
+        height: 102vh;
     }
     #call-back .col-lg-5.col-12 {
         padding: 4%!important;
