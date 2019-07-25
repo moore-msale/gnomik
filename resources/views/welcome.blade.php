@@ -377,7 +377,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/1-1.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
@@ -393,7 +393,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/2.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
@@ -418,7 +418,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/3-1.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -429,7 +429,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/4-1.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -451,7 +451,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/5-1.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -463,7 +463,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/6-1.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -486,7 +486,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/7.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
@@ -499,7 +499,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/8.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
@@ -524,7 +524,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/9.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -536,7 +536,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/10.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -551,7 +551,7 @@ border-radius: 10px; z-index:-500;">
 
                         <div class="row justify-content-center" style="padding-top: 3%;">
                             <div class="col-3">
-                                <img src="{{ asset('images/food3.png') }}" alt="">
+                                <img src="{{ asset('images/11.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -580,7 +580,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/12.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -591,7 +591,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/13.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -614,7 +614,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-3">
-                                <img src="{{ asset('images/food1.png') }}" alt="">
+                                <img src="{{ asset('images/14.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
@@ -625,7 +625,7 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                             </div>
                             <div class="col-3">
-                                <img src="{{ asset('images/food2.png') }}" alt="">
+                                <img src="{{ asset('images/15.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-9">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
