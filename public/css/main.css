@@ -1323,7 +1323,7 @@ button:focus {
 }
 @media (max-width: 413px) and (min-width: 375px) {
     .testt {
-        margin-top: 5%;
+        margin-top: 2%;
     }
     .main-ht {
         height: 86vh!important;
