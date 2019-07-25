@@ -20,23 +20,37 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="49" selection-end-column="10" />
+            <state relative-caret-position="2457">
+              <caret line="700" column="34" lean-forward="true" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
               <folding>
-                <element signature="e#73#2451#0#HTML" />
+                <element signature="e#37791#37857#0#HTML" expanded="true" />
+                <element signature="e#39896#39962#0#HTML" expanded="true" />
+                <element signature="e#42538#42585#0#HTML" expanded="true" />
+                <element signature="e#44628#44694#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-444" />
+            <state relative-caret-position="475">
+              <caret line="1085" column="8" selection-start-line="1085" selection-start-column="8" selection-end-line="1085" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -81,10 +95,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/MailController.php" />
         <option value="$PROJECT_DIR$/app/Mail.php" />
         <option value="$PROJECT_DIR$/app/Mail/Mail.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/_partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
       </list>
     </option>
@@ -174,11 +188,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1354" />
-    <option name="y" value="2" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-15" />
+    <option name="y" value="1" />
     <option name="width" value="1400" />
-    <option name="height" value="776" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -188,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +213,12 @@
               <item name="Gnomik" type="b2602c69:ProjectViewProjectNode" />
               <item name="Gnomik" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gnomik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gnomik" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gnomik" type="b2602c69:ProjectViewProjectNode" />
@@ -235,6 +254,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,17 +299,18 @@
       <workItem from="1563765776443" duration="26064000" />
       <workItem from="1563852141405" duration="25363000" />
       <workItem from="1563941543390" duration="1671000" />
+      <workItem from="1564027044152" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133282000" />
+    <option name="totallyTimeSpent" value="134646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1354" y="2" width="1400" height="776" extended-state="1" />
+    <frame x="-15" y="1" width="1400" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21044776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21343283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,11 +370,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/welcome.blade.php</url>
-          <line>280</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/lessons.blade.php</url>
           <line>84</line>
           <option name="timeStamp" value="9" />
@@ -381,13 +397,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/lessons.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/lessons.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="649">
@@ -445,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -464,16 +466,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444" />
+        <state>
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="49" selection-end-column="10" />
+        <state relative-caret-position="2457">
+          <caret line="700" column="34" lean-forward="true" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
           <folding>
-            <element signature="e#73#2451#0#HTML" />
+            <element signature="e#37791#37857#0#HTML" expanded="true" />
+            <element signature="e#39896#39962#0#HTML" expanded="true" />
+            <element signature="e#42538#42585#0#HTML" expanded="true" />
+            <element signature="e#44628#44694#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="1085" column="8" selection-start-line="1085" selection-start-column="8" selection-end-line="1085" selection-end-column="8" />
         </state>
       </provider>
     </entry>

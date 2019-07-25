@@ -324,17 +324,18 @@ img.sun {
 }
 #reviews {
     background-image: url(/images/image1.png);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: bottom;
     height: 105vh;
 }
 #news {
     background-image: url(/images/reviews2.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 100vh;
 }
 #call-back {
     background-image: url(/images/form.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 70vh;
 }
 .btn {
@@ -1072,4 +1073,16 @@ button:focus {
 
 #employees .item .carousel-block-2 .col-2 a img {
     min-width: 30px;
+}
+
+@media (max-width: 1920px) and (min-width: 1681px) {
+    .fixedheight img {
+        top: -19.5% !important;
+    }
+    #news {
+        height: 72vh;
+    }
+    #call-back {
+        height: 57vh;
+    }
 }
