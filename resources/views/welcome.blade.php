@@ -28,7 +28,7 @@
                 </div>
                 <div class="container-fluid row nomarnopad" style="padding-top: 5%;">
                     <div class="col-12 text-left" style="padding-left: 40%;">
-                        <p class="text-white text-slogan" style="font-family: 'Segoe Print'; font-size:25px; line-height: 44px;
+                        <p class="text-white text-slogan" style="font-family: 'Futura PT Light'; font-size:25px; line-height: 44px;
 
   transform: rotate(-22.54deg);
   -webkit-transform: rotate(-22.54deg);
@@ -60,7 +60,7 @@
             <div class="col-lg-3 col-md-6" style="padding-top: 10%; padding-left: 5%;">
                 <div class="p-lg-5 p-3 text-center" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
 border-radius: 10px; z-index:-500;">
-                    <img src="{{ asset('images/smiling-baby.png') }}" alt="">
+                    <img src="{{ asset('images/smiling-baby.svg') }}" alt="">
                     <p class="text-fut-bold pt-4 text-white" style="font-size: 16px; line-height: 21px;">
                         Возраст детей -
                         <br>
@@ -155,7 +155,7 @@ border-radius: 10px; z-index:-500;">
                                     <br>
                                     отдых
                                 </p>
-                                <img class="pt-3" src="{{'images/pointimg1.png'}}" alt="">
+                                <img class="pt-3" src="{{'images/pointimg1.svg'}}" alt="">
                             </div>
                             <div class="col-6">
                                 <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point1.png'}}" alt="">
@@ -168,7 +168,7 @@ border-radius: 10px; z-index:-500;">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Праздники
                                 </p>
-                                <img class="pt-3" src="{{'images/pointimg2.png'}}" alt="">
+                                <img class="pt-3" src="{{'images/pointimg2.svg'}}" alt="">
                             </div>
                             <div class="col-6">
                                 <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point2.png'}}" alt="">
@@ -183,7 +183,7 @@ border-radius: 10px; z-index:-500;">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Экскурсии
                                 </p>
-                                <img class="pt-3" src="{{'images/pointimg3.png'}}" alt="">
+                                <img class="pt-3" src="{{'images/pointimg3.svg'}}" alt="">
                             </div>
                             <div class="col-6">
                                 <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point3.png'}}" alt="">
@@ -198,7 +198,7 @@ border-radius: 10px; z-index:-500;">
                                     <br>
                                     отдых
                                 </p>
-                                <img class="pt-3" src="{{'images/pointimg4.png'}}" alt="">
+                                <img class="pt-3" src="{{'images/pointimg4.svg'}}" alt="">
                             </div>
                             <div class="col-6">
                                 <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point4.png'}}" alt="">
@@ -226,12 +226,12 @@ border-radius: 10px; z-index:-500;">
                 </h2>
                 
                 <p class="maxwidth" style="padding-top:10%;">
-                    <img src="{{asset('images/31.png')}}" alt="">
-                    <img src="{{asset('images/32.png')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/33.png')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/34.png')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/35.png')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/36.png')}}" style="padding-left:5%;" alt="">
+                    <img src="{{asset('images/31.svg')}}" alt="">
+                    <img src="{{asset('images/32.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{asset('images/33.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{asset('images/34.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{asset('images/35.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{asset('images/36.svg')}}" style="padding-left:5%;" alt="">
                 </p>
 
                 <p class="text-fut-light" style="font-size: 16px; line-height: 140%; color:white; padding-right: 25%; padding-top:2%;">
@@ -664,8 +664,8 @@ border-radius: 10px; z-index:-500;">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Махмудова Насиба</h3>
                                                     <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
                                                     <div class="row">
-                                                        <div class="col-3"> <a data-fancybox="nasiba" href="images/nasiba1.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
-                                                        <div class="col-3"> <a data-fancybox="nasiba" href="images/nasiba2.jpg"><img class="" src="{{ asset('images/diploma.png') }}" alt=""></a></div>
+                                                        <div class="col-3"> <a data-fancybox="nasiba" href="images/nasiba1.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
+                                                        <div class="col-3"> <a data-fancybox="nasiba" href="images/nasiba2.jpg"><img class="" src="{{ asset('images/diploma.svg') }}" alt=""></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -687,11 +687,11 @@ border-radius: 10px; z-index:-500;">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Жаналиева Нургуль</h3>
                                                     <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
                                                     <div class="row">
-                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul1.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
-                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul2.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
-                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul3.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
-                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul4.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
-                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul5.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul1.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul2.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul3.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul4.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
+                                                        <div class="col-2"> <a data-fancybox="nurgul" href="images/nurgul5.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -713,8 +713,8 @@ border-radius: 10px; z-index:-500;">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Атанаева Гульнура</h3>
                                                     <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
                                                     <div class="row">
-                                                        <div class="col-3"> <a data-fancybox="gulnur" href="images/gulnur1.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
-                                                        <div class="col-3"> <a data-fancybox="gulnur" href="images/gulnur2.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-3"> <a data-fancybox="gulnur" href="images/gulnur1.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
+                                                        <div class="col-3"> <a data-fancybox="gulnur" href="images/gulnur2.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -736,7 +736,7 @@ border-radius: 10px; z-index:-500;">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Бийбосунова Жылдыз</h3>
                                                     <p class="pt-2" style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев</p>
                                                     <div class="row">
-                                                        <div class="col-3"> <a data-fancybox="jyldyz" href="images/jyldyz.jpg"><img src="{{ asset('images/diploma.png') }}"></a></div>
+                                                        <div class="col-3"> <a data-fancybox="jyldyz" href="images/jyldyz.jpg"><img src="{{ asset('images/diploma.svg') }}"></a></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -899,17 +899,17 @@ border-radius: 10px; z-index:-500;">
                         <div class="row">
                             <div class="col-4">
                                 <div class="soc-icons">
-                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img src="{{ asset('images/instagram.png') }}" alt=""></a>
+                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img src="{{ asset('images/instagram.svg') }}" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="soc-icons">
-                                    <img src="{{ asset('images/fb.png') }}" alt="">
+                                    <img src="{{ asset('images/fb.svg') }}" alt="">
                                 </div>
                             </div>
                             <div class="col-4">
                                 <div class="soc-icons">
-                                    <img src="{{ asset('images/whattsapp.png') }}" alt="">
+                                    <img src="{{ asset('images/whattsapp.svg') }}" alt="">
                                 </div>
                             </div>
                         </div>
