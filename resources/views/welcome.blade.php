@@ -704,7 +704,7 @@ border-radius: 10px; z-index:-500;">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 pt-4 pl-2">
-                                        <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
+                                        <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
                                                     <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
