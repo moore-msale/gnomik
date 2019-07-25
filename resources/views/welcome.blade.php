@@ -253,7 +253,7 @@ border-radius: 10px; z-index:-500;">
     </div>
 
     <div class="container-fluid" id="gallery" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
-        <div class="row nopadsides" style="padding-left:9%; padding-right:9%;">
+        <div class="row nopadsides padsides" style="padding-left:9%; padding-right:9%;">
             <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Галерея</h2>
             </div>
@@ -294,7 +294,7 @@ border-radius: 10px; z-index:-500;">
                         </div>
                     </div>
 
-                    <div class="col-lg-8 col-md-6 col-12 h40"
+                    <div class="testt col-lg-8 col-md-6 col-12 h40"
                          style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
                         <p class="text-fut-bold"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">

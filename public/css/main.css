@@ -617,7 +617,7 @@ button:focus {
     .photo-gallery .col-sm-6.col-md-4.col-lg-4 {
         margin-bottom: 3%;
     }
-    #courses .col-lg.col-6 img {
+    #courses .col-lg-2.col-6 img {
         max-width: 33%;
     }
     img {
@@ -850,6 +850,12 @@ button:focus {
 }
 
 @media (max-width: 690px) {
+    .carousel-block-2 {
+        height: 363px;
+    }
+    #menu ul#myTab.col-12 li {
+        padding-right: 0!important;
+    }
     #about_us .col-lg-4.col-12.in-right span.text-fut-light {
         font-size: 19px!important;
     }
@@ -1084,14 +1090,17 @@ button:focus {
     .header .justify-content-center.pt-5 {
         height: 245px!important;
     }
-    #courses .col-lg.col-6 img{
+    #courses .col-lg-2.col-6 img{
         max-width: 33%;
     }
 
     .photo-gallery .col-sm-6.col-md-4.col-lg-4 {
         margin-bottom: 5%;
     }
-
+    .padsides {
+        padding-left: 5%!important;
+        padding-right: 5%!important;
+    }
 }
 
 #employees .item .carousel-block-2 .col-2 a img {
@@ -1313,6 +1322,9 @@ button:focus {
     }
 }
 @media (max-width: 413px) and (min-width: 375px) {
+    .testt {
+        margin-top: 5%;
+    }
     .main-ht {
         height: 86vh!important;
     }
@@ -1333,7 +1345,7 @@ button:focus {
         height: 38vh;
     }
     #reviews {
-        height: 88vh;
+        height: 94vh;
     }
     #employees .item h3 {
         font-size: 23px!important;
