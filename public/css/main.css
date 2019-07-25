@@ -1218,36 +1218,46 @@ button:focus {
 
 @media (max-width: 359px) and (min-width: 320px) {
     .main-ht {
-        height: 120vh!important;
+        height: 100vh!important;
     }
     #about_us {
-        height: 200vh!important;
+        height: 174vh!important;
     }
     .height118 {
         height: 111vh!important;
     }
     .fixedheight .text-white.text-fut-bold {
-        font-size: 17px!important;
-        line-height: 23px!important;
+        font-size: 19px!important;
+        line-height: 35px!important;
     }
     .padbot .container {
-        padding-bottom: 43%!important;
+        padding-bottom: 50%!important;
     }
     .padbot {
         margin-bottom: 5%;
     }
     #call-back {
-        height: 160vh;
+        height: 127vh;
     }
     #call-back .col-lg-5.col-12 {
         padding: 0!important;
     }
     #call-back form {
         width: 100%;
+        margin-top: 5%;
     }
     .soc-icons a {
         width: 100%;
         text-align: center;
+    }
+    #news {
+        height: 52vh;
+    }
+    .btn.btn-submit {
+        width: 100%;
+    }
+    #call-back form {
+        height: 340px;
     }
 }
 @media (max-width: 374px) and (min-width: 360px) {
