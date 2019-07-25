@@ -243,7 +243,7 @@ border-radius: 10px; z-index:-500;">
                 </p>
 
                 <button class="py-lg-3 px-lg-5 py-2 px-3 text-fut-light btn" style="background-color: #518CDC;">
-                    <a style="text-decoration: none;color: #fff;" href="http://gnomik/lessons">Перейти к списку занятий </a>
+                    <a style="text-decoration: none;color: #fff;" href="/lessons">Перейти к списку занятий </a>
                 </button>
             </div>
             <div class="col-6 pt-5">
@@ -267,7 +267,7 @@ border-radius: 10px; z-index:-500;">
                         </p>
                         <p>
                             <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn" style="background-color: #518CDC; width: 210px;">
-                                <a style="text-decoration: none;color: #fff;" href="http://gnomik/gallery">Перейти в галерею</a>
+                                <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в галерею</a>
                             </button>
                         </p>
                     </div>
