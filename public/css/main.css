@@ -575,7 +575,7 @@ button:focus {
     margin-left: -1.7em;
     position: absolute;
 }
-@media (min-width: 771px) and (max-width: 1024px) {
+@media (min-width: 771px) and (max-width: 1023px) {
     .main-ht {
         height: 60vh!important;
     }
@@ -1084,5 +1084,115 @@ button:focus {
     }
     #call-back {
         height: 57vh;
+    }
+}
+@media (max-width: 1680px) and (min-width: 1601px) {
+    .fixedheight img {
+        top: -27.5% !important;
+    }
+    #news {
+        height: 75vh;
+    }
+    #call-back {
+        height: 57vh;
+    }
+}
+@media (max-width: 1599px) and (min-width: 1440px) {
+    .fixedheight img {
+        top: -27.5% !important;
+    }
+    #news {
+        height: 75vh;
+    }
+    #call-back {
+        height: 57vh;
+    }
+    #about_us {
+        height: 100vh!important;
+    }
+    .fixedheight img {
+        top: -27.5% !important;
+    }
+}
+@media (max-width: 1439px) and (min-width: 1366px) {
+    .main-ht {
+        height: 100vh!important;
+    }
+    #about_us {
+        height: 110vh!important;
+    }
+    .fixedheight img {
+        top: -25% !important;
+    }
+    #news {
+        height: 90vh;
+    }
+    #call-back {
+        height: 57vh;
+    }
+}
+@media (max-width: 1365px) and (min-width: 1280px) {
+    .fixedheight img {
+        top: -28% !important;
+    }
+    #about_us {
+        height: 106vh!important;
+    }
+    #menu .row.nopadsides {
+        padding-left: 6% !important;
+        padding-right: 6%!important;
+    }
+    #reviews {
+        height: 89vh;
+    }
+    #news {
+        height: 87vh;
+    }
+    #call-back {
+        height: 55vh;
+    }
+}
+@media (max-width: 1279px) and (min-width: 1024px) {
+    .blok1-h1 {
+        font-size: 45px!important;
+    }
+    .main-ht {
+        height: 105vh!important;
+    }
+    img{
+        max-width: 100%;
+    }
+    #about_us {
+        height: 103vh!important;
+    }
+    .height118 {
+        height: 91vh!important;
+    }
+    .fixedheight img {
+        top: 20%!important;
+    }
+    #menu img.d-lg-block.d-none.col-1 {
+        height: 40px;
+    }
+    .carousel-block-2 {
+        height: 285px!important;
+    }
+    #reviews {
+        height: 90vh;
+        background-size: cover;
+    }
+    #news {
+        height: 66vh;
+        background-size: cover;
+    }
+    #call-back {
+        background-size: cover;
+        height: 54vh;
+    }
+    #about_us .p-lg-5.p-3.text-center {
+        padding: 8%!important;
+    }
+    #menu #myTab li {
+        margin-bottom: 2%;
     }
 }

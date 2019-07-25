@@ -24,9 +24,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2457">
-              <caret line="700" column="34" lean-forward="true" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
+            <state relative-caret-position="425">
+              <caret line="377" column="64" lean-forward="true" selection-start-line="377" selection-start-column="64" selection-end-line="377" selection-end-column="64" />
               <folding>
+                <element signature="e#97#229#0#HTML" expanded="true" />
+                <element signature="e#783#803#0#HTML" expanded="true" />
+                <element signature="e#18452#18473#0#HTML" expanded="true" />
+                <element signature="e#22141#22163#0#HTML" expanded="true" />
                 <element signature="e#37791#37857#0#HTML" expanded="true" />
                 <element signature="e#39896#39962#0#HTML" expanded="true" />
                 <element signature="e#42538#42585#0#HTML" expanded="true" />
@@ -39,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="1085" column="8" selection-start-line="1085" selection-start-column="8" selection-end-line="1085" selection-end-column="8" />
+            <state relative-caret-position="169">
+              <caret line="1179" column="14" lean-forward="true" selection-start-line="1179" selection-start-column="14" selection-end-line="1179" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -48,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            <state relative-caret-position="340">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -71,6 +75,7 @@
       <find>.carousel-block-2</find>
       <find>.height118</find>
       <find />
+      <find>#rev</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -189,7 +194,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
+    <option name="x" value="-27" />
     <option name="y" value="1" />
     <option name="width" value="1400" />
     <option name="height" value="736" />
@@ -299,15 +304,15 @@
       <workItem from="1563765776443" duration="26064000" />
       <workItem from="1563852141405" duration="25363000" />
       <workItem from="1563941543390" duration="1671000" />
-      <workItem from="1564027044152" duration="1364000" />
+      <workItem from="1564027044152" duration="5423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134646000" />
+    <option name="totallyTimeSpent" value="138705000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-15" y="1" width="1400" height="736" extended-state="0" />
+    <frame x="-27" y="1" width="1400" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21343283" />
@@ -471,18 +476,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
-          <caret line="700" column="34" lean-forward="true" selection-start-line="700" selection-start-column="34" selection-end-line="700" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="377" column="64" lean-forward="true" selection-start-line="377" selection-start-column="64" selection-end-line="377" selection-end-column="64" />
           <folding>
+            <element signature="e#97#229#0#HTML" expanded="true" />
+            <element signature="e#783#803#0#HTML" expanded="true" />
+            <element signature="e#18452#18473#0#HTML" expanded="true" />
+            <element signature="e#22141#22163#0#HTML" expanded="true" />
             <element signature="e#37791#37857#0#HTML" expanded="true" />
             <element signature="e#39896#39962#0#HTML" expanded="true" />
             <element signature="e#42538#42585#0#HTML" expanded="true" />
@@ -491,10 +493,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="1085" column="8" selection-start-line="1085" selection-start-column="8" selection-end-line="1085" selection-end-column="8" />
+        <state relative-caret-position="169">
+          <caret line="1179" column="14" lean-forward="true" selection-start-line="1179" selection-start-column="14" selection-end-line="1179" selection-end-column="14" />
         </state>
       </provider>
     </entry>

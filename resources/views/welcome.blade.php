@@ -147,7 +147,7 @@ border-radius: 10px; z-index:-500;">
         <div class="row">
             <div class="col-lg-9 col-12">
                 <div class="container-fluid row nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-lg-3 mb-3" style="background-color: #EF827F;">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-3" style="background-color: #EF827F;">
                         <div class="container-fluid row nomarnopad">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -318,7 +318,7 @@ border-radius: 10px; z-index:-500;">
                     неделю</h2>
                 <div class="container">
                     <div class="row justify-content-center flex-nowrap">
-                        <img class="d-lg-block d-none col-1 mr-3" src="{{asset('images/fruit1.png')}}" alt="">
+                        <img class="d-lg-block d-none col-1 mr-3" style="height: 100%;" src="{{asset('images/fruit1.png')}}" alt="">
                         <ul class="col-lg-10 col-12 justify-content-center pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
                             <li class="nav-item pr-3">
                                 <a class="nav-link p-md-2 text-center text-fut-light active"
@@ -363,7 +363,7 @@ border-radius: 10px; z-index:-500;">
                                    aria-selected="true">Салаты </a>
                             </li>
                         </ul>
-                        <img class="d-lg-block d-none col-1" src="{{asset('images/fruit2.png')}}" alt="">
+                        <img class="d-lg-block d-none col-1" style="height: 100%;" src="{{asset('images/fruit2.png')}}" alt="">
                     </div>
                 </div>
             </div>
