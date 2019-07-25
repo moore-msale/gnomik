@@ -654,7 +654,7 @@ border-radius: 10px; z-index:-500;">
                         <div class="item">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-12 pt-4 pr-2">
+                                    <div class="col-12 pt-4 pr-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
@@ -677,7 +677,7 @@ border-radius: 10px; z-index:-500;">
                         <div class="item">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-12 pt-4 pl-2">
+                                    <div class="col-12 pt-4 pl-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
@@ -703,7 +703,7 @@ border-radius: 10px; z-index:-500;">
                         <div class="item">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-12 pt-4 pl-2">
+                                    <div class="col-12 pt-4 pl-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
@@ -726,7 +726,7 @@ border-radius: 10px; z-index:-500;">
                         <div class="item">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-12 pt-4 pl-2">
+                                    <div class="col-12 pt-4 pl-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">

@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="377" column="64" lean-forward="true" selection-start-line="377" selection-start-column="64" selection-end-line="377" selection-end-column="64" />
+            <state relative-caret-position="272">
+              <caret line="752" lean-forward="true" selection-start-line="752" selection-end-line="752" />
               <folding>
                 <element signature="e#97#229#0#HTML" expanded="true" />
                 <element signature="e#783#803#0#HTML" expanded="true" />
@@ -43,8 +43,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1990">
-              <caret line="1221" column="38" lean-forward="true" selection-start-line="1221" selection-start-column="38" selection-end-line="1221" selection-end-column="38" />
+            <state relative-caret-position="232">
+              <caret line="851" column="27" lean-forward="true" selection-start-line="851" selection-start-column="27" selection-end-line="851" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="e#7#389#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -304,12 +316,12 @@
       <workItem from="1563765776443" duration="26064000" />
       <workItem from="1563852141405" duration="25363000" />
       <workItem from="1563941543390" duration="1671000" />
-      <workItem from="1564027044152" duration="9372000" />
+      <workItem from="1564027044152" duration="11635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142654000" />
+    <option name="totallyTimeSpent" value="144917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-27" y="1" width="1400" height="736" extended-state="0" />
@@ -442,16 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/_partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -476,10 +478,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="377" column="64" lean-forward="true" selection-start-line="377" selection-start-column="64" selection-end-line="377" selection-end-column="64" />
+        <state relative-caret-position="272">
+          <caret line="752" lean-forward="true" selection-start-line="752" selection-end-line="752" />
           <folding>
             <element signature="e#97#229#0#HTML" expanded="true" />
             <element signature="e#783#803#0#HTML" expanded="true" />
@@ -493,17 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/gallery.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1990">
-          <caret line="1221" column="38" lean-forward="true" selection-start-line="1221" selection-start-column="38" selection-end-line="1221" selection-end-column="38" />
+        <state relative-caret-position="232">
+          <caret line="851" column="27" lean-forward="true" selection-start-line="851" selection-start-column="27" selection-end-line="851" selection-end-column="27" />
         </state>
       </provider>
     </entry>
