@@ -15,25 +15,25 @@
     <div class="container-fluid gallery-block">
         <ul class="col-lg-10 col-md-12 col-10 justify-content-around ml-auto mr-auto pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
             <li class="nav-item pr-3">
-                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light active"
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 1 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #FFA4A3;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
                    data-toggle="tab" href="#спальные" role="tab" aria-controls=""
                    aria-selected="true">Спальные места</a>
             </li>
             <li class="nav-item pr-3">
-                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light"
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 2 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #F9FF85;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
                    data-toggle="tab" href="#столовая" role="tab" aria-controls=""
                    aria-selected="true">Столовая</a>
             </li>
             <li class="nav-item pr-3">
-                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light"
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 3 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #92D7FE;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
                    data-toggle="tab" href="#игровая" role="tab" aria-controls=""
                    aria-selected="true">Игровая</a>
             </li>
             <li class="nav-item pr-3">
-                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light"
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light  {{ isset($id) && $id == 4 ? 'active' : '' }}"
                    style="width: 207px;height: 54px;background: #BEF077;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
                    data-toggle="tab" href="#сад" role="tab" aria-controls=""
                    aria-selected="true">Сад</a>
@@ -41,7 +41,7 @@
         </ul>
 
         <div class="tab-content col-12 pt-5 pb-lg-5" id="myTabContent">
-            <div class="tab-pane fade active show" id="спальные" role="tabpanel" aria-labelledby="">
+            <div class="tab-pane fade {{ isset($id) && $id == 1 ? 'active show' : '' }}" id="спальные" role="tabpanel" aria-labelledby="">
                 <div class="photo-gallery">
                     <div class="container">
                         <div class="row photos">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="tab-pane fade" id="столовая" role="tabpanel" aria-labelledby="">
+            <div class="tab-pane fade {{ isset($id) && $id == 2 ? 'active show' : '' }}" id="столовая" role="tabpanel" aria-labelledby="">
                 <div class="photo-gallery">
                     <div class="container">
                         <div class="row photos">
@@ -75,11 +75,11 @@
                 </div>
             </div>
 
-            <div class="tab-pane fade" id="игровая" role="tabpanel" aria-labelledby="">
+            <div class="tab-pane fade {{ isset($id) && $id == 3 ? 'active show' : '' }}" id="игровая" role="tabpanel" aria-labelledby="">
                 <div class="container">
                 </div>
             </div>
-            <div class="tab-pane fade" id="сад" role="tabpanel" aria-labelledby="">
+            <div class="tab-pane fade {{ isset($id) && $id == 4 ? 'active show' : '' }}" id="сад" role="tabpanel" aria-labelledby="">
                 <div class="container">
                 </div>
             </div>

@@ -19,6 +19,8 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('gallery/{id}', 'PageController@gallery')->name('gallery');
+
 Route::get('/lessons', function () {
     return view('lessons');
 });

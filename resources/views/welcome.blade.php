@@ -278,28 +278,34 @@ border-radius: 10px; z-index:-500;">
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-12 h40 " style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
+                <a href="{{ asset('gallery/4') }}">
                 <p class="text-fut-bold" style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
                     Сад
                 </p>
+                </a>
             </div>
             <div class="container-fluid pt-3">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12 h40 padbot">
                         <div class="container"
                              style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery3.png')}}); background-size: cover; border-radius: 10px;">
+                            <a href="{{ asset('gallery/2') }}">
                             <p class="text-fut-bold"
                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                 Столовая
                             </p>
+                            </a>
                         </div>
                     </div>
 
                     <div class="testt col-lg-8 col-md-6 col-12 h40"
                          style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
+                        <a href="{{ asset('gallery/1') }}">
                         <p class="text-fut-bold"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
                             Спальня
                         </p>
+                        </a>
                     </div>
                 </div>
             </div>
