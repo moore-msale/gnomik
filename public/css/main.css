@@ -330,12 +330,13 @@ img.sun {
 #news {
     background-image: url(/images/reviews2.png);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    padding-top:10%;
+    padding-bottom:15%;
 }
 #call-back {
     background-image: url(/images/form.png);
     background-size: cover;
-    height: 70vh;
 }
 .btn {
     font-size: 16px;
@@ -496,6 +497,7 @@ button:focus {
     font-family: pt-narrow!important;
     font-size: 220px;
     color: #000000;
+    z-index: -1!important;
 }
 .water2 {
     position: absolute;
@@ -506,19 +508,19 @@ button:focus {
 .blokparallax {
     position: absolute;
     left: 22%;
-    top: -15%;
-    z-index: 9999;
+    top: -40%;
+    z-index: 0;
 }
 .blokparallax2 {
     position: absolute;
     left: 6%;
-    top: 0%;
+    top: -25%;
     z-index: 0;
 }
 .blokparallax3 {
     position: absolute;
     right: 16%;
-    top: -5%;
+    top: -30%;
     z-index: 0;
 }
 .parallax-effects {
@@ -578,6 +580,10 @@ button:focus {
     position: absolute;
 }
 @media only screen and (max-width: 700px) {
+    .footer-fix
+    {
+        transform: translateY(-2px)!important;
+    }
     .no-bg
     {
         background-image: none!important;
@@ -615,5 +621,32 @@ button:focus {
     .blocker
     {
         padding-top:0% !important;
+    }
+    .owl-nav
+    {
+        display: none!important;
+    }
+    #reviews
+    {
+        padding-bottom: 8%!important;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .sun
+    {
+        left:0%!important;
+    }
+    .transform-0
+    {
+        transform: translateX(0)!important;
+        transform: translateY(0)!important;
+    }
+    .footer-fix
+    {
+        transform: translateY(-2px)!important;
+    }
+    #reviews
+    {
+        padding-bottom: 6%!important;
     }
 }

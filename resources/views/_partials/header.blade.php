@@ -1,5 +1,5 @@
 
-<nav class="navbar menuse navbar-expand-xl py-0 w-100 pr-0 d-md-block d-none" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
+<nav class="navbar menuse navbar-expand-xl py-0 w-100 pr-0 d-lg-block d-none" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
     <div class="container">
         <div class="row w-100">
             <div class="col-md-1 col-4 px-4 logs logs3 pt-3">
@@ -34,10 +34,10 @@
         </div>
     </div>
 </nav>
-<nav class="navbar navbar-expand-xl py-0 w-100 pr-0 bg-white d-md-none d-block" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
+<nav class="navbar navbar-expand-xl py-0 w-100 pr-0 bg-white d-lg-none d-block" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
     <div class="container-fluid">
         <div class="row w-100">
-            <div class="col-md-1 col-4 px-4 py-2">
+            <div class="col-lg-1 col-4 px-4 py-2">
                 <a href="/">
                     <img class="w-50" src="{{asset('images/logo.png')}}" alt="">
                 </a>
@@ -47,7 +47,7 @@
                     <i class="fas fa-bars fa-lg"></i>
                 </button>
             </div>
-            <div class="collapse navbar-collapse col-md-11 col-8"  id="navbarSupportedContent">
+            <div class="collapse navbar-collapse col-lg-11 col-8"  id="navbarSupportedContent">
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-2">
