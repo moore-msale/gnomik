@@ -3,7 +3,7 @@
 @endpush
 @section('content')
     <div class="" id="main" style="padding-top:7%; background-image: url({{ asset('images/mainbg.png') }});background-position: bottom; background-size: cover;">
-        <div class="container-fluid main-ht" style="padding-left: 8%; height: 110vh;">
+        <div class="container-fluid main-ht" style="padding-left: 8%;">
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 12%;">
@@ -42,25 +42,25 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-6 img_new">
-                    <img src="{{ asset('images/bmain.png') }}" alt="">
+                <div class="col-lg-5 col-12 pb-lg-0 pb-5">
+                    <img class="w-100" src="{{ asset('images/bmain.png') }}" alt="">
                 </div>
         </div>
     </div>
     </div>
 
-    <div class="" id="about_us" style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover; height:126vh;">
-        <div class="col-12 text-center">
+    <div class="no-bg" id="about_us pb-5" style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover;">
+        <div class="col-12 text-center pb-lg-0 pb-0">
             <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Почему мы?</h2>
         </div>
         <div class="container-fluid nomarnopad row">
-            <div class="col-lg-4 col-md-6" style="padding-left: 8%;">
+            <div class="col-lg-4 col-md-6 d-lg-block d-none" style="padding-left: 8%;">
                 <img class="in-left" style="z-index:100; position: absolute;" src="{{ asset('images/toy.png') }}" alt="">
             </div>
-            <div class="col-lg-3 col-md-6" style="padding-top: 10%; padding-left: 5%;">
-                <div class="p-lg-5 p-3 text-center" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
+            <div class="col-lg-3 col-md-6 blocker" style="padding-top: 10%; padding-left: 5%;">
+                <div class="p-lg-5 p-3 text-center mt-lg-0 mt-3" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
 border-radius: 10px; z-index:-500;">
-                    <img src="{{ asset('images/smiling-baby.svg') }}" alt="">
+                    <img class="mob-w" src="{{ asset('images/smiling-baby.svg') }}" alt="">
                     <p class="text-fut-bold pt-4 text-white" style="font-size: 16px; line-height: 21px;">
                         Возраст детей -
                         <br>
@@ -70,7 +70,7 @@ border-radius: 10px; z-index:-500;">
                         Частный детский сад «Гномик» имеет ряд преимуществ:
                     </p>
                 </div>
-                <img class="clouds" style="position: absolute; right:-30%; bottom:-15%;" src="{{ asset('images/cloud.png') }}" alt="">
+                <img class="clouds d-md-block d-none" style="position: absolute; right:-30%; bottom:-15%;" src="{{ asset('images/cloud.png') }}" alt="">
             </div>
             <div class="col-lg-4 col-12 in-right" style="padding-left:5%; padding-top: 14%;">
                 <div class="container-fluid row nomarnopad">
@@ -128,10 +128,10 @@ border-radius: 10px; z-index:-500;">
                 </div>
 
             </div>
-            <div class="row row-with-animation">
-            <img class="cloud-left" style="position:absolute; right:8%; top:80px; z-index: -5;" src="{{ asset('images/cloud-right.png') }}" alt="">
-            <img class="cloud-right" style="position:absolute; right:3%; top: 50px; z-index: -5;" src="{{ asset('images/cloud-left.png') }}" alt="">
-            <img class="sun" style="position:absolute; right:5%; top:-20px; z-index: -6;" src="{{ asset('images/sun.png') }}" alt="">
+            <div class="row row-with-animation d-md-block d-none">
+            <img class="cloud-left" style="position:absolute; right:8%; top:40px; z-index: -5;" src="{{ asset('images/cloud-right.png') }}" alt="">
+            <img class="cloud-right" style="position:absolute; right:3%; top: 0px; z-index: -5;" src="{{ asset('images/cloud-left.png') }}" alt="">
+            <img class="sun" style="position:absolute; right:5%; top:-70px; z-index: -6;" src="{{ asset('images/sun.png') }}" alt="">
             </div>
         </div>
         <div class="col-12 text-center" style="margin-top: 11%;">
@@ -148,7 +148,7 @@ border-radius: 10px; z-index:-500;">
             <div class="col-lg-9 col-12">
                 <div class="container-fluid row nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
                     <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row nomarnopad">
+                        <div class="container-fluid row pr-md-3 pr-0">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Культурный
@@ -157,42 +157,45 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                                 <img class="pt-3" src="{{'images/pointimg1.svg'}}" alt="">
                             </div>
-                            <div class="col-6">
-                                <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point1.png'}}" alt="">
+                            <div class="col-6 px-md-3 px-0">
+                                <img class="d-md-block d-none" style="position: absolute; top:-11%; right:-35%;" src="{{'images/point1.png'}}" alt="">
+                                <img class="d-md-none d-block w-100 pt-md-0 pt-3" src="{{'images/point1.png'}}" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-0" style="background-color: #EF827F;">
-                        <div class="container-fluid row nomarnopad">
+                        <div class="container-fluid row pr-md-3 pr-0">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Праздники
                                 </p>
                                 <img class="pt-3" src="{{'images/pointimg2.svg'}}" alt="">
                             </div>
-                            <div class="col-6">
-                                <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point2.png'}}" alt="">
+                            <div class="col-6 px-md-3 px-0">
+                                <img class="d-md-block d-none" style="position: absolute; top:-11%; right:-35%;" src="{{'images/point2.png'}}" alt="">
+                                <img class="d-md-none d-block w-100 pt-md-0 pt-3" src="{{'images/point2.png'}}" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid row mt-3 nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
                     <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row nomarnopad">
+                        <div class="container-fluid row pr-md-3 pr-0">
                             <div class="col-6 pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Экскурсии
                                 </p>
                                 <img class="pt-3" src="{{'images/pointimg3.svg'}}" alt="">
                             </div>
-                            <div class="col-6">
-                                <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point3.png'}}" alt="">
+                            <div class="col-6 px-md-3 px-0">
+                                <img class="d-md-block d-none" style="position: absolute; top:-11%; right:-35%;" src="{{'images/point3.png'}}" alt="">
+                                <img class="d-md-none d-block w-100 pt-md-0 pt-3" src="{{'images/point3.png'}}" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row nomarnopad">
-                            <div class="col-6  pt-4">
+                        <div class="container-fluid row pr-md-3 pr-0">
+                            <div class="col-6 pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                     Активный
                                     <br>
@@ -200,14 +203,15 @@ border-radius: 10px; z-index:-500;">
                                 </p>
                                 <img class="pt-3" src="{{'images/pointimg4.svg'}}" alt="">
                             </div>
-                            <div class="col-6">
-                                <img style="position: absolute; top:-11%; right:-35%;" src="{{'images/point4.png'}}" alt="">
+                            <div class="col-6 px-md-3 px-0">
+                                <img class="d-md-block d-none" style="position: absolute; top:-11%; right:-35%;" src="{{'images/point4.png'}}" alt="">
+                                <img class="d-md-none d-block w-100 pt-md-0 pt-3" src="{{'images/point4.png'}}" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-12 pr-lg-5 pr-3 noposa" style="padding-top:7%; position: absolute; right:11%;">
+            <div class="col-lg-3 col-12 pr-lg-5 pr-3 transform-0" style="padding-top:7%; transform: translateX(-7em);">
                 <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
                     Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
                 </p>
@@ -219,7 +223,7 @@ border-radius: 10px; z-index:-500;">
     </div>
 
     <div class="container-fluid">
-        <div class="row height118" style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom; height:107vh;">
+        <div class="row pb-lg-5 pb-5" style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom;">
             <div class="col-lg-6 col-12" style="padding-left:12%; padding-top: 10%;">
                 <h2 class="" style="font-family: Coiny; font-size: 39px; line-height: 43px; color: white;">
                     О наших занятиях
@@ -258,7 +262,7 @@ border-radius: 10px; z-index:-500;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Галерея</h2>
             </div>
 
-            <div class="col-lg-8 col-md-8 col-12 nopadsides">
+            <div class="col-lg-8 col-md-8 col-12 nopadsides d-md-block d-none">
                 <div class="container" style="background: linear-gradient(180deg, #FF6976 0%, #FF6F59 100%); border-radius:10px;">
                     <div class="row fixedheight">
                     <div class="col-lg-6 col-md-6 col-12" style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
@@ -277,14 +281,14 @@ border-radius: 10px; z-index:-500;">
                 </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-12 h40 " style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
+            <div class="col-lg-4 col-md-4 col-12 h40 d-md-block d-none" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
                 <a href="{{ asset('gallery/4') }}">
                 <p class="text-fut-bold" style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
                     Сад
                 </p>
                 </a>
             </div>
-            <div class="container-fluid pt-3">
+            <div class="container-fluid pt-3 d-md-block d-none">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12 h40 padbot">
                         <div class="container"
@@ -310,15 +314,74 @@ border-radius: 10px; z-index:-500;">
                 </div>
             </div>
 
+            <div class="col-lg-8 col-md-8 col-12 d-md-none d-block">
+                <div class="container" style="background: linear-gradient(180deg, #FF6976 0%, #FF6F59 100%); border-radius:10px;">
+                    <div class="row fixedheight">
+                        <div class="col-lg-6 col-md-6 col-12" style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
+                            <p class="text-white text-fut-bold" style="font-size: 24px; line-height: 31px;">
+                                Мы ценим каждый момент, проведенный с детьми в нашем детском саду «Гномик»
+                            </p>
+                            <p>
+                                <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn" style="background-color: #518CDC; width: 210px;">
+                                    <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в галерею</a>
+                                </button>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <img class="d-lg-block d-md-block d-none" style="position:absolute; top:-25.5%; left:-10%;" src="{{'images/gallery1.png'}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="container" style="padding-top:48%; padding-bottom:48%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
+                            <a href="{{ asset('gallery/4') }}">
+                                <p class="text-fut-bold" style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
+                                    Сад
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="container-fluid pt-3 d-md-none d-block">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 h40 padbot">
+                        <div class="container"
+                             style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery3.png')}}); background-size: cover; border-radius: 10px;">
+                            <a href="{{ asset('gallery/2') }}">
+                                <p class="text-fut-bold"
+                                   style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
+                                    Столовая
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="testt col-lg-8 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-12">
+                                <div class="container" style="padding-top:50%; padding-bottom:50%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
+                                    <a href="{{ asset('gallery/1') }}">
+                                        <p class="text-fut-bold" style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
+                                            Спальня
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
     </div>
 
-    <div class="container-fluid" id="menu" style="background-image: url('{{ asset('images/6.png') }}'); background-size: cover;">
-        <div class="row nopadsides" style="padding-left:9%; padding-right:9%;">
+
+    <div class="container-fluid" id="menu" style="background-image: url({{ asset('images/6.png') }}); background-size: cover;">
+        <div class="row pad-x-0" style="padding-left:9%; padding-right:9%;">
             <div class="col-12 text-center" style="margin-top: 10%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Пример меню на
                     неделю</h2>
@@ -381,11 +444,11 @@ border-radius: 10px; z-index:-500;">
                                 Каши и фрукты
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/1-1.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Каши
                                 </h3>
@@ -398,10 +461,10 @@ border-radius: 10px; z-index:-500;">
                                     Ячневая каша <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/2.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Фрукты
                                 </h3>
@@ -422,11 +485,11 @@ border-radius: 10px; z-index:-500;">
                                 Завтраки (на второе)
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/3-1.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Сырники <br>
                                     Оладьи <br>
@@ -434,10 +497,10 @@ border-radius: 10px; z-index:-500;">
                                     Бутерброды с маслом/ с сыром <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/4-1.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Блинчики <br>
                                     Бутерброды с икрой <br>
@@ -455,11 +518,11 @@ border-radius: 10px; z-index:-500;">
                                 Полдник
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/5-1.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Булочки с разными начинками <br>
                                     Ватрушка с сахарной пудрой <br>
@@ -468,10 +531,10 @@ border-radius: 10px; z-index:-500;">
                                     Вафли молочные <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/6-1.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Крекеры «рыбка» <br>
                                     Бамбуковые палочки <br>
@@ -490,11 +553,11 @@ border-radius: 10px; z-index:-500;">
                                 Напитки и молочная продукция
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/7.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
                                     Напитки
                                 </h3>
@@ -504,14 +567,14 @@ border-radius: 10px; z-index:-500;">
                                     Сок натуральный в банках <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/8.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
-                                <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
+                            <div class="col-lg-3 col-6">
+                                <h3 class="text-fut-bold pt-lg-0 pt-4" style="font-size: 25px; line-height: 32px;">
                                     Молочная продукция
                                 </h3>
-                                <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
+                                <p class="text-fut-light pt-lg-0 pt-4" style="font-size: 16px; line-height: 21px;">
                                     Кефир <br>
                                     Творог <br>
                                     Айран <br>
@@ -528,11 +591,11 @@ border-radius: 10px; z-index:-500;">
                                 Супы
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/9.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Чечевичный суп с мясом <br>
                                     Борщ со сметаной с мясом <br>
@@ -541,10 +604,10 @@ border-radius: 10px; z-index:-500;">
                                     Гречневый суп с мясом <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/10.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Рисовый суп с мясом <br>
                                     Суп картофельный с мясом <br>
@@ -556,10 +619,10 @@ border-radius: 10px; z-index:-500;">
                         </div>
 
                         <div class="row justify-content-center" style="padding-top: 3%;">
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/11.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Уха из семги с пшеном <br>
                                     Жидкий лагман (детский) <br>
@@ -584,11 +647,11 @@ border-radius: 10px; z-index:-500;">
                                 На второе
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/12.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Плов с мясом <br>
                                     Макароны по - флотски <br>
@@ -596,10 +659,10 @@ border-radius: 10px; z-index:-500;">
                                     Оромо (картошка, фарш, лук, тесто) <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/13.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Спагетти с мясным подливом <br>
                                     Рагу (мясо, капуста, картошка) <br>
@@ -618,11 +681,11 @@ border-radius: 10px; z-index:-500;">
                                 Салаты
                             </h2>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="col-3">
+                        <div class="row justify-content-center pt-lg-0 pt-5">
+                            <div class="col-lg-3 col-6">
                                 <img src="{{ asset('images/14.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Помидоры, огурцы, сметана <br>
                                     Салат овощной (морковь, огурцы, капуста) <br>
@@ -630,10 +693,10 @@ border-radius: 10px; z-index:-500;">
                                     Салат (капустный) <br>
                                 </p>
                             </div>
-                            <div class="col-3">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <img src="{{ asset('images/15.png') }}" alt="">
                             </div>
-                            <div class="col-lg-3 col-9">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 16px; line-height: 21px;">
                                     Салат (свекольный) <br>
                                     Салат (оливье) <br>
@@ -657,14 +720,15 @@ border-radius: 10px; z-index:-500;">
             <div class="row">
                 <div class="carousel w-100">
                     <div class="owl-carousel">
-                        <div class="item">
+                        <div class="item car-media">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 pt-4 pr-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
-                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-block d-none" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-none d-block" src="{{ asset('images/teacher.png') }}" alt="">
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Махмудова Насиба</h3>
@@ -680,14 +744,15 @@ border-radius: 10px; z-index:-500;">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item car-media">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 pt-4 pl-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
-                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-block d-none" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-none d-block" src="{{ asset('images/teacher.png') }}" alt="">
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Жаналиева Нургуль</h3>
@@ -706,14 +771,15 @@ border-radius: 10px; z-index:-500;">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item car-media">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 pt-4 pl-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(150, 199, 216, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
-                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-block d-none" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-none d-block" src="{{ asset('images/teacher.png') }}" alt="">
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Атанаева Гульнура</h3>
@@ -729,14 +795,15 @@ border-radius: 10px; z-index:-500;">
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item car-media">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 pt-4 pl-lg-2">
                                         <div class="container carousel-block-2 align-items-center" style="background: rgba(162, 106, 196, 0.44); border-radius: 5px;">
                                             <div class="row h-100">
                                                 <div class="col-lg-6 col-md-6 col-12">
-                                                    <img class="" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-block d-none" style="position: absolute;transform: translateY(-25px);" src="{{ asset('images/teacher.png') }}" alt="">
+                                                    <img class="d-md-none d-block" src="{{ asset('images/teacher.png') }}" alt="">
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
                                                     <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">Бийбосунова Жылдыз</h3>
@@ -757,8 +824,8 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container-fluid pt-5 pb-5" id="reviews">
-        <div class="container-fluid">
+    <div class="container-fluid pt-5" id="reviews" style="padding-bottom:10%;">
+        <div class="container-fluid mb-md-5 mb-5 pb-md-5 pb-5">
             <div class="row justify-content-center pt-3">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; color: #fff;">Отзывы о нашем детском садике</h2>
             </div>
@@ -827,7 +894,7 @@ border-radius: 10px; z-index:-500;">
         </div>
 
         <div class="row h-100">
-            <div class="col-1"></div>
+            <div class="col-1 d-md-block d-none"></div>
             <div class="col-lg-5 col-md-6 col-12 align-self-center pt-lg-5 pt-0" style="padding-left: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 4%;">Открытие нашего второго филиала!</h2>
                 <p style="font-size: 16px;line-height: 21px;">В скором времени частный детский сад «Гномик» расширится</p>
@@ -837,7 +904,7 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container-fluid" id="call-back">
+    <div class="container-fluid py-lg-0 py-5" id="call-back">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-lg-7 col-md-6 col-12">
@@ -846,7 +913,7 @@ border-radius: 10px; z-index:-500;">
                     <p style="font-weight: bold;font-size: 18px;line-height: 21px;color: #FFFFFF; margin-bottom: 2px; margin-top: 5%;">Документы, необходимые для поступления:</p>
                     <h2 style="font-size: 18px;line-height: 21px;color: #FFFFFF;">Форма 26 и форма 63</h2>
                 </div>
-                <div class="col-lg-5 col-md-6 col-12">
+                <div class="col-lg-5 col-md-6 col-12 pt-md-0 pt-5">
 
                     <form>
                         <div class="send-success-mail p-1 d-none" >
@@ -876,15 +943,15 @@ border-radius: 10px; z-index:-500;">
         <div class="row justify-content-center">
             <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px;">Или приезжайте в гости знакомиться</h2>
         </div>
-        <div class="container pt-lg-5 pt-3">
+        <div class="container pt-lg-5 pt-3 pb-lg-0 pb-5">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-12">
                     <div class="phone">
                         <img src="{{ asset('images/phone-call.png')  }}" alt="">
-                        <p class="text-fut-light" style="font-size: 16px;color: #000;">(0556) 75-94-44</p>
+                        <p class="text-fut-light w-100" style="font-size: 16px;color: #000;">(0556) 75-94-44</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
+                <div class="col-lg-4 col-md-4 col-12 py-lg-0 py-5">
                     <div class="map">
                         <img src="{{ asset('images/map-location.png')  }}" alt="">
                         <p class="text-fut-light" style="font-size: 16px;color: #000;">ул. Радищева 23 (ул. Советская/Дружбы,
@@ -898,7 +965,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
             </div>
-            <div class="row pt-lg-5 pt-3">
+            <div class="row pt-lg-5 pt-5">
                 <div class="col-4"> </div>
                 <div class="col-lg-4 col-md-4 col-12 pl-lg-5 pl-3 pr-lg-5 pl-3">
                     <div class="container">
