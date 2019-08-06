@@ -803,16 +803,14 @@ border-radius: 10px; z-index:-500;">
                                                             {!! $teacher->specialist !!}
                                                         </p>
                                                         <div class="row">
-                                                            <div class="col-3"><a data-fancybox="nasiba"
-                                                                                  href="images/nasiba1.jpg"><img
-                                                                            src="{{ asset('images/diploma.svg') }}"></a>
-                                                            </div>
-                                                            <div class="col-3"><a data-fancybox="nasiba"
-                                                                                  href="images/nasiba2.jpg"><img
-                                                                            class=""
-                                                                            src="{{ asset('images/diploma.svg') }}"
-                                                                            alt=""></a>
-                                                            </div>
+                                                            @if($teacher->certificates)
+                                                                @foreach(json_decode($teacher->certificates, true) as $certificate)
+                                                                    <div class="mr-1"><a data-fancybox="nasiba"
+                                                                                          href="{{ asset('storage/'.$certificate) }}"><img
+                                                                                    src="{{ asset('images/diploma.svg') }}" style="width: 30px; height: auto;"></a>
+                                                                    </div>
+                                                                @endforeach
+                                                            @endif
                                                         </div>
                                                     </div>
                                                 </div>
