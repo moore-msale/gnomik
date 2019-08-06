@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => 'pass'], function () {
+    Voyager::routes();
 });
+
+Route::get('/', 'MainController@index');
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -30,3 +32,7 @@ Route::get('/lessons', function () {
 Route::post('/mail', 'MailController@mail')->name('mail');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
