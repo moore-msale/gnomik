@@ -161,7 +161,7 @@ border-radius: 10px; z-index:-500;">
         <div class="row">
             <div class="col-lg-9 col-12">
                 <div class="container-fluid row nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-3 h-100" style="background-color: #EF827F;">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-3" style="background-color: #EF827F;">
                         <div class="container-fluid row pr-lg-3 pr-0">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -177,7 +177,7 @@ border-radius: 10px; z-index:-500;">
                             </div>
                         </div>
                     </div>
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-0 h-100" style="background-color: #EF827F;">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-0" style="background-color: #EF827F;">
                         <div class="container-fluid row pr-lg-3 pr-0">
                             <div class="col-6  pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -193,7 +193,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
                 <div class="container-fluid row mt-3 nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3 h-100" style="background-color: #EF827F;">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3" style="background-color: #EF827F;">
                         <div class="container-fluid row pr-lg-3 pr-0">
                             <div class="col-6 pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
@@ -207,7 +207,7 @@ border-radius: 10px; z-index:-500;">
                             </div>
                         </div>
                     </div>
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 h-100" style="background-color: #EF827F;">
+                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
                         <div class="container-fluid row pr-lg-3 pr-0">
                             <div class="col-6 pt-4">
                                 <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">

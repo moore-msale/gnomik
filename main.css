@@ -1,0 +1,505 @@
+body
+{
+    background: white;
+}
+
+/*  ШРИФТЫ  */
+@font-face {
+    font-family: 'SF Pro Display Ultralight';
+    src: local('SF Pro Display Ultralight'), local('SF-Pro-Display-Ultralight'),
+    url('/fonts/SFProDisplay-Ultralight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: local('SF Pro Display Light'), local('SF-Pro-Display-Light'),
+    url('/fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: local('SF Pro Display Medium'), local('SF-Pro-Display-Medium'),
+    url('/fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: local('SF Pro Display Bold'), local('SF-Pro-Display-Bold'),
+    url('/fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Black';
+    src: local('SF Pro Display Black'), local('SF-Pro-Display-Black'),
+    url('/fonts/SFProDisplay-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sf-ultralight
+{
+    font-family: "SF Pro Display Ultralight";
+}
+.sf-light
+{
+    font-family: "SF Pro Display Light";
+}
+.sf-medium
+{
+    font-family: "SF Pro Display Medium";
+}
+.sf-bold
+{
+    font-family: "SF Pro Display Bold";
+}
+.sf-black
+{
+    font-family: "SF Pro Display Black";
+}
+
+
+
+
+/*  КОНЕЦ ШРИФТОВ  */
+
+/* Меню */
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    right: -300px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 120px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* КОНЕЦ МЕНЮ */
+
+
+
+/*  ГЛАВНАЯ СТРАНИЦА  */
+.btn-tp-border
+{
+    transition: 0.5s;
+}
+.btn-bt-border
+{
+    transition: 0.5s;
+}
+.moore
+{
+    transition: 0.5s;
+}
+.btn-effect:hover .btn-tp-border
+{
+    width:100px!important;
+}
+.btn-effect:hover .btn-bt-border
+{
+    width:100px!important;
+}
+.btn-effect:hover .moore
+{
+    transition: 0.5s;
+    font-size: 16px!important;
+}
+
+.vector-effect
+{
+    transition: 0.5s;
+}
+.vector-text
+{
+    transition: 0.5s;
+}
+.vector-border
+{
+    transition: 0.5s;
+}
+.vector-effect:hover .vector-image
+{
+    display: none;
+}
+.vector-effect:hover .vector-border
+{
+    width: 180px!important;
+}
+.vector-effect
+{
+    width: 190px!important;
+}
+.vector-effect:hover .vector-text
+{
+    font-size: 18px!important;
+}
+
+.portfolio
+{
+    transition: 0.5s;
+}
+.portfolio:hover
+{
+    opacity: 0.5!important;
+}
+.mobile-trans
+{
+    animation: mobiletrans 15s infinite;
+}
+
+.main-trans
+{
+    animation: trans 15s infinite;
+}
+.plus {
+    animation: 5s linear 0s normal none infinite running plus;
+    -webkit-animation: 5s linear 0s normal none infinite running plus;
+}
+.opacity-5
+{
+    opacity: 0.5;
+}
+.ics
+{
+    transition: 0.5s;
+}
+.ics:hover p
+{
+    opacity: 1!important;
+    color: rgba(128, 40, 236, 0.71) !important;
+}
+.first-block
+{
+    /*background: radial-gradient(1248.58px at 73.39% 37.87%, #1D0046 0%, #0F0F0F 100%, #070012 100%);*/
+    background: linear-gradient(-45deg, #2c0b61, #1c0442, #070012);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    /*background-size: 100% 100%;*/
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+.obvod {
+    text-shadow: -1px -1px 0 #0c0c0c, 1px -1px 0 #0c0c0c, -1px 1px 0 #0c0c0c, 1px 1px 0 #0c0c0c;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+.menuse.solid-nav {
+    background-color: #202020!important;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.menuse
+{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/*  КОНЕЦ ГЛАВНОЙ СТРАНИЦЫ */
+/* ПОРТФОЛИО */
+.port-first
+{
+    background: radial-gradient(1248.58px at 73.39% 37.87%, #1D0046 0%, #0F0F0F 100%, #070012 100%);
+    background-size: 100% 100%;
+}
+.port-trans
+{
+    animation: mobiletrans 15s infinite;
+}
+
+
+/*  КОНЕЦ ПОРТФОЛИО */
+/* Media */
+@media only screen and (max-width: 700px){
+    .port-first
+    {
+        height: 60vh!important;
+
+    }
+    .port-main-text
+    {
+        font-size: 50px!important;
+    }
+    .port-trans
+    {
+        top:0%!important;
+        height: 60vh!important;
+    }
+    .lefter
+    {
+        float:left!important;
+    }
+    .main-text
+    {
+        font-size: 65px!important;
+    }
+    .team-text
+    {
+        padding-top:10%!important;
+        font-size: 18px!important;
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+    }
+    .media-year
+    {
+        left:22%!important;
+        top:35%!important;
+    }
+    .first-block
+    {
+        height:130vh!important;
+    }
+    .mobile-trans
+    {
+        height: 130vh!important;
+    }
+    .nova-bg
+    {
+        background-image: url('/images/bgport.png');
+    }
+    .enesay-bg
+    {
+        background-image: url('/images/enesayimg.png');
+        background-size: cover;
+    }
+    .text-about
+    {
+        font-size:180%!important;
+        text-align: center!important;
+    }
+    .text-foter
+    {
+        font-size: 30px!important;
+    }
+    .port
+    {
+        background-image: none!important;
+        height: 950px!important;
+    }
+    .btn
+    {
+        text-align: center!important;
+    }
+    .tech
+    {
+        padding-left: 0px!important;
+    }
+    .bb
+    {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .foter
+    {
+        height:1250px!important;
+    }
+    .text-description
+    {
+        font-size: 20px!important;
+    }
+    .text-h2
+    {
+        font-size: 40px!important;
+    }
+}
+@media only screen and (min-width:900px )and (max-width: 1100px) {
+    .first-block
+    {
+        height:50vh!important;
+    }
+    .mobile-trans
+    {
+        height: 50vh!important;
+    }
+    .left-sidebar
+    {
+        margin-top:20vh!important;
+    }
+    .right-sidebar
+    {
+        top: 30vh !important;
+    }
+    .port
+    {
+        height:600px!important;
+    }
+    .foter
+    {
+        height:600px!important;
+    }
+    .text-foter
+    {
+        font-size: 30px!important;
+    }
+}
+@media only screen and (min-width:700px )and (max-width: 900px) {
+    .right-sidebar
+    {
+        top: 34vh !important;
+    }
+    .left-sidebar
+    {
+        margin-top:20vh!important;
+    }
+    .first-block
+    {
+        height:60vh!important;
+    }
+    .mobile-trans
+    {
+        height: 60vh!important;
+    }
+    .port
+    {
+        height:550px!important;
+    }
+    .main-text
+    {
+        font-size: 80px!important;
+    }
+}
+/* КОНЕЦ Media */
+
+
+
+
+
+
+
+
+
+
+/*  АНИМАЦИИ  */
+@keyframes mobiletrans {
+    0%{
+        transform: translatex(0px);
+    }
+    35%
+    {
+        transform: translate(230px);
+    }
+    85%
+    {
+        transform: translate(-30px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+@keyframes trans {
+    0%{
+        transform: translatex(0px);
+    }
+    35%
+    {
+        transform: translate(210%);
+    }
+    85%
+    {
+        transform: translate(-40%);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+@keyframes plus {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes plus {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* КОНЕЦ АНИМАЦИЙ */
+img.vrashe {
+  animation: 6s cubic-bezier(0.96, 0.06, 0.36, 0.87) 6s normal none infinite running vrashe;
+  -webkit-animation: 6s cubic-bezier(0.96, 0.06, 0.36, 0.87) 6s normal none infinite running vrashe;
+
+}
+@keyframes vrashe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes vrashe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
