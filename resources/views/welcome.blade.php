@@ -66,17 +66,17 @@
         </div>
     </div>
 
-    <div class="no-bg" id="about_us pb-5"
+    <div class="no-bg" id="about_us"
          style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover;">
         <div class="col-12 text-center pb-lg-0 pb-0">
             <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Почему мы?</h2>
         </div>
         <div class="container-fluid nomarnopad row">
             <div class="col-lg-4 col-md-6 d-lg-block d-none" style="padding-left: 8%;">
-                <img class="in-left" style="z-index:100; position: absolute;" src="{{ asset('images/toy.png') }}"
+                <img class="in-left" style="z-index:100; position: absolute; left: -50px;" src="{{ asset('images/toy.png') }}"
                      alt="">
             </div>
-            <div class="col-lg-3 col-md-6 blocker" style="padding-top: 10%; padding-left: 5%;">
+            <div class="col-lg-4 col-md-6 blocker" style="padding-top: 10%; padding-left: 5%;">
                 <div class="p-lg-5 p-3 text-center mt-lg-0 mt-3" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
 border-radius: 10px; z-index:-500;">
                     <img class="mob-w" src="{{ asset('images/smiling-baby.svg') }}" alt="">
@@ -153,7 +153,7 @@ border-radius: 10px; z-index:-500;">
                      src="{{ asset('images/cloud-right.png') }}" alt="">
                 <img class="cloud-right d-lg-block d-none" style="position:absolute; right:3%; top: 0px; z-index: -5;"
                      src="{{ asset('images/cloud-left.png') }}" alt="">
-                <img class="sun" style="position:absolute; right:5%; top:-70px; z-index: -6;"
+                <img class="sun d-lg-block d-none" style="position:absolute; right:5%; top:-70px; z-index: -6;"
                      src="{{ asset('images/sun.png') }}" alt="">
             </div>
         </div>
@@ -244,7 +244,7 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-12 pr-lg-5 pr-3 transform-0" style="padding-top:7%; transform: translateX(-7em);">
+            <div class="col-lg-3 col-12 pr-lg-5 pr-3" style="padding-top:7%;">
                 <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
                     Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
                 </p>
@@ -291,14 +291,14 @@ border-radius: 10px; z-index:-500;">
                 </button>
             </div>
             <div class="col-6 pt-5">
-                <img class="d-lg-block d-none in-bottom" src="{{ asset('images/kid.png')  }}" alt="">
+                <img class="d-lg-block d-none in-bottom img-fluid" src="{{ asset('images/kid.png')  }}" alt="">
             </div>
         </div>
     </div>
 
-    <div class="container-fluid" id="gallery"
+    <div class="container" id="gallery"
          style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
-        <div class="row nopadsides padsides" style="padding-left:9%; padding-right:9%;">
+        <div class="row nopadsides padsides">
             <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Галерея</h2>
             </div>
@@ -308,7 +308,7 @@ border-radius: 10px; z-index:-500;">
                      style="background: linear-gradient(180deg, #FF6976 0%, #FF6F59 100%); border-radius:10px;">
                     <div class="row fixedheight">
                         <div class="col-lg-6 col-md-12 col-12"
-                             style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
+                             style="padding-top:8%; padding-bottom:8%;">
                             <p class="text-white text-fut-bold" style="font-size: 24px; line-height: 31px;">
                                 Мы ценим каждый момент, проведенный с детьми в нашем детском саду «Гномик»
                             </p>
@@ -326,39 +326,35 @@ border-radius: 10px; z-index:-500;">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 h40 d-md-block d-none"
+            <div class="col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
                  style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
                 <a href="{{ asset('gallery/4') }}">
-                    <p class="text-fut-bold"
-                       style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
+                    <p class="text-fut-bold pl-4"
+                       style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
                         Сад
                     </p>
                 </a>
             </div>
-            <div class="container-fluid pt-3 d-md-block d-none">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12 h40 padbot">
-                        <div class="container"
-                             style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery3.png')}}); background-size: cover; border-radius: 10px;">
-                            <a href="{{ asset('gallery/2') }}">
-                                <p class="text-fut-bold"
-                                   style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
-                                    Столовая
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="testt col-lg-8 col-md-6 col-12 h40"
-                         style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
-                        <a href="{{ asset('gallery/1') }}">
-                            <p class="text-fut-bold"
-                               style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:5%;">
-                                Спальня
-                            </p>
-                        </a>
-                    </div>
+            <div class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
+                <div class=""
+                     style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery3.png')}}); background-size: cover; border-radius: 10px;">
+                    <a href="{{ asset('gallery/2') }}">
+                        <p class="text-fut-bold pl-4"
+                           style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
+                            Столовая
+                        </p>
+                    </a>
                 </div>
+            </div>
+
+            <div class="col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
+                 style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
+                <a href="{{ asset('gallery/1') }}">
+                    <p class="text-fut-bold pl-4"
+                       style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
+                        Спальня
+                    </p>
+                </a>
             </div>
 
             <div class="col-lg-8 col-md-8 col-12 d-md-none d-block">
@@ -795,14 +791,14 @@ border-radius: 10px; z-index:-500;">
                                                         <img class="d-md-none d-block"
                                                              src="{{ asset('storage/'.$teacher->image) }}" alt="">
                                                     </div>
-                                                    <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pl-md-0 align-self-center">
+                                                    <div class="col-lg-6 col-md-6 col-12 align-self-center">
                                                         <h3 style="font-family: 'Futura PT Bold';font-size: 26px;line-height: 33px;color:#000;">
                                                             {{ $teacher->name }}</h3>
                                                         <p class="pt-2"
                                                            style="font-family: 'Futura PT Light';font-size: 17px;line-height: 22px;color:#000;">
                                                             {!! $teacher->specialist !!}
                                                         </p>
-                                                        <div class="row">
+                                                        <div class="row px-3">
                                                             @if($teacher->certificates)
                                                                 @foreach(json_decode($teacher->certificates, true) as $certificate)
                                                                     <div class="mr-1"><a data-fancybox="nasiba"
