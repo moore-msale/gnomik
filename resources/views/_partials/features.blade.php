@@ -1,10 +1,10 @@
 <div class="container" id="event" style="padding-bottom: 7%;">
     <div class="row">
-        <div class="col-lg-9 col-12">
-            <div class="container-fluid row nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-3"
+        <div class="col-12 col-lg-8">
+            <div class="row">
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2"
                      style="background-color: #EF827F;">
-                    <div class="container-fluid row pr-lg-3 pr-0">
+                    <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Культурный
@@ -20,9 +20,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-0"
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2"
                      style="background-color: #EF827F;">
-                    <div class="container-fluid row pr-lg-3 pr-0">
+                    <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Праздники
@@ -36,11 +36,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container-fluid row mt-3 nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3"
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2"
                      style="background-color: #EF827F;">
-                    <div class="container-fluid row pr-lg-3 pr-0">
+                    <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Экскурсии
@@ -54,8 +52,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
-                    <div class="container-fluid row pr-lg-3 pr-0">
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2" style="background-color: #EF827F;">
+                    <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Активный
@@ -73,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-3 col-12 pr-lg-5 pr-3" style="padding-top:7%;">
+        <div class="col-12 col-lg">
             <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
                 Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
             </p>

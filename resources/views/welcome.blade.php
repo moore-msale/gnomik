@@ -68,7 +68,7 @@
 
     @include('_partials.about_us')
 
-
+    @include('_partials.features')
 
     <div class="container-fluid">
         <div class="row pb-lg-5 pb-5"
