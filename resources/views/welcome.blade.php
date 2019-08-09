@@ -66,195 +66,9 @@
         </div>
     </div>
 
-    <div class="no-bg" id="about_us"
-         style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover;">
-        <div class="col-12 text-center pb-lg-0 pb-0">
-            <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Почему мы?</h2>
-        </div>
-        <div class="container-fluid nomarnopad row">
-            <div class="col-lg-4 col-md-6 d-lg-block d-none" style="padding-left: 8%;">
-                <img class="in-left" style="z-index:100; position: absolute; left: -50px;" src="{{ asset('images/toy.png') }}"
-                     alt="">
-            </div>
-            <div class="col-lg-4 col-md-6 blocker" style="padding-top: 10%; padding-left: 5%;">
-                <div class="p-lg-5 p-3 text-center mt-lg-0 mt-3" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
-border-radius: 10px; z-index:-500;">
-                    <img class="mob-w" src="{{ asset('images/smiling-baby.svg') }}" alt="">
-                    <p class="text-fut-bold pt-4 text-white" style="font-size: 16px; line-height: 21px;">
-                        Возраст детей -
-                        <br>
-                        от 2 до 7 лет.
-                    </p>
-                    <p class="text-fut-light text-white" style="font-size: 13px; line-height: 17px; padding-top: 10%;">
-                        Частный детский сад «Гномик» имеет ряд преимуществ:
-                    </p>
-                </div>
-                <img class="clouds d-md-block d-none" style="position: absolute; right:-30%; bottom:-15%;"
-                     src="{{ asset('images/cloud.png') }}" alt="">
-            </div>
-            <div class="col-lg-4 col-12 in-right" style="padding-left:5%; padding-top: 14%;">
-                <div class="container-fluid row nomarnopad">
-                    <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
-                    1
-                </span>
-                    </div>
-                    <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Детский психолог, логопед — дефектолог, врач – педиатр, стоматолог
-                    </span>
-                    </div>
-                </div>
+    @include('_partials.about_us')
 
-                <div class="container-fluid row mt-3 nomarnopad">
-                    <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
-                    2
-                </span>
-                    </div>
-                    <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Организуются праздники, проводятся утренники и развлекательные мероприятия
-                    </span>
-                    </div>
-                </div>
 
-                <div class="container-fluid row mt-3 nomarnopad">
-                    <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
-                    3
-                </span>
-                    </div>
-                    <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-4-х разовое питание. Каждый ребенок получает сбалансированное питание высокого
-качества
-
-                    </span>
-                    </div>
-                </div>
-
-                <div class="container-fluid row mt-3 nomarnopad">
-                    <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
-                   4
-                </span>
-                    </div>
-                    <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
-Проводится подготовка к школе (тестирование)
-                    </span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row row-with-animation d-md-block d-none">
-                <img class="cloud-left d-lg-block d-none" style="position:absolute; right:8%; top:40px; z-index: -5;"
-                     src="{{ asset('images/cloud-right.png') }}" alt="">
-                <img class="cloud-right d-lg-block d-none" style="position:absolute; right:3%; top: 0px; z-index: -5;"
-                     src="{{ asset('images/cloud-left.png') }}" alt="">
-                <img class="sun d-lg-block d-none" style="position:absolute; right:5%; top:-70px; z-index: -6;"
-                     src="{{ asset('images/sun.png') }}" alt="">
-            </div>
-        </div>
-        <div class="col-12 text-center" style="margin-top: 11%;">
-            <h2 class="meropriyatiya"
-                style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Наши мероприятия</h2>
-            <div class="row row-with-animation2">
-                <img class="cloud-right" style="position:absolute; right:3%; top:50px; z-index: -5;"
-                     src="{{ asset('images/cloud-right.png') }}" alt="">
-                <img class="cloud-left" style="position:absolute; right:8%; top: 80px; z-index: -5;"
-                     src="{{ asset('images/cloud-left.png') }}" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="container" id="event" style="padding-bottom: 7%;">
-        <div class="row">
-            <div class="col-lg-9 col-12">
-                <div class="container-fluid row nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-md-3 mr-0 mb-lg-0 mb-3"
-                         style="background-color: #EF827F;">
-                        <div class="container-fluid row pr-lg-3 pr-0">
-                            <div class="col-6  pt-4">
-                                <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
-                                    Культурный
-                                    <br>
-                                    отдых
-                                </p>
-                                <img class="pt-3" src="{{'images/pointimg1.svg'}}" alt="">
-                            </div>
-                            <div class="col-6 px-lg-3 px-0">
-                                <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                     src="{{'images/point1.png'}}" alt="">
-                                <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point1.png'}}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-lg-3 mr-0"
-                         style="background-color: #EF827F;">
-                        <div class="container-fluid row pr-lg-3 pr-0">
-                            <div class="col-6  pt-4">
-                                <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
-                                    Праздники
-                                </p>
-                                <img class="pt-3" src="{{'images/pointimg2.svg'}}" alt="">
-                            </div>
-                            <div class="col-6 px-lg-3 px-0">
-                                <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                     src="{{'images/point2.png'}}" alt="">
-                                <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point2.png'}}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid row mt-3 nomarnopad flex-lg-wrap flex-md-nowrap flex-wrap">
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3 mb-lg-0 mb-3"
-                         style="background-color: #EF827F;">
-                        <div class="container-fluid row pr-lg-3 pr-0">
-                            <div class="col-6 pt-4">
-                                <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
-                                    Экскурсии
-                                </p>
-                                <img class="pt-3" src="{{'images/pointimg3.svg'}}" alt="">
-                            </div>
-                            <div class="col-6 px-lg-3 px-0">
-                                <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                     src="{{'images/point3.png'}}" alt="">
-                                <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point3.png'}}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="endf col-lg-5 col-md-6 col-12 px-2 pb-3 mr-3" style="background-color: #EF827F;">
-                        <div class="container-fluid row pr-lg-3 pr-0">
-                            <div class="col-6 pt-4">
-                                <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
-                                    Активный
-                                    <br>
-                                    отдых
-                                </p>
-                                <img class="pt-3" src="{{'images/pointimg4.svg'}}" alt="">
-                            </div>
-                            <div class="col-6 px-lg-3 px-0">
-                                <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                     src="{{'images/point4.png'}}" alt="">
-                                <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point4.png'}}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-12 pr-lg-5 pr-3" style="padding-top:7%;">
-                <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
-                    Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
-                </p>
-                <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
-                    Мы тщательно выстраиваем среду, в которой пребывают дети, и заботимся о том, чтобы она всегда была
-                    вдохновляющая, экологичная и обогащенная интересными событиями.
-                </p>
-            </div>
-        </div>
-    </div>
 
     <div class="container-fluid">
         <div class="row pb-lg-5 pb-5"
@@ -802,8 +616,9 @@ border-radius: 10px; z-index:-500;">
                                                             @if($teacher->certificates)
                                                                 @foreach(json_decode($teacher->certificates, true) as $certificate)
                                                                     <div class="mr-1"><a data-fancybox="nasiba"
-                                                                                          href="{{ asset('storage/'.$certificate) }}"><img
-                                                                                    src="{{ asset('images/diploma.svg') }}" style="width: 30px; height: auto;"></a>
+                                                                                         href="{{ asset('storage/'.$certificate) }}"><img
+                                                                                    src="{{ asset('images/diploma.svg') }}"
+                                                                                    style="width: 30px; height: auto;"></a>
                                                                     </div>
                                                                 @endforeach
                                                             @endif
@@ -955,62 +770,7 @@ border-radius: 10px; z-index:-500;">
         </div>
     </div>
 
-    <div class="container-fluid pt-5 mt-lg-5 mt-0" id="contact-us">
-        <div class="row justify-content-center">
-            <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px;">Или приезжайте в гости знакомиться</h2>
-        </div>
-        <div class="container pt-lg-5 pt-3 pb-lg-0 pb-5">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-12">
-                    <div class="phone">
-                        <img src="{{ asset('images/phone-call.png')  }}" alt="">
-                        <p class="text-fut-light w-100" style="font-size: 16px;color: #000;">(0556) 75-94-44</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12 py-lg-0 py-md-0 py-5">
-                    <div class="map">
-                        <img src="{{ asset('images/map-location.png')  }}" alt="">
-                        <p class="text-fut-light" style="font-size: 16px;color: #000;">ул. Радищева 23 (ул.
-                            Советская/Дружбы,
-                            магазин ”Планета электроники”)</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                    <div class="time">
-                        <img src="{{ asset('images/time.png')  }}" alt="">
-                        <p class="text-fut-light" style="font-size: 16px;color: #000;">Время работы детского сада с 7.30
-                            до 18.30</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row pt-lg-5 pt-5">
-                <div class="col-4"></div>
-                <div class="col-lg-4 col-md-4 col-12 pl-lg-5 pl-3 pr-lg-5 pl-3">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="soc-icons">
-                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img
-                                                src="{{ asset('images/instagram.svg') }}" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="soc-icons">
-                                    <img src="{{ asset('images/fb.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="soc-icons">
-                                    <img src="{{ asset('images/whattsapp.svg') }}" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4"></div>
-            </div>
-        </div>
-    </div>
+    @include('_partials.pre_footer')
 
     <div class="container-fluid footer-fix" id="divider-before-map"></div>
     <div class="container-fluid pl-0 pr-0" id="map-block">

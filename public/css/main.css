@@ -21,6 +21,12 @@
     url('/fonts/Coiny-Cyrillic.ttf') format('truetype');
 
 }
+@font-face {
+    font-family: "Segoe Print";
+    src: local('Segoe'), local('Segoe'),
+    url('/fonts/SegoePrintRegular.ttf') format('truetype');
+
+}
 .text-fut-bold {
     font-family: "Futura PT Bold";
 }
@@ -473,6 +479,7 @@ button:focus {
 .row-with-animation {
     position: absolute;
     right: 5%;
+    top: 0;
 }
 .row-with-animation2 {
     position: absolute;
