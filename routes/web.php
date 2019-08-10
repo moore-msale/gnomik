@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['prefix' => 'pass'], function () {
+Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
@@ -20,6 +20,9 @@ Route::get('/', 'MainController@index');
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/photo', 'PageController@photo');
+Route::post('/photo', 'PageController@photoCreate');
 
 Route::get('gallery/{id}', 'PageController@gallery')->name('gallery');
 

@@ -12,4 +12,14 @@ class PageController extends Controller
     {
         return view('gallery',['id' => $id]);
     }
+
+    public function photo()
+    {
+        return view('photo');
+    }
+
+    public function photoCreate(Request $request)
+    {
+        dd($request);
+    }
 }

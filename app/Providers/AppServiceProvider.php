@@ -2,8 +2,10 @@
 
 namespace App\Providers;
 
+use App\vendor\tcg\formFields\MultipleTags;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
+use TCG\Voyager\Facades\Voyager;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        Voyager::addFormField(MultipleTags::class);
     }
 
     /**
