@@ -18,7 +18,7 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/', 'MainController@index');
 
 Route::get('/gallery', function () {
-    return view('gallery');
+    return view('gallery',['galleries' => \App\Gallery::all()]);
 });
 
 Route::get('/photo', 'PageController@photo');

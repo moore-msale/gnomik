@@ -110,14 +110,14 @@
         </div>
     </div>
 
-    <div class="container" id="gallery"
-         style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
+    <div class="w-100" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
+    <div class="container" id="gallery">
         <div class="row nopadsides padsides">
             <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Галерея</h2>
             </div>
 
-            <div class="col-lg-8 col-md-6 col-12 nopadsides d-md-block d-none">
+            <div class="col-lg-8 mt-4 col-md-6 col-12 nopadsides d-md-block d-none">
                 <div class="container"
                      style="background: linear-gradient(180deg, #FF6976 0%, #FF6F59 100%); border-radius:10px;">
                     <div class="row fixedheight">
@@ -242,6 +242,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

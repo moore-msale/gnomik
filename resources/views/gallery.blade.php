@@ -45,14 +45,11 @@
                 <div class="photo-gallery">
                     <div class="container">
                         <div class="row photos">
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-2"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                        </div>
-                        <div class="row photos pt-lg-4">
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
+                            @foreach($galleries as $gallery)
+                                @if($gallery->type == "Спальня")
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                @endif
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -62,25 +59,40 @@
                 <div class="photo-gallery">
                     <div class="container">
                         <div class="row photos">
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-2"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                        </div>
-                        <div class="row photos pt-lg-4">
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-0 pt-4"><a href="{{ asset('images/1.png')  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('images/1.png')  }}"></a></div>
+                            @foreach($galleries as $gallery)
+                                @if($gallery->type == "Столовая")
+                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                @endif
+                            @endforeach
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="tab-pane fade {{ isset($id) && $id == 3 ? 'active show' : '' }}" id="игровая" role="tabpanel" aria-labelledby="">
-                <div class="container">
+                <div class="photo-gallery">
+                    <div class="container">
+                        <div class="row photos">
+                            @foreach($galleries as $gallery)
+                                @if($gallery->type == "Игровая")
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="tab-pane fade {{ isset($id) && $id == 4 ? 'active show' : '' }}" id="сад" role="tabpanel" aria-labelledby="">
-                <div class="container">
+                <div class="photo-gallery">
+                    <div class="container">
+                        <div class="row photos">
+                            @foreach($galleries as $gallery)
+                                @if($gallery->type == "Сад")
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
