@@ -15,6 +15,12 @@
     <div class="container-fluid gallery-block pt-lg-0 pt-3">
         <ul class="col-lg-10 col-md-12 col-10 justify-content-around ml-auto mr-auto pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
             <li class="nav-item pr-3 mt-lg-0 mt-3">
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 5 ? 'active show' : '' }}"
+                   style="width: 207px;height: 54px;background: #ffbd87;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
+                   data-toggle="tab" href="#общие" role="tab" aria-controls=""
+                   aria-selected="true">Общие</a>
+            </li>
+            <li class="nav-item pr-3 mt-lg-0 mt-3">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 1 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #FFA4A3;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 16px;"
                    data-toggle="tab" href="#спальные" role="tab" aria-controls=""
@@ -38,6 +44,7 @@
                    data-toggle="tab" href="#сад" role="tab" aria-controls=""
                    aria-selected="true">Сад</a>
             </li>
+
         </ul>
 
         <div class="tab-content col-12 pt-5 pb-lg-5" id="myTabContent">
@@ -88,6 +95,19 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Сад")
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade {{ isset($id) && $id == 5 ? 'active show' : '' }}" id="общие" role="tabpanel" aria-labelledby="">
+                <div class="photo-gallery">
+                    <div class="container">
+                        <div class="row photos">
+                            @foreach($galleries as $gallery)
+                                @if($gallery->type == "Общие")
                                     <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
