@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-11 col-8 collapse navbar-collapse"  id="navbarSupportedContent">
                 <nav class="ml-md-auto ml-0">
-                    <ul class="navbar-nav" id="pick">
+                    <ul class="navbar-nav">
                         <li class="nav-item p-3">
                             <a href="/" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Главная</a>
                         </li>
