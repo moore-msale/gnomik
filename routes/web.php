@@ -20,7 +20,8 @@ Route::get('/', 'MainController@index');
 Route::get('/gallery', function () {
     return view('gallery',['galleries' => \App\Gallery::all()]);
 });
-
+Route::get('/gallery-create', 'GalleryController@massCreate')->name('gallery.masscreate');
+Route::post('/gallery-create', 'GalleryController@massStore')->name('gallery.massstore');
 Route::get('/photo', 'PageController@photo');
 Route::post('/photo', 'PageController@photoCreate');
 

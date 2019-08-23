@@ -45,6 +45,26 @@
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 @stack('scripts')
 <script>
+
+    $('#feedback-carousel').owlCarousel({
+        margin: 10,
+        loop: true,
+        autoplay: true,
+        nav: true,
+        smartSpeed: 1000,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         margin: 10,
@@ -65,6 +85,8 @@
             }
         }
     })
+
+
 </script>
 <script>
     $(document).ready(function() {

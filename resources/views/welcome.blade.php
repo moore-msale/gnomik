@@ -678,7 +678,7 @@
                 <div class="col-4"></div>
                 <div class="col-lg-5 col-md-5 col-12 mt-5 pt-0 paddingleft">
                     <img src="{{ asset('images/right-quotation-mark.png') }}" alt="">
-                    <div class="owl-carousel pt-lg-5 pt-2">
+                    <div id="feedback-carousel" class="owl-carousel owl-feedback pt-lg-5 pt-2">
                         <div class="item">
                             <p>Большое спасибо! Теперь моя доча хочет еще больше к вам в садик!</p>
                             <h5 class="mb-0">Роза</h5>
