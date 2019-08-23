@@ -6,7 +6,7 @@
                      style="background-color: #EF827F;">
                     <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6  pt-4">
-                            <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
+                            <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%; ">
                                 Культурный
                                 <br>
                                 отдых
@@ -72,10 +72,10 @@
             </div>
         </div>
         <div class="col-12 col-lg">
-            <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
+            <p class="text-fut-light" style="font-size: 21px; line-height: 140%;">
                 Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
             </p>
-            <p class="text-fut-light" style="font-size: 16px; line-height: 140%;">
+            <p class="text-fut-light" style="font-size: 21px; line-height: 140%;">
                 Мы тщательно выстраиваем среду, в которой пребывают дети, и заботимся о том, чтобы она всегда была
                 вдохновляющая, экологичная и обогащенная интересными событиями.
             </p>

@@ -15,12 +15,12 @@
                     <div class="p-lg-5 p-3 text-center mt-lg-0 mt-3" style="background: linear-gradient(180deg, #4989D1 0%, #596DC6 100%);
 border-radius: 10px; z-index:-500;">
                         <img class="mob-w" src="{{ asset('images/smiling-baby.svg') }}" alt="">
-                        <p class="text-fut-bold pt-4 text-white" style="font-size: 16px; line-height: 21px;">
+                        <p class="text-fut-bold pt-4 text-white" style="font-size: 24px; line-height: 21px; letter-spacing: 0.1em">
                             Возраст детей -
                             <br>
                             от 2 до 7 лет.
                         </p>
-                        <p class="text-fut-light text-white" style="font-size: 13px; line-height: 17px; padding-top: 10%;">
+                        <p class="text-fut-light text-white" style="font-size: 23px; line-height: 25px; padding-top: 10%;">
                             Частный детский сад «Гномик» имеет ряд преимуществ:
                         </p>
                     </div>
@@ -30,12 +30,12 @@ border-radius: 10px; z-index:-500;">
                 <div class="col-lg-4 col-12 in-right" style="padding-top: 14%;">
                     <div class="container-fluid row nomarnopad">
                         <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
+                        <span style="font-family: Coiny; font-size: 45px; line-height: 43px;">
                     1
                 </span>
                         </div>
                         <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
+                        <span class="text-fut-light" style="font-size: 21px; line-height: 19px;">
 Детский психолог, логопед — дефектолог, врач – педиатр, стоматолог
                     </span>
                         </div>
@@ -43,12 +43,12 @@ border-radius: 10px; z-index:-500;">
 
                     <div class="container-fluid row mt-3 nomarnopad">
                         <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
+                        <span style="font-family: Coiny; font-size: 45px; line-height: 43px;">
                     2
                 </span>
                         </div>
                         <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
+                        <span class="text-fut-light" style="font-size: 21px; line-height: 19px;">
 Организуются праздники, проводятся утренники и развлекательные мероприятия
                     </span>
                         </div>
@@ -56,12 +56,12 @@ border-radius: 10px; z-index:-500;">
 
                     <div class="container-fluid row mt-3 nomarnopad">
                         <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
+                        <span style="font-family: Coiny; font-size: 45px; line-height: 43px;">
                     3
                 </span>
                         </div>
                         <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
+                        <span class="text-fut-light" style="font-size: 21px; line-height: 19px;">
 4-х разовое питание. Каждый ребенок получает сбалансированное питание высокого
 качества
 
@@ -71,12 +71,12 @@ border-radius: 10px; z-index:-500;">
 
                     <div class="container-fluid row mt-3 nomarnopad">
                         <div class="col-2">
-                        <span style="font-family: Coiny; font-size: 39px; line-height: 43px;">
+                        <span style="font-family: Coiny; font-size: 45px; line-height: 43px;">
                    4
                 </span>
                         </div>
                         <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 15px; line-height: 19px;">
+                        <span class="text-fut-light" style="font-size: 21px; line-height: 19px;">
 Проводится подготовка к школе (тестирование)
                     </span>
                         </div>
