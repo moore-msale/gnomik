@@ -652,17 +652,58 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="carousel w-100">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/1.jpg') }}" alt=""></div>
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/2.jpg') }}" alt=""></div>
-                        <div class="item" style="width:50%"><img class="food-img" src="{{ asset('images/certificates/6.jpg') }}" alt=""></div>
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/3.jpg') }}" alt=""></div>
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/4.jpg') }}" alt=""></div>
-                        <div class="item" style="width:50%"><img class="food-img" src="{{ asset('images/certificates/9.jpg') }}" alt=""></div>
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/7.jpg') }}" alt=""></div>
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/8.jpg') }}" alt=""></div>
-                        <div class="item" style="width:50%"><img class="food-img" src="{{ asset('images/certificates/5.jpg') }}" alt=""></div>
-                        <div class="item" style="width:90%"><img class="food-img" src="{{ asset('images/certificates/10.jpg') }}" alt=""></div></div>
+                    <div class="owl-carousel">
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                                <img src="{{ asset('images/certificates/1.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                                <img src="{{ asset('images/certificates/2.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                                <img class="w-50 mx-auto" src="{{ asset('images/certificates/6.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                                <img src="{{ asset('images/certificates/3.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                               <img src="{{ asset('images/certificates/4.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                               <img class="w-50 mx-auto" src="{{ asset('images/certificates/9.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                                <img src="{{ asset('images/certificates/7.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                               <img src="{{ asset('images/certificates/8.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                                <img class="w-50 mx-auto" src="{{ asset('images/certificates/5.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center item">
+                            <div class="col-12">
+                               <img src="{{ asset('images/certificates/10.jpg') }}" alt="">
+                            </div>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
