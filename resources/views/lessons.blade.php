@@ -26,93 +26,93 @@
                 следующие учебно-воспитательные занятия:</p>
         </div>
         <div class="row">
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/Group.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     уроки шахмат</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/musical-note.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     музыка, ритмопластика</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/book.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     английский язык (игровая форма проведения)</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/conversation.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     уроки этикета</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/mathematical-symbols.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     математика (на основе деятельностного метода)</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/XMLID 763.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     логика (развитие мыслительных операций)</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/save.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     ознакомление с окружающим миром</p>
             </div>
 
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/book2.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     развитие речи (обучение чтению и развитие графических навыков)</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/motion-sensor.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     сенсорика</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/Group (1).png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     знакомство с детской литературой</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/Page 1.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     изобразительное искусство, лепка, аппликация и конструирование</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/warrior.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     гимнастика</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/grammar.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     обучение грамоте</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/ballet.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     физкультурно-хореографические занятия</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/ball.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     футбол</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/fight.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     тхэквондо</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/chineselng.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     китайский язык</p>
             </div>
-            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-3">
+            <div class="col-lg-2 col-md-3 col-6 text-center pt-md-0 pt-4">
                 <img src="{{ asset('images/courses/math.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
                     ментальная арифметика</p>
