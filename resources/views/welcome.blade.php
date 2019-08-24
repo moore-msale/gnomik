@@ -137,7 +137,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <img class="d-lg-block d-md-none d-none"
-                                     style="position:absolute; top:-25.5%; left:-10%;"
+                                     style="position:absolute; bottom: 0; left:-10%;"
                                      src="{{'images/gallery1.png'}}" alt="">
                             </div>
                         </div>
