@@ -123,12 +123,12 @@
                         <div class="row fixedheight">
                             <div class="col-lg-6 col-md-12 col-12"
                                  style="padding-top:8%; padding-bottom:7%;">
-                                <p class="text-white text-fut-bold"
+                                <p class="text-white text-fut-bold mb-2"
                                    style="padding: 1%;font-size: 24px; line-height: 31px;">
                                     Мы ценим каждый момент, проведенный с детьми в нашем детском саду «Гномик»
                                 </p>
                                 <p>
-                                    <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
+                                    <button class="py-lg-3 py-2 px-3 text-fut-light btn"
                                             style="background-color: #518CDC; width: 210px;">
                                         <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в
                                             галерею </a>
@@ -144,9 +144,9 @@
                     </div>
                 </div>
                 <div class="hover-effect col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
-                     style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery2.png')}}); background-size: cover; border-radius: 10px;">
+                     style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
                     <a href="{{ asset('gallery/4') }}">
-                        <p class="text-fut-bold pl-4"
+                        <p class="text-fut-bold pl-4 pb-3"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
                             Сад
                         </p>
@@ -155,10 +155,10 @@
 
                 <div class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
                     <div class="hover-effect "
-                         style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery3.png')}}); background-size: cover; border-radius: 10px;">
+                         style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
                         <a href="{{ asset('gallery/2') }}">
-                            <p class="text-fut-bold pl-4"
-                               style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
+                            <p class="text-fut-bold  pb-3 pl-3"
+                               style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom: 0">
                                 Столовая
                             </p>
                         </a>
@@ -166,11 +166,11 @@
                 </div>
 
                 <div class="hover-effect col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
-                     style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gallery4.png')}}); background-size: cover; border-radius: 10px;">
-                    <a href="{{ asset('gallery/1') }}">
-                        <p class="text-fut-bold pl-4"
+                     style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
+                    <a href="{{ asset('gallery/3') }}">
+                        <p class="text-fut-bold pl-4 pb-3"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
-                            Спальня
+                            Игровая
                         </p>
                     </a>
                 </div>
@@ -618,17 +618,6 @@
                                                            style="font-family: 'Futura PT Light';font-size: 21px;line-height: 22px;color:#000;">
                                                             {!! $teacher->specialist !!}
                                                         </p>
-                                                        <div class="row px-3">
-                                                            @if($teacher->certificates)
-                                                                @foreach(json_decode($teacher->certificates, true) as $certificate)
-                                                                    <div class="mr-1"><a data-fancybox="nasiba"
-                                                                                         href="{{ asset('storage/'.$certificate) }}"><img
-                                                                                src="{{ asset('images/diploma.svg') }}"
-                                                                                style="width: 30px; height: auto;"></a>
-                                                                    </div>
-                                                                @endforeach
-                                                            @endif
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -721,23 +710,13 @@
                     <img src="{{ asset('images/right-quotation-mark.png') }}" alt="">
                     <div id="feedback-carousel" class="owl-carousel owl-feedback pt-lg-5 pt-2">
                         <div class="item">
-                            <p>Большое спасибо! Теперь моя доча хочет еще больше к вам в садик!</p>
-                            <h5 class="mb-0">Роза</h5>
-                            <h6>мама</h6>
-                        </div>
-                        <div class="item">
-                            <p>Супер! Заходишь во двор садика и попадаешь в сказку!</p>
-                            <h5 class="mb-0">Айнура</h5>
-                            <h6>мама</h6>
-                        </div>
-                        <div class="item">
                             <p>Спасибо Вам за неимоверно теплую и добрую атмосферу. Приветливых воспитателей и
                                 замечательных деток!</p>
                             <h5 class="mb-0"> Elstudio event</h5>
                         </div>
                         <div class="item">
-                            <p>Супер! Заходишь во двор садика и попадаешь в сказку!</p>
-                            <h5 class="mb-0">Айнура</h5>
+                            <p>Большое спасибо! Теперь моя доча хочет еще больше к вам в садик!</p>
+                            <h5 class="mb-0">Роза</h5>
                             <h6>мама</h6>
                         </div>
                         <div class="item">
@@ -747,11 +726,21 @@
                             <h5 class="mb-0">Асель Бакыт</h5>
                         </div>
                         <div class="item">
+                            <p>Супер! Заходишь во двор садика и попадаешь в сказку!</p>
+                            <h5 class="mb-0">Айнура</h5>
+                            <h6>мама</h6>
+                        </div>
+                        <div class="item">
                             <p>Нургуль Сайниловна, Вы у нас самый лучший и ответственный директор! Очень приятно
                                 наблюдать за Вашим подходом к своему делу, то с какой заботой вы относитесь к вашим
                                 детям. Очень любим Вас и благодарим. Желаем вам процветания в вашем ответственном
                                 деле!</p>
                             <h5 class="mb-0">Чолпон</h5>
+                        </div>
+                        <div class="item">
+                            <p>Супер! Заходишь во двор садика и попадаешь в сказку!</p>
+                            <h5 class="mb-0">Айнура</h5>
+                            <h6>мама</h6>
                         </div>
                     </div>
                 </div>
@@ -809,8 +798,8 @@
                         забронировать место для
                         Вашего ребенка, запишитесь онлайн для получения подробной информации и наш администратор
                         свяжется с Вами.</p>
-                    <p style="font-weight: bold;font-size: 20px;line-height: 21px;color: #FFFFFF; margin-bottom: 2px; margin-top: 5%; padding-bottom:3%;">
-                        Документы, необходимые для поступления:</p>
+                    <h4 style="font-family: Coiny;font-size: 28px;line-height: 21px;color: #FFFFFF; margin-bottom: 2px; margin-top: 5%; padding-bottom:3%;">
+                        Документы, необходимые для поступления:</h4>
                     <p style="font-size: 20px;line-height: 28px;color: #FFFFFF; font-weight: 100;">
                         - Форма 26 <br>
                         - Форма 63 <br>

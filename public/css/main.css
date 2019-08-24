@@ -401,20 +401,20 @@ img.sun {
 
 #reviews .owl-carousel .item p {
     font-family: "Futura PT Light";
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
     color: #FFFFFF;
 }
 #reviews .owl-carousel .item h5 {
     font-family: "Futura PT Bold";
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 35px;
     color: #FFFFFF;
 }
 #reviews .owl-carousel .item h6 {
     font-family: "Futura PT Light";
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 22px;
+    line-height: 35px;
     color: #FFFFFF;
 }
 #reviews .paddingleft {

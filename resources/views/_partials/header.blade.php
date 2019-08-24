@@ -11,22 +11,22 @@
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav">
                         <li class="nav-item p-3">
-                            <a href="/" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Главная</a>
+                            <a href="/" class="text-white nav-fut-bold menu-point" style="font-family: Coiny; text-decoration: none;">Главная</a>
                         </li>
                         <li class="nav-item p-3" id="pick">
-                            <a href="#about_us" class="text-white text-fut-bold menu-point" style="text-decoration: none;">О нас</a>
+                            <a href="#about_us" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">О нас</a>
                         </li>
                         <li class="nav-item p-3">
-                            <a href="/lessons" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Список занятий</a>
+                            <a href="/lessons" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Список занятий</a>
                         </li>
                         <li class="nav-item p-3">
-                            <a href="/gallery" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Галерея</a>
+                            <a href="/gallery" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-3" id="pick">
-                            <a href="#event" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Мероприятия</a>
+                            <a href="#event" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Мероприятия</a>
                         </li>
                         <li class="nav-item p-3" id="pick">
-                            <a href="#footer" class="text-white text-fut-bold menu-point" style="text-decoration: none;">Контакты</a>
+                            <a href="#footer" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -51,22 +51,22 @@
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-2">
-                            <a href="/" class="text-dark text-fut-bold" style="text-decoration: none;">Главная</a>
+                            <a href="/" class="text-dark" style="font-family: Coiny; text-decoration: none;">Главная</a>
                         </li>
                         <li class="nav-item p-2 ">
-                            <a href="/#about_us" class="text-dark text-fut-bold" style="text-decoration: none;">О нас</a>
+                            <a href="/#about_us" class="text-dark" style="font-family: Coiny; text-decoration: none;">О нас</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="/lessons" class="text-dark text-fut-bold" style="text-decoration: none;">Список занятий</a>
+                            <a href="/lessons" class="text-dark" style="font-family: Coiny; text-decoration: none;">Список занятий</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="/gallery" class="text-dark text-fut-bold" style="text-decoration: none;">Галерея</a>
+                            <a href="/gallery" class="text-dark" style="font-family: Coiny; text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="/#event" class="text-dark text-fut-bold" style="text-decoration: none;">Мероприятия</a>
+                            <a href="/#event" class="text-dark" style="font-family: Coiny; text-decoration: none;">Мероприятия</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#footer" class="text-dark text-fut-bold" style="text-decoration: none;">Контакты</a>
+                            <a href="#footer" class="text-dark" style="font-family: Coiny; text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>
