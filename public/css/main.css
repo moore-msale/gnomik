@@ -638,14 +638,13 @@ p {
 .lb-nav a.lb-next {
     right: -10%;
     position: absolute;
-    opacity: 1;
 }
 
 .lb-nav a.lb-prev {
     left: -10%;
     position: absolute;
-    opacity: 1;
 }
+
 @media only screen and (max-width: 700px) {
     .footer-fix
     {
@@ -697,17 +696,21 @@ p {
     {
         padding-bottom: 8%!important;
     }
-
     .lb-nav a.lb-next {
-        position: absolute;
-        opacity: 1;
-        right: 0;
+        opacity: 0;
+
     }
 
     .lb-nav a.lb-prev {
-        left: 0;
-        position: absolute;
-        opacity: 1;
+        opacity: 0;
+    }
+
+    .lb-nav a.lb-next:hover {
+        opacity: 0;
+    }
+
+    .lb-nav a.lb-prev:hover {
+        opacity: 0;
     }
 }
 @media only screen and (max-width: 1400px) and (min-width: 1000px) {
@@ -743,5 +746,12 @@ p {
     {
         height:100%;
     }
+    .lb-nav a.lb-next:hover {
+        opacity: 0;
 
+    }
+
+    .lb-nav a.lb-prev:hover {
+        opacity: 0;
+    }
 }
