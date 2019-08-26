@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-fluid header"
          style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }});">
-        <div class="row align-items-center justify-content-center pt-5" style="height: 300px;">
+        <div class="row align-items-center justify-content-center  pt-5" style="height: 300px;">
             <h1 style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF;">Список занятий</h1>
         </div>
     </div>
@@ -22,12 +22,12 @@
     </div>
 
     <div class="container-fluid pt-3" id="courses">
-        <div class="row p-lg-5 p-md-5 p-3">
+        <div class="row p-lg-5 p-md-3 p-3">
             <p class="text-fut-bold ml-lg-3 mr-lg-3 pl-lg-4 pr-lg-4 text-md-left text-center"
                style="font-family: Coiny;font-size: 26px;line-height: 30px;color: #000000;">В частном детском саду “<img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">” проводятся
                 следующие учебно-воспитательные занятия:</p>
         </div>
-        <div class="row">
+        <div class="container-fluid row">
             <div class="col-lg-2 col-md-3 col-6 text-center pt-md-2 pt-4">
                 <img src="{{ asset('images/courses/Group.png') }}" alt="">
                 <p style="margin-top: 15px;font-family: Futura PT Light;font-size: 23px;line-height: 21px;text-align: center;color: #000000;">
