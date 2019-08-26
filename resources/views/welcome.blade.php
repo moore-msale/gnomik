@@ -313,14 +313,14 @@
                 </div>
             </div>
             <div class="tab-content col-12" id="myTabContent">
-                <div class="tab-pane fade active show" id="каша" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade active show  shadow-lg pt-5 pb-5" id="каша" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 Каши и фрукты
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-4">
                             <div class="col-lg-3 col-6">
                                 <img class="food-img" src="{{ asset('images/1-1.png') }}" alt="">
                             </div>
@@ -354,7 +354,7 @@
                 </div>
 
 
-                <div class="tab-pane fade" id="завтраки" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="завтраки" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -387,7 +387,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="полдник" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="полдник" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -422,7 +422,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="напитки" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="напитки" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -460,7 +460,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="супы" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="супы" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -495,7 +495,7 @@
                         </div>
 
                         <div class="row justify-content-center" style="padding-top: 3%;">
-                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-5 pb-5">
                                 <img class="food-img" src="{{ asset('images/11.png') }}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
@@ -516,14 +516,14 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="второе" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="второе" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 На второе
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-5 pb-5">
                             <div class="col-lg-3 col-6">
                                 <img class="food-img" src="{{ asset('images/12.png') }}" alt="">
                             </div>
@@ -550,14 +550,14 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="салаты" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="салаты" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 Салаты
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-5 pb-5">
                             <div class="col-lg-3 col-6">
                                 <img class="food-img" src="{{ asset('images/14.png') }}" alt="">
                             </div>

@@ -395,6 +395,10 @@ img.sun {
     border: none;
     height: 41px;
 }
+.shadow-lg {
+    opacity: 0.15;
+}
+
 #call-back .form-control#exampleFormControlTextarea5 {
     height: 75px;
 }
