@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-fluid header" style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }});">
         <div class="row align-items-center justify-content-center pt-5" style="height: 300px;">
-            <h1 class="px-md-0 px-4" style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF;">Жизнь “Гномика” в фотографиях</h1>
+            <h1 class="px-md-0 px-4" style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF;">Жизнь “<img style="height: 40px;width: 135px; display: inline"  src="{{ asset('images/gnomik_white.png') }}">” в фотографиях</h1>
         </div>
     </div>
 
@@ -181,6 +181,8 @@
             event.preventDefault();
             $(this).ekkoLightbox();
         });
+        $("a.nav").css({"position": "absolute"});
+
     </script>
     @endpush
 

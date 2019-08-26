@@ -8,7 +8,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 10%;">
-                    <h1 class="text-media text-white blok1-h1">
+                    <h1 class="text-media text-white blok1-h1 text-center">
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД "ГНОМИК"
                     </h1>
@@ -126,7 +126,7 @@
                                  style="padding-top:8%; padding-bottom:7%;">
                                 <p class="text-white text-fut-bold mb-2"
                                    style="padding: 1%;font-size: 24px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «Гномик»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">»
                                 </p>
                                 <p>
                                     <button class="py-lg-3 py-2 px-3 text-fut-light btn"
@@ -182,8 +182,8 @@
                         <div class="row fixedheight">
                             <div class="col-lg-6 col-md-12 col-12"
                                  style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
-                                <p class="text-white text-fut-bold" style="font-size: 24px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «Гномик»
+                                <p class="text-white text-fut-bold" style="font-size: 23px; line-height: 31px;">
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">»
                                 </p>
                                 <p>
                                     <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
@@ -721,7 +721,7 @@
                             <h6>мама</h6>
                         </div>
                         <div class="item">
-                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «Гномик»! Все было на
+                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ asset('images/gnomik_white.png') }}">»! Все было на
                                 высшем уровне! Спасибо за ваш труд. Мы были в восторге, а дети до космоса счастливы. Ну
                                 а подарочки всегда самые крутые!</p>
                             <h5 class="mb-0">Асель Бакыт</h5>
@@ -781,7 +781,7 @@
             <div class="col-lg-5 col-md-6 col-12 align-self-center pt-lg-5 pt-0" style="padding-left: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 4%;">Открытие нашего
                     второго филиала!</h2>
-                <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">Гномик в новом
+                <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}"> в новом
                     формате</p>
                 <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">СКОРО!</p>
             </div>

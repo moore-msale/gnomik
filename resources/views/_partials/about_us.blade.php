@@ -21,7 +21,7 @@ border-radius: 10px; z-index:-500;">
                             от 2 до 7 лет.
                         </p>
                         <p class="text-fut-light text-white" style="font-size: 23px; line-height: 25px; padding-top: 10%;">
-                            Частный детский сад «Гномик» имеет ряд преимуществ:
+                            Частный детский сад «<img style="height: 24px;width: 80px; display: inline"  src="{{ asset('images/gnomik_white.png') }}">» имеет ряд преимуществ:
                         </p>
                     </div>
                     <img class="clouds d-md-block d-none" style="position: absolute; right:-30%; bottom:-15%;"
