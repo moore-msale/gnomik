@@ -66,7 +66,9 @@
         </div>
     </div>
 
+    <div class="container-fluid" id="about_us">
     @include('_partials.about_us')
+    </div>
     @include('_partials.features')
 
     <div class="container-fluid">

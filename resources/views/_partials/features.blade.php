@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 col-lg-8">
             <div class="row">
-                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2"
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
                     <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6  pt-4">
@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2"
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
                     <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6  pt-4">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2"
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
                     <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6 pt-4">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2" style="background-color: #EF827F;">
+                <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect" style="background-color: #EF827F;">
                     <div class="d-flex pr-lg-3 pr-0">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">

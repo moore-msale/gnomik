@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8f19e6e-8d11-411a-8c05-c01a165b3c44" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_partials/about_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/about_us.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_partials/features.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/features.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gallery.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/lessons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lessons.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
@@ -193,7 +192,7 @@
       <workItem from="1564570902710" duration="5866000" />
       <workItem from="1564629593551" duration="18614000" />
       <workItem from="1566536170177" duration="21081000" />
-      <workItem from="1566788734193" duration="3717000" />
+      <workItem from="1566788734193" duration="4723000" />
     </task>
     <servers />
   </component>

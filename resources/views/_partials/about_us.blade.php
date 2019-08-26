@@ -1,4 +1,4 @@
-<div class="container-fluid" id="about_us">
+
     <div class="no-bg row"
          style="padding-top:5%; background-image: url({{ asset('images/secbg.png') }}); background-size: cover;">
         <div class="col-12 text-center pb-lg-0 pb-0">
@@ -104,4 +104,4 @@ border-radius: 10px; z-index:-500;">
             </div>
         </div>
     </div>
-</div>
+

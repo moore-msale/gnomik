@@ -6,6 +6,7 @@
             <h1 style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF;">Список занятий</h1>
         </div>
     </div>
+    <div class="container-fluid">
     <div class="row align-items-center">
         <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pr-lg-5">
             <p class="text-fut-light ml-3 mr-3 pl-lg-4 pr-lg-4"
@@ -17,6 +18,7 @@
         <div class="col-lg-6 col-md-6 text-md-left text-center">
             <img class="w-75" src="{{ asset('images/pic.png') }}" alt="">
         </div>
+    </div>
     </div>
 
     <div class="container-fluid pt-3" id="courses">
