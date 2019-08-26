@@ -35,7 +35,7 @@
 }
 .menu-point
 {
-    font-size: 21px;
+    font-size: 1.3rem;
 }
 .main-logo
 {
@@ -686,7 +686,18 @@ p {
         padding-bottom: 8%!important;
     }
 }
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+    .menu-point {
+        font-size: 1.1rem;
+    }
+}
+
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .menu-point
+    {
+        font-size: 1.0rem;
+    }
+
     .sun
     {
         left:0%!important;
@@ -708,4 +719,5 @@ p {
     {
         height:100%;
     }
+
 }

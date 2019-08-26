@@ -14,18 +14,18 @@
                     </h1>
 
                     <div class="container-fluid row pt-2 nomarnopad">
-                        <div class="col-lg-2 col-3">
+                        <div class="col-lg-2 col-3 p-2">
                             <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main1.png')}}"
                                  alt="">
                         </div>
-                        <div class="col-lg-4 col-9">
+                        <div class="col-lg-4 col-9 p-2">
                             <span class="text-fut-light text-white blok1-span">Малыши чувствуют заботу и внимание воспитателей с первых дней пребывания  в нашем саду</span>
                         </div>
-                        <div class="col-lg-2 col-3">
+                        <div class="col-lg-2 col-3 p-2">
                             <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main2.png')}}"
                                  alt="">
                         </div>
-                        <div class="col-lg-4 col-9">
+                        <div class="col-lg-4 col-9 p-2">
                             <span class="text-fut-light text-white blok1-span">Команда профессиональных педагогов обеспечивает всестороннее развитие личности ребенка</span>
                         </div>
                     </div>
@@ -67,7 +67,6 @@
     </div>
 
     @include('_partials.about_us')
-
     @include('_partials.features')
 
     <div class="container-fluid">

@@ -23,7 +23,7 @@
                             <a href="/gallery" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-3" id="pick">
-                            <a href="#event" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Мероприятия</a>
+                            <a href="\#event" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Мероприятия</a>
                         </li>
                         <li class="nav-item p-3" id="pick">
                             <a href="#footer" class="text-white menu-point" style="font-family: Coiny; text-decoration: none;">Контакты</a>

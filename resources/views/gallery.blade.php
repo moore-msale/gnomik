@@ -12,33 +12,33 @@
         </div>
     </div>
 
-    <div class="container-fluid gallery-block pt-lg-0 pt-3">
+    <div class="container-fluid gallery-block pt-lg-0 pt-3 ">
         <ul class="col-lg-10 col-md-12 col-10 justify-content-around ml-auto mr-auto pr-0 nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
-            <li class="nav-item pr-3 mt-lg-0 mt-3">
+            <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 5 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #ffbd87;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
                    data-toggle="tab" href="#общие" role="tab" aria-controls=""
                    aria-selected="true">Общие</a>
             </li>
-            <li class="nav-item pr-3 mt-lg-0 mt-3">
+            <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 1 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #FFA4A3;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
                    data-toggle="tab" href="#спальные" role="tab" aria-controls=""
                    aria-selected="true">Спальные места</a>
             </li>
-            <li class="nav-item pr-3 mt-lg-0 mt-3">
+            <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 2 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #F9FF85;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
                    data-toggle="tab" href="#столовая" role="tab" aria-controls=""
                    aria-selected="true">Столовая</a>
             </li>
-            <li class="nav-item pr-3 mt-lg-0 mt-3">
+            <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light {{ isset($id) && $id == 3 ? 'active show' : '' }}"
                    style="width: 207px;height: 54px;background: #92D7FE;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
                    data-toggle="tab" href="#игровая" role="tab" aria-controls=""
                    aria-selected="true">Игровая</a>
             </li>
-            <li class="nav-item pr-3 mt-lg-0 mt-3">
+            <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
                 <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light  {{ isset($id) && $id == 4 ? 'active' : '' }}"
                    style="width: 207px;height: 54px;background: #BEF077;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
                    data-toggle="tab" href="#сад" role="tab" aria-controls=""
