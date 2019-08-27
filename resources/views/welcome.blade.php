@@ -202,33 +202,33 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-12">
+                        <a href="{{ asset('gallery/4') }}" class="col-lg-12 col-md-12 col-12">
                             <div class="container"
                                  style="padding-top:48%; padding-bottom:48%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
-                                <a href="{{ asset('gallery/4') }}">
+                                <div>
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%; ">
                                         Сад
                                     </p>
-                                </a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="container-fluid pt-3 d-md-none d-block">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12 h40 padbot">
+                        <a  href="{{ asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot">
                             <div class="container"
                                  style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                                <a href="{{ asset('gallery/2') }}">
+                                <div>
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                         Столовая
                                     </p>
-                                </a>
+                                </div>
                             </div>
-                        </div>
+                        </a>
 
                         <div class="testt col-lg-8 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
                             <div class="row">
@@ -240,7 +240,7 @@
                                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                                 Игровая
                                             </p>
-                                        </a>
+                                        </a href="{{ asset('gallery/1') }}">
                                     </div>
                                 </div>
                             </div>
@@ -313,16 +313,16 @@
                 </div>
             </div>
             <div class="tab-content col-12" id="myTabContent">
-                <div class="tab-pane fade active show" id="каша" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade active show  shadow-lg pt-5 pb-5" id="каша" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 Каши и фрукты
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-4">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/1-1.png') }}" alt="">
+                                <img class="food-img" src="https://st03.kakprosto.ru//images/article/2011/2/1/1_5254f394af4c85254f394af508.jpg" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold" style="font-size: 29px; line-height: 32px;">
@@ -338,7 +338,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/2.png') }}" alt="">
+                                <img class="food-img" src="http://happiness.belfood.by/uploads/image/img/49/%D1%8F%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE-%D0%B1%D0%B0%D0%BD%D0%B0%D0%BD.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <h3 class="text-fut-bold" style="font-size: 29px; line-height: 32px;">
@@ -354,7 +354,7 @@
                 </div>
 
 
-                <div class="tab-pane fade" id="завтраки" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="завтраки" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -363,7 +363,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/3-1.png') }}" alt="">
+                                <img class="food-img" src="http://efprod.ru/wp-content/uploads/2015/09/sir.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -374,7 +374,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/4-1.png') }}" alt="">
+                                <img class="food-img" src="http://kira-scrap.ru/KATALOG/EDA/1/0_8b64f_8fa09c43_M.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -387,7 +387,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="полдник" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="полдник" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -396,7 +396,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/5-1.png') }}" alt="">
+                                <img class="food-img" src="https://st37.stblizko.ru/images/product/193/480/857_original.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -408,7 +408,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/6-1.png') }}" alt="">
+                                <img class="food-img" src="http://тортики-пироженки.рф/img/Transparent_Muffin_Large_PNG_Picture.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -422,7 +422,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="напитки" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="напитки" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -431,7 +431,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/7.png') }}" alt="">
+                                <img class="food-img" src="http://bonfit.ru/upload/iblock/743/7432c955e90eaa1b129b4214ae76da5a.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
@@ -444,7 +444,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/8.png') }}" alt="">
+                                <img class="food-img" src="https://globusgurme.ru/upload/iblock/191/191f9c5d18c2dd4c95ae8e1b274e042c310_310_thumb.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold pt-lg-0 pt-4" style="font-size: 25px; line-height: 32px;">
@@ -460,7 +460,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="супы" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="супы" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -469,7 +469,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/9.png') }}" alt="">
+                                <img class="food-img" src="https://fasol.tv/upload/iblock/907/90714810662a963d87a7689b540a01b6.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -481,7 +481,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/10.png') }}" alt="">
+                                <img class="food-img" src="http://www.karotes.lv/content/img/zupas/__500/vistas_galas_zupa.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -495,8 +495,8 @@
                         </div>
 
                         <div class="row justify-content-center" style="padding-top: 3%;">
-                            <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/11.png') }}" alt="">
+                            <div class="col-lg-3 col-6 pt-lg-0 pt-5 pb-5">
+                                <img class="food-img" src="https://darpizza.com/image/cache/catalog/products/pervie_bluda/lapsha-500x500.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -516,16 +516,16 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="второе" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="второе" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 На второе
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-5 pb-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/12.png') }}" alt="">
+                                <img class="food-img" src="https://shop.barportal.by/image/cache/data-producti-pitaniya-myaso-polyfabrikaty-plov-s-kuricey-600x600.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -536,7 +536,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/13.png') }}" alt="">
+                                <img class="food-img" src="http://ani-mangal.in.ua/images/stories/virtuemart/product/franc.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -550,16 +550,16 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="салаты" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="салаты" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 Салаты
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-5 pb-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="{{ asset('images/14.png') }}" alt="">
+                                <img class="food-img" src="http://старфудс.рф/wp-content/uploads/2016/11/IMG_7880-390x310.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -570,7 +570,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="{{ asset('images/15.png') }}" alt="">
+                                <img class="food-img" src="https://darpizza.com/image/cache/catalog/products/salats/olive-500x500.png" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <div class="d-flex pr-lg-3 pr-0">
+                    <a href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%; ">
                                 Культурный
@@ -18,11 +18,11 @@
                                  src="{{'images/point1.png'}}" alt="">
                             <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point1.png'}}" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <div class="d-flex pr-lg-3 pr-0">
+                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Праздники
@@ -34,11 +34,11 @@
                                  src="{{'images/point2.png'}}" alt="">
                             <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point2.png'}}" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <div class="d-flex pr-lg-3 pr-0">
+                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Экскурсии
@@ -50,10 +50,10 @@
                                  src="{{'images/point3.png'}}" alt="">
                             <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point3.png'}}" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect" style="background-color: #EF827F;">
-                    <div class="d-flex pr-lg-3 pr-0">
+                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Активный
@@ -67,7 +67,7 @@
                                  src="{{'images/point4.png'}}" alt="">
                             <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point4.png'}}" alt="">
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
