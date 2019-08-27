@@ -10,7 +10,7 @@
                 <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 10%;">
                     <h1 class="text-media text-white blok1-h1 text-center">
                         ЧАСТНЫЙ ДЕТСКИЙ
-                        <br>САД "ГНОМИК"
+                        <br>САД <img style="height: 65px;width: 164px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">
                     </h1>
                     <div class="container-fluid row pt-2 nomarnopad">
                         <div class="col-lg-2 col-3 p-2">
