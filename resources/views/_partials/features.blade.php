@@ -11,7 +11,7 @@
                                 <br>
                                 отдых
                             </p>
-                            <img class="pt-3" src="{{'images/pointimg1.svg'}}" alt="">
+                            <img class="pt-1 mb-2" src="{{'images/pointimg1.svg'}}" alt="">
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
@@ -27,7 +27,7 @@
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Праздники
                             </p>
-                            <img class="pt-3" src="{{'images/pointimg2.svg'}}" alt="">
+                            <img class="pt-3 mt-3" src="{{'images/pointimg2.svg'}}" alt="">
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
@@ -43,7 +43,7 @@
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Экскурсии
                             </p>
-                            <img class="pt-3" src="{{'images/pointimg3.svg'}}" alt="">
+                            <img class="pt-3 mt-3" src="{{'images/pointimg3.svg'}}" alt="">
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
@@ -60,7 +60,7 @@
                                 <br>
                                 отдых
                             </p>
-                            <img class="pt-3" src="{{'images/pointimg4.svg'}}" alt="">
+                            <img class="pt-2 pb-3" src="{{'images/pointimg4.svg'}}" alt="">
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
