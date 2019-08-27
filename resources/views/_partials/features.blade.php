@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <a href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%; ">
                                 Культурный
@@ -22,7 +22,7 @@
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Праздники
@@ -38,7 +38,7 @@
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Экскурсии
@@ -53,7 +53,7 @@
                     </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect" style="background-color: #EF827F;">
-                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Активный

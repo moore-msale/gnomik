@@ -113,7 +113,7 @@
                     <div class="container">
                         <div class="row photos">
                             @foreach($galleries as $gallery)
-                                @if($gallery->type == "Садик")
+                                @if($gallery->type == "General")
                                     <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
