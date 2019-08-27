@@ -65,7 +65,7 @@
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
                                  src="{{'images/gallery_icon/active.svg'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallary_icon/active.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/active.svg'}}" alt="">
                         </div>
                     </a>
                 </div>

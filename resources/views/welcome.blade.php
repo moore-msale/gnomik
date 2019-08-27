@@ -127,7 +127,7 @@
                                  style="padding-top:8%; padding-bottom:7%;">
                                 <p class="text-white text-fut-bold mb-2"
                                    style="padding: 1%;font-size: 24px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
                                     <button class="py-lg-3 py-2 px-3 text-fut-light btn"
@@ -184,12 +184,12 @@
                             <div class="col-lg-6 col-md-12 col-12"
                                  style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
                                 <p class="text-white text-fut-bold" style="font-size: 23px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
                                     <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
                                             style="background-color: #518CDC; width: 210px;">
-                                        <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в
+                                        <a style="text-decoration: none;color: #fff;" href="/gallery/5">Перейти в
                                             галерею</a>
                                     </button>
                                 </p>
@@ -722,7 +722,7 @@
                             <h6>мама</h6>
                         </div>
                         <div class="item">
-                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ asset('images/gnomik_white.png') }}">»! Все было на
+                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ asset('images/logo_gnomik_white.svg') }}">»! Все было на
                                 высшем уровне! Спасибо за ваш труд. Мы были в восторге, а дети до космоса счастливы. Ну
                                 а подарочки всегда самые крутые!</p>
                             <h5 class="mb-0">Асель Бакыт</h5>
@@ -782,9 +782,9 @@
             <div class="col-lg-5 col-md-6 col-12 align-self-center pt-lg-5 pt-0" style="padding-left: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 4%;">Открытие нашего
                     второго филиала!</h2>
-                <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}"> в новом
+                <p class="pt-md-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 75px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> в новом
                     формате</p>
-                <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">СКОРО!</p>
+                <p class="pt-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">СКОРО!</p>
             </div>
             <div class="col-6"></div>
         </div>

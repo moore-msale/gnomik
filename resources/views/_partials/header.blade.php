@@ -60,13 +60,13 @@
                             <a href="/lessons" class="text-dark" style="font-family: Coiny; text-decoration: none;">Список занятий</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="/gallery" class="text-dark" style="font-family: Coiny; text-decoration: none;">Галерея</a>
+                            <a href="\#gallery" class="text-dark" style="font-family: Coiny; text-decoration: none;">Галерея</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="/#event" class="text-dark" style="font-family: Coiny; text-decoration: none;">Мероприятия</a>
+                            <a href="\#events" class="text-dark" style="font-family: Coiny; text-decoration: none;">Мероприятия</a>
                         </li>
                         <li class="nav-item p-2">
-                            <a href="#footer" class="text-dark" style="font-family: Coiny; text-decoration: none;">Контакты</a>
+                            <a href="#contact-us" class="text-dark" style="font-family: Coiny; text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>
