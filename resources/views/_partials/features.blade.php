@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg">
+        <div  class="col-12 col-lg">
             <p class="text-fut-light" style="font-size: 21px; line-height: 140%;">
                 Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
             </p>

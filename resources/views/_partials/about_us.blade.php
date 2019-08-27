@@ -76,7 +76,7 @@ border-radius: 10px; z-index:-500;">
                 </span>
                         </div>
                         <div class="col-10">
-                        <span class="text-fut-light" style="font-size: 21px; line-height: 19px;">
+                        <span id="events" class="text-fut-light" style="font-size: 21px; line-height: 19px;">
 Проводится подготовка к школе (тестирование)
                     </span>
                         </div>

@@ -44,6 +44,12 @@
                    data-toggle="tab" href="#сад" role="tab" aria-controls=""
                    aria-selected="true">Сад</a>
             </li>
+            <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light  {{ isset($id) && $id == 4 ? 'active' : '' }}"
+                   style="width: 207px;height: 54px;background: #BEF077;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
+                   data-toggle="tab" href="#сад" role="tab" aria-controls=""
+                   aria-selected="true">Мероприятия</a>
+            </li>
 
         </ul>
 
@@ -119,7 +125,7 @@
     </div>
 
     <div class="container-fluid pt-lg-5 pt-4" id="contact-us">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="padding-top: 100px">
             <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px;">Или приезжайте в гости знакомиться</h2>
         </div>
         <div class="container pt-lg-5 pt-3">

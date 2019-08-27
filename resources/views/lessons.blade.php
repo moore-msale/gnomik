@@ -160,7 +160,7 @@
             <p class="text-fut-bold ml-3 mr-3 pl-4 pr-4 pt-md-0 pt-4"
                style="font-family: Coiny;font-size: 26px;line-height: 28px;color: #000000;">Дополнительные услуги: детского сада “ <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">
                 ”</p>
-            <p class="text-fut-light ml-3 mr-3 pl-4 pr-4"
+            <p id="contact-us" class="text-fut-light ml-3 mr-3 pl-4 pr-4"
                style="margin-top: 1%;font-size: 23px;line-height: 21px;color: #000000;">Уважаемые родители, мы с
                 удовольствием сообщаем Вам об услуге, которой Вы можете воспользоваться, если у Вас возникает
                 потребность поручить нам ребёнка на день,сутки, неделю и более (в выходные, праздничные и в будние

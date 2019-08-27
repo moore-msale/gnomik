@@ -71,6 +71,7 @@
     </div>
     @include('_partials.features')
 
+
     <div class="container-fluid">
         <div class="row pb-lg-5 pb-5"
              style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom;">
@@ -111,7 +112,7 @@
         </div>
     </div>
 
-    <div class="w-100" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
+    <div class="w-100" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;" id="gallery">
         <div class="container" id="gallery">
             <div class="row nopadsides padsides">
                 <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
@@ -131,7 +132,7 @@
                                 <p>
                                     <button class="py-lg-3 py-2 px-3 text-fut-light btn"
                                             style="background-color: #518CDC; width: 210px;">
-                                        <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в
+                                        <a style="text-decoration: none;color: #fff;" href="/gallery/5">Перейти в
                                             галерею </a>
                                     </button>
                                 </p>
@@ -218,17 +219,17 @@
 
                 <div class="container-fluid pt-3 d-md-none d-block">
                     <div class="row">
-                        <a  href="{{ asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot">
+                        <div class="col-lg-4 col-md-6 col-12 h40 padbot">
                             <div class="container"
                                  style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                                <div>
+                                <a  href="{{ asset('gallery/2') }}">
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                         Столовая
                                     </p>
-                                </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
 
                         <div class="testt col-lg-8 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
                             <div class="row">
@@ -240,7 +241,7 @@
                                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                                 Игровая
                                             </p>
-                                        </a href="{{ asset('gallery/1') }}">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -825,7 +826,7 @@
                             <input type="text" class="form-control" id="form-phone" placeholder="Номер">
                         </div>
 
-                        <div class="form-group">
+                        <div id="contact-us" class="form-group">
                             <textarea class="form-control" id="form-message" rows="3"
                                       placeholder="Коментарии"></textarea>
                         </div>
