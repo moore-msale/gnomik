@@ -12,7 +12,6 @@
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД "ГНОМИК"
                     </h1>
-
                     <div class="container-fluid row pt-2 nomarnopad">
                         <div class="col-lg-2 col-3 p-2">
                             <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main1.png')}}"
