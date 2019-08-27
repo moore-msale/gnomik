@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d8f19e6e-8d11-411a-8c05-c01a165b3c44" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/bass.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/photo5402197457204522539.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/photo5402197457204522542.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/photo5404479480703068952.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/photo5404479480703068953.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/photo5404511465324522361.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery_icon/tort.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/_partials/features.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_partials/features.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gallery.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -15,8 +15,8 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point1.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point1.png'}}" alt="">
+                                 src="{{'images/gallery_icon/point1.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/point1.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
@@ -31,8 +31,8 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point2.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point2.png'}}" alt="">
+                                 src="{{'images/gallery_icon/prazd.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/prazd.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
@@ -47,8 +47,8 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point3.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point3.png'}}" alt="">
+                                 src="{{'images/gallery_icon/ex.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/ex.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
@@ -63,9 +63,9 @@
                             <img class="pt-3" src="{{'images/pointimg4.svg'}}" alt="">
                         </div>
                         <div class="col-6 px-lg-3 px-0">
-                            <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%; border-radius: 50%; width: 100px;"
-                                 src="{{'images/gallery_icon/bass.jpg'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point4.png'}}" alt="">
+                            <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
+                                 src="{{'images/gallery_icon/active.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallary_icon/active.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
