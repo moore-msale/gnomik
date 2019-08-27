@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <a href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%; ">
                                 Культурный
@@ -15,14 +15,14 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point1.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point1.png'}}" alt="">
+                                 src="{{'images/gallery_icon/point1.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/point1.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6  pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Праздники
@@ -31,14 +31,14 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point2.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point2.png'}}" alt="">
+                                 src="{{'images/gallery_icon/prazd.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/prazd.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
-                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Экскурсии
@@ -47,13 +47,13 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point3.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point3.png'}}" alt="">
+                                 src="{{'images/gallery_icon/ex.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/ex.svg'}}" alt="">
                         </div>
                     </a>
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect" style="background-color: #EF827F;">
-                    <a  href="{{ asset('gallery/5') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
+                    <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
                         <div class="col-6 pt-4">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Активный
@@ -64,8 +64,8 @@
                         </div>
                         <div class="col-6 px-lg-3 px-0">
                             <img class="d-lg-block d-none" style="position: absolute; top:-11%; right:-35%;"
-                                 src="{{'images/point4.png'}}" alt="">
-                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/point4.png'}}" alt="">
+                                 src="{{'images/gallery_icon/active.svg'}}" alt="">
+                            <img class="d-lg-none d-block w-100 pt-lg-0 pt-3" src="{{'images/gallery_icon/active.svg'}}" alt="">
                         </div>
                     </a>
                 </div>

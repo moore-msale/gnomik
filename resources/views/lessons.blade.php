@@ -10,7 +10,7 @@
     <div class="row align-items-center">
         <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pr-lg-5">
             <p class="text-fut-light ml-3 mr-3 pl-lg-4 pr-lg-4"
-               style="font-size: 24px;line-height: 30px;text-align: center;color: #000000; letter-spacing: 0.02em;">В «<img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">» за годы работы
+               style="font-size: 24px;line-height: 30px;text-align: center;color: #000000; letter-spacing: 0.02em;">В <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> за годы работы
                 сформировался собственный опыт, благодаря которому привыкание малыша к саду проходит в среднем за
                 неделю. Малыш становится своим в группе ребят, совместные игры – продолжительнее, а и их «сюжеты» всё
                 длиннее.</p>
@@ -24,7 +24,7 @@
     <div class="container-fluid pt-3" id="courses">
         <div class="row p-lg-5 p-md-3 p-3">
             <p class="text-fut-bold ml-lg-3 mr-lg-3 pl-lg-4 pr-lg-4 text-md-left text-center"
-               style="font-family: Coiny;font-size: 26px;line-height: 30px;color: #000000;">В частном детском саду “<img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">” проводятся
+               style="font-family: Coiny;font-size: 26px;line-height: 30px;color: #000000;">В частном детском саду <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> проводятся
                 следующие учебно-воспитательные занятия:</p>
         </div>
         <div class="container-fluid row">
@@ -158,9 +158,8 @@
         </div>
         <div class="row p-lg-5">
             <p class="text-fut-bold ml-3 mr-3 pl-4 pr-4 pt-md-0 pt-4"
-               style="font-family: Coiny;font-size: 26px;line-height: 28px;color: #000000;">Дополнительные услуги: детского сада “ <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">
-                ”</p>
-            <p class="text-fut-light ml-3 mr-3 pl-4 pr-4"
+               style="font-family: Coiny;font-size: 26px;line-height: 28px;color: #000000;">Дополнительные услуги: детского сада <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"></p>
+            <p id="contact-us" class="text-fut-light ml-3 mr-3 pl-4 pr-4"
                style="margin-top: 1%;font-size: 23px;line-height: 21px;color: #000000;">Уважаемые родители, мы с
                 удовольствием сообщаем Вам об услуге, которой Вы можете воспользоваться, если у Вас возникает
                 потребность поручить нам ребёнка на день,сутки, неделю и более (в выходные, праздничные и в будние

@@ -12,7 +12,6 @@
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД "ГНОМИК"
                     </h1>
-
                     <div class="container-fluid row pt-2 nomarnopad">
                         <div class="col-lg-2 col-3 p-2">
                             <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main1.png')}}"
@@ -71,6 +70,7 @@
     </div>
     @include('_partials.features')
 
+
     <div class="container-fluid">
         <div class="row pb-lg-5 pb-5"
              style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom;">
@@ -111,7 +111,7 @@
         </div>
     </div>
 
-    <div class="w-100" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;">
+    <div class="w-100" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;" id="gallery">
         <div class="container" id="gallery">
             <div class="row nopadsides padsides">
                 <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
@@ -126,12 +126,12 @@
                                  style="padding-top:8%; padding-bottom:7%;">
                                 <p class="text-white text-fut-bold mb-2"
                                    style="padding: 1%;font-size: 24px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
                                     <button class="py-lg-3 py-2 px-3 text-fut-light btn"
                                             style="background-color: #518CDC; width: 210px;">
-                                        <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в
+                                        <a style="text-decoration: none;color: #fff;" href="/gallery/5">Перейти в
                                             галерею </a>
                                     </button>
                                 </p>
@@ -183,12 +183,12 @@
                             <div class="col-lg-6 col-md-12 col-12"
                                  style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
                                 <p class="text-white text-fut-bold" style="font-size: 23px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/gnomik_note.png') }}">»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
                                     <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
                                             style="background-color: #518CDC; width: 210px;">
-                                        <a style="text-decoration: none;color: #fff;" href="/gallery">Перейти в
+                                        <a style="text-decoration: none;color: #fff;" href="/gallery/5">Перейти в
                                             галерею</a>
                                     </button>
                                 </p>
@@ -218,17 +218,17 @@
 
                 <div class="container-fluid pt-3 d-md-none d-block">
                     <div class="row">
-                        <a  href="{{ asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot">
+                        <div class="col-lg-4 col-md-6 col-12 h40 padbot">
                             <div class="container"
                                  style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                                <div>
+                                <a  href="{{ asset('gallery/2') }}">
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                         Столовая
                                     </p>
-                                </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
 
                         <div class="testt col-lg-8 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
                             <div class="row">
@@ -240,7 +240,7 @@
                                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                                 Игровая
                                             </p>
-                                        </a href="{{ asset('gallery/1') }}">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -721,7 +721,7 @@
                             <h6>мама</h6>
                         </div>
                         <div class="item">
-                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ asset('images/gnomik_white.png') }}">»! Все было на
+                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ asset('images/logo_gnomik_white.svg') }}">»! Все было на
                                 высшем уровне! Спасибо за ваш труд. Мы были в восторге, а дети до космоса счастливы. Ну
                                 а подарочки всегда самые крутые!</p>
                             <h5 class="mb-0">Асель Бакыт</h5>
@@ -781,9 +781,9 @@
             <div class="col-lg-5 col-md-6 col-12 align-self-center pt-lg-5 pt-0" style="padding-left: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 4%;">Открытие нашего
                     второго филиала!</h2>
-                <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/gnomik_note.png') }}"> в новом
+                <p class="pt-md-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 75px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> в новом
                     формате</p>
-                <p style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">СКОРО!</p>
+                <p class="pt-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">СКОРО!</p>
             </div>
             <div class="col-6"></div>
         </div>
@@ -825,7 +825,7 @@
                             <input type="text" class="form-control" id="form-phone" placeholder="Номер">
                         </div>
 
-                        <div class="form-group">
+                        <div id="contact-us" class="form-group">
                             <textarea class="form-control" id="form-message" rows="3"
                                       placeholder="Коментарии"></textarea>
                         </div>

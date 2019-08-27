@@ -1,4 +1,4 @@
-<div class="container-fluid pt-5 mt-lg-5 mt-0" id="contact-us">
+<div class="container-fluid pt-5 mt-lg-5 mt-0">
     <div class="row justify-content-center">
         <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px; padding-bottom: 2%;">Или приезжайте в гости знакомиться</h2>
     </div>
