@@ -45,9 +45,9 @@
                    aria-selected="true">Сад</a>
             </li>
             <li class="nav-item pr-3 mt-lg-0 mt-3 p-md-2">
-                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light  {{ isset($id) && $id == 4 ? 'active' : '' }}"
-                   style="width: 207px;height: 54px;background: #BEF077;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
-                   data-toggle="tab" href="#сад" role="tab" aria-controls=""
+                <a class="d-flex justify-content-center align-items-center nav-link p-md-2 text-center text-fut-light  {{ isset($id) && $id == 6 ? 'active' : '' }}"
+                   style="width: 207px;height: 54px;background: #80fff6;border-radius: 10px;color:#000;font-family: 'Futura PT Bold';font-size: 20px;"
+                   data-toggle="tab" href="#мероприятия" role="tab" aria-controls=""
                    aria-selected="true">Мероприятия</a>
             </li>
 
@@ -109,6 +109,19 @@
                 </div>
             </div>
             <div class="tab-pane fade {{ isset($id) && $id == 5 ? 'active show' : '' }}" id="общие" role="tabpanel" aria-labelledby="">
+                <div class="photo-gallery">
+                    <div class="container">
+                        <div class="row photos">
+                            @foreach($galleries as $gallery)
+                                @if($gallery->type == "Садик")
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade {{ isset($id) && $id == 6 ? 'active show' : '' }}" id="мероприятия" role="tabpanel" aria-labelledby="">
                 <div class="photo-gallery">
                     <div class="container">
                         <div class="row photos">
