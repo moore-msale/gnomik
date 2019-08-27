@@ -129,11 +129,10 @@
                                     Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
-                                    <button class="py-lg-3 py-2 px-3 text-fut-light btn"
-                                            style="background-color: #518CDC; width: 210px;">
-                                        <a style="text-decoration: none;color: #fff;" href="/gallery/5">Перейти в
-                                            галерею </a>
-                                    </button>
+                                    <a href="/gallery/5" class="py-lg-3 py-2 px-3 text-fut-light btn"
+                                            style="background-color: #518CDC; width: 210px;" style="text-decoration: none;color: #fff;">Перейти в
+                                            галерею
+                                    </a>
                                 </p>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
@@ -144,37 +143,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="hover-effect col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
+                <a href="{{ asset('gallery/4') }}" class="hover-effect col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
                      style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
-                    <a href="{{ asset('gallery/4') }}">
                         <p class="text-fut-bold pl-4 pb-3"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
                             Сад
                         </p>
                     </a>
-                </div>
 
-                <div class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
+                <a href="{{ asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
                     <div class="hover-effect "
                          style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                        <a href="{{ asset('gallery/2') }}">
                             <p class="text-fut-bold  pb-3 pl-3"
                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom: 0">
                                 Столовая
                             </p>
-                        </a>
+                       
                     </div>
-                </div>
+                 </a>
 
-                <div class="hover-effect col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
+                <a href="{{ asset('gallery/3') }}" class="hover-effect col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
                      style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
-                    <a href="{{ asset('gallery/3') }}">
+    
                         <p class="text-fut-bold pl-4 pb-3"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
                             Игровая
                         </p>
                     </a>
-                </div>
+
 
                 <div class="col-lg-8 col-md-8 col-12 d-md-none d-block">
                     <div class="container"
@@ -186,11 +182,9 @@
                                     Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
-                                    <button class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
-                                            style="background-color: #518CDC; width: 210px;">
-                                        <a style="text-decoration: none;color: #fff;" href="/gallery/5">Перейти в
-                                            галерею</a>
-                                    </button>
+                                    <a href="/gallery/5"  class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
+                                            style="background-color: #518CDC; width: 210px;">Перейти в галерею
+                                    </a>
                                 </p>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12 d-lg-block d-md-none d-none">
