@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Futura PT Light';
     src: local('Futura PT Light'), local('Futura-PT-Light'),
-    /*url('/fonts/FuturaPT-Light.woff2') format('woff2'),*/
-    /*url('/fonts/FuturaPT-Light.woff') format('woff'),*/
-    /*url('/fonts/FuturaPT-Light.ttf') format('truetype');*/
+        /*url('/fonts/FuturaPT-Light.woff2') format('woff2'),*/
+        /*url('/fonts/FuturaPT-Light.woff') format('woff'),*/
+        /*url('/fonts/FuturaPT-Light.ttf') format('truetype');*/
     url('/fonts/FuturaPTLight.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
@@ -576,7 +576,7 @@ button:focus {
 
 
 .blok1-h1 {
-    font-size: 55px;
+    font-size: 3.0rem;
     line-height: 120%;
     font-family: 'Coiny';
 }
@@ -646,6 +646,33 @@ p {
     position: absolute;
 }
 
+.owl-dots {
+    display: none;
+}
+/*@media screen and (min-width: 700px) {*/
+/*    .connect p {*/
+/*        font-size: 28px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 600px) and (max-width: 699px) {*/
+/*    .connect p {*/
+/*        font-size: 25px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 500px) and (max-width: 599px) {*/
+/*    .connect p {*/
+/*        font-size: 21px;*/
+/*    }*/
+/*}*/
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .car-media {
+        height: 550px;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .footer-fix
     {
@@ -665,9 +692,8 @@ p {
         padding-left:0%!important;
         padding-right:0%!important;
     }
-    .car-media
-    {
-        height:650px;
+    .car-media {
+        height: 550px;
     }
     #news
     {

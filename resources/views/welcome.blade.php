@@ -8,7 +8,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 10%;">
-                    <h1 class="text-media text-white blok1-h1 text-center">
+                    <h1 class="text-media text-white blok1-h1 text-center title-h">
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД <img style="height: 65px;width: 164px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">
                     </h1>
@@ -66,7 +66,7 @@
     </div>
 
     <div class="container-fluid" id="about_us">
-    @include('_partials.about_us')
+        @include('_partials.about_us')
     </div>
     @include('_partials.features')
 
@@ -101,9 +101,8 @@
                     дома.
                 </p>
 
-                <button class="py-lg-3 px-lg-5 py-2 px-3 text-fut-light btn" style="background-color: #518CDC;">
-                    <a style="text-decoration: none;color: #fff;" href="/lessons">Перейти к списку занятий </a>
-                </button>
+                <a class="py-lg-3 px-lg-5 py-2 px-3 text-fut-light btn" style="background-color: #518CDC;text-decoration: none;color: #fff;" href="/lessons">Перейти к списку занятий
+                </a>
             </div>
             <div class="col-6 pt-5">
                 <img class="d-lg-block d-none in-bottom img-fluid" src="{{ asset('images/kid.png')  }}" alt="">
@@ -130,8 +129,8 @@
                                 </p>
                                 <p>
                                     <a href="/gallery/5" class="py-lg-3 py-2 px-3 text-fut-light btn"
-                                            style="background-color: #518CDC; width: 210px;" style="text-decoration: none;color: #fff;">Перейти в
-                                            галерею
+                                       style="background-color: #518CDC; width: 210px;" style="text-decoration: none;color: #fff;">Перейти в
+                                        галерею
                                     </a>
                                 </p>
                             </div>
@@ -144,12 +143,12 @@
                     </div>
                 </div>
                 <a href="{{ asset('gallery/4') }}" class="hover-effect col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
-                     style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
-                        <p class="text-fut-bold pl-4 pb-3"
-                           style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
-                            Сад
-                        </p>
-                    </a>
+                   style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
+                    <p class="text-fut-bold pl-4 pb-3"
+                       style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
+                        Сад
+                    </p>
+                </a>
 
                 <a href="{{ asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
                     <div class="hover-effect "
@@ -158,19 +157,18 @@
                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom: 0">
                                 Столовая
                             </p>
-                       
+
                     </div>
                  </a>
 
                 <a href="{{ asset('gallery/3') }}" class="hover-effect col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
                      style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
-    
+
                         <p class="text-fut-bold pl-4 pb-3"
                            style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
                             Игровая
                         </p>
                     </a>
-
 
                 <div class="col-lg-8 col-md-8 col-12 d-md-none d-block">
                     <div class="container"
@@ -183,7 +181,7 @@
                                 </p>
                                 <p>
                                     <a href="/gallery/5"  class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
-                                            style="background-color: #518CDC; width: 210px;">Перейти в галерею
+                                       style="background-color: #518CDC; width: 210px;">Перейти в галерею
                                     </a>
                                 </p>
                             </div>
@@ -630,7 +628,7 @@
 
     <div class="container pt-lg-5 pt-0 mt-5 mb-5 pb-lg-5 pb-0" id="certificates">
         <div class="col-12 text-center pb-lg-5 pb-3">
-            <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Наши сертификаты</h2>
+            <h2 style="font-family: Coiny; font-size: 2.1rem; line-height: 43px;">Наши сертификаты</h2>
         </div>
 
         <div class="container-fluid">
@@ -659,12 +657,12 @@
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                               <img src="{{ asset('images/certificates/4.jpg') }}" alt="">
+                                <img src="{{ asset('images/certificates/4.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                               <img class="w-50 mx-auto" src="{{ asset('images/certificates/9.jpg') }}" alt="">
+                                <img class="w-50 mx-auto" src="{{ asset('images/certificates/9.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
@@ -674,7 +672,7 @@
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                               <img src="{{ asset('images/certificates/8.jpg') }}" alt="">
+                                <img src="{{ asset('images/certificates/8.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
@@ -684,10 +682,10 @@
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                               <img src="{{ asset('images/certificates/10.jpg') }}" alt="">
+                                <img src="{{ asset('images/certificates/10.jpg') }}" alt="">
                             </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -802,9 +800,9 @@
                         - Копии паспортов родителей <br>
                     </p>
                 </div>
-                <div class="col-lg-5 col-md-6 col-12 pt-md-0 pt-5">
+                <div class="col-lg-5 col-md-6 col-12 pt-md-0 pt-5 align-items-center m-md-auto">
 
-                    <form>
+                    <form class=" text-md-center justify-content-center">
                         <div class="send-success-mail p-1 d-none">
                             <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-white"
                                                                                             style="font-family:'Coiny'; font-size:12px;">Отзыв успешно отправлен!</span>

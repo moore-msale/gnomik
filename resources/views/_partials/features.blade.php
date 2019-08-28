@@ -1,11 +1,11 @@
 <div class="container" id="event" style="padding-bottom: 7%;">
-    <div class="row">
+    <div class="row  align-items-center justify-content-center m-auto">
         <div class="col-12 col-lg-8">
             <div class="row">
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
                     <a href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
-                        <div class="col-6  pt-4">
+                        <div class="col-6  pt-4 mr-3">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%; ">
                                 Культурный
                                 <br>
@@ -23,7 +23,7 @@
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
                     <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
-                        <div class="col-6  pt-4">
+                        <div class="col-6  pt-4 mr-3">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Праздники
                             </p>
@@ -39,7 +39,7 @@
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect"
                      style="background-color: #EF827F;">
                     <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
-                        <div class="col-6 pt-4">
+                        <div class="col-6 pt-4 mr-3">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Экскурсии
                             </p>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="endf col-lg-5 col-md-6 col-12 mb-2 mr-2 hover-effect" style="background-color: #EF827F;">
                     <a  href="{{ asset('gallery/6') }}" class="d-flex pr-lg-3 pr-0" style="text-decoration: none;">
-                        <div class="col-6 pt-4">
+                        <div class="col-6 pt-4 mr-3">
                             <p class="text-white text-fut-bold" style="font-size: 19px; line-height: 140%;">
                                 Активный
                                 <br>
