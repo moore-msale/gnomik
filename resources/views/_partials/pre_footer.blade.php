@@ -1,23 +1,15 @@
-<<<<<<< Updated upstream
-<div class="container-fluid pt-5 mt-lg-5 mt-0">
-    <div class="row justify-content-center">
-=======
 <div class="container pt-5 mt-lg-5 mt-0">
     <div class="row container-fluid justify-content-center">
->>>>>>> Stashed changes
+
         <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px; padding-bottom: 2%;">Или приезжайте в гости знакомиться</h2>
     </div>
     <div class="row align-items-center justify-content-center">
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center">
                 <img src="{{ asset('images/phone-call.png')  }}" alt="">
-<<<<<<< Updated upstream
-                <p class="text-fut-light ml-3" style="font-size: 20px;color: #000;">(0556) 75-94-44</p>
-=======
                 <p class="text-fut-light ml-3 w-75" style="font-size: 20px;color: #000;">
                     <a href="tel:+996556759444" style="text-decoration:none; color: #000000;">(0556) 75-94-44</a>
                 </p>
->>>>>>> Stashed changes
             </div>
         </div>
 
