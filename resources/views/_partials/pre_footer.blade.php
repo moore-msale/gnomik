@@ -6,14 +6,14 @@
 
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <a href="tel:+996556759444" class="d-flex align-items-center" style="text-decoration:none;">
-                <img src="{{ asset('images/phone-call.png')  }}" alt="">
+                <img src="{{ asset('images/phone-call.png')  }}" class="w-5" alt="">
                 <p class="text-fut-light ml-3" style="font-size: 20px;color: #000;">(0556) 75-94-44</p>
             </a>
         </div>
 
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center">
-                <img src="{{ asset('images/map-location.png')  }}" alt="">
+                <img src="{{ asset('images/map-location.png')  }}" class="w-5" alt="">
                 <p class="text-fut-light ml-3 w-75" style="font-size: 20px;color: #000;">ул. Радищева 23 (ул.
                     Советская/Дружбы,
                     магазин ”Планета электроники”)</p>
@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center">
-                <img src="{{ asset('images/time.png')  }}" alt="">
+                <img src="{{ asset('images/time.png')  }}" class="w-25" alt="">
                 <p class="text-fut-light ml-3" style="font-size: 20px;color: #000;">Время работы детского сада с 7.30
                     до 18.30</p>
             </div>

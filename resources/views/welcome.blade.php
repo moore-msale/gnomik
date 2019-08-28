@@ -800,7 +800,7 @@
                         - Копии паспортов родителей <br>
                     </p>
                 </div>
-                <div class="col-lg-5 col-md-6 col-12 pt-md-0 pt-5">
+                <div class="col-lg-5 col-md-6 col-12 pt-md-0 pt-5 align-items-center m-md-auto">
 
                     <form class=" text-md-center justify-content-center">
                         <div class="send-success-mail p-1 d-none">
