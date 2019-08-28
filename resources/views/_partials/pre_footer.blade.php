@@ -27,11 +27,11 @@
             </div>
         </div>
     </div>
-    <div class="row justify-content-around justify-content-md-center pt-lg-5 pt-5">
+    <div class="row justify-content-around justify-content-md-center pt-lg-5 pt-5 col-10 m-auto">
         <div class="col-auto">
             <div class="soc-icons">
                 <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img
-                        src="{{ asset('images/instagram.svg') }}" alt=""></a>
+                        src="{{ asset('images/instagram.svg') }}"  alt=""></a>
             </div>
         </div>
         <div class="col-auto">
