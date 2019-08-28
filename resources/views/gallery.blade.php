@@ -60,7 +60,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Спальня")
-                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}"  data-fancybox="gallery1"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
@@ -74,7 +74,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Столовая")
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-fancybox="gallery2"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
@@ -88,7 +88,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Игровая")
-                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-fancybox="gallery3"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
@@ -101,7 +101,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Сад")
-                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/gallery/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-fancybox="gallery4"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
@@ -114,7 +114,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "General")
-                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-fancybox="gallery5"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
@@ -127,7 +127,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Общие")
-                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-fancybox="gallery6"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
