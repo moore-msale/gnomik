@@ -156,20 +156,21 @@
                 </ul>
             </div>
         </div>
-        <div class="row p-lg-5 text-md-left">
-            <p class="text-fut-bold ml-3 mr-3 pl-4 pr-4 pt-md-0 pt-4 text-md-left"
-               style="font-family: Coiny;font-size: 26px;line-height: 28px;color: #000000;">Дополнительные услуги: детского сада <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"></p>
-            <p id="contact-us" class="text-fut-light ml-3 mr-3 pl-4 pr-4"
-               style="margin-top: 1%;font-size: 23px;line-height: 21px;color: #000000; text-align: left;">Уважаемые родители, мы с
+        <div class="row p-lg-5">
+            <p class="text-fut-bold ml-3 mr-3 pt-md-0 pt-4"
+               style="font-family: Coiny;font-size: 26px;line-height: 28px;color: #000000; text-align: left;">Дополнительные услуги: детского сада <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"></p>
+            <p id="contact-us" class="text-fut-light pl-3 pr-4 mt-4"
+               style=" text-align: left!important;margin-top: 1%;font-size: 23px;line-height: 21px;color: #000000;">Уважаемые родители, мы с
                 удовольствием сообщаем Вам об услуге, которой Вы можете воспользоваться, если у Вас возникает
                 потребность поручить нам ребёнка на день,сутки, неделю и более (в выходные, праздничные и в будние
                 дни).</p>
         </div>
+
     </div>
 
-
-
     @include('_partials.pre_footer')
+
+
 
     <div class="container-fluid" id="divider-before-map"></div>
     <div class="container-fluid pl-0 pr-0" id="map-block">

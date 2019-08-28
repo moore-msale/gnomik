@@ -647,6 +647,9 @@ p {
     position: absolute;
     opacity: 1;
 }
+.owl-dots {
+    display: none;
+}
 /*@media screen and (min-width: 700px) {*/
 /*    .connect p {*/
 /*        font-size: 28px;*/
@@ -666,7 +669,9 @@ p {
 /*}*/
 
 @media screen and (min-width: 300px) and (max-width: 499px) {
-
+    .car-media {
+        height: 550px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -678,6 +683,7 @@ p {
     {
         background-image: none!important;
     }
+
     .transform-0
     {
         transform: translateX(0)!important;
@@ -688,9 +694,8 @@ p {
         padding-left:0%!important;
         padding-right:0%!important;
     }
-    .car-media
-    {
-        height:650px;
+    .car-media {
+        height: 550px;
     }
     #news
     {
