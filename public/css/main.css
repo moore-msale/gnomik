@@ -670,7 +670,7 @@ p {
 
 @media screen and (min-width: 300px) and (max-width: 499px) {
     .car-media {
-        height: 550px;
+        height: 450px;
     }
 }
 
