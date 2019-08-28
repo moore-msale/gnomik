@@ -1,6 +1,6 @@
-<div class="container-fluid pt-5 mt-lg-5 mt-0">
-    <div class="row justify-content-center">
-        <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px; padding-bottom: 2%;">Или приезжайте в гости знакомиться</h2>
+<div class="container-fluid pt-4 mt-lg-5 mt-0">
+    <div class="p-3 row text-md-left justify-content-center">
+        <h2 style="font-family: Coiny; font-size: 30px; line-height: 33px">Или приезжайте в гости знакомиться</h2>
     </div>
     <div class="row  align-items-center justify-content-center">
 
@@ -10,6 +10,7 @@
                 <p class="text-fut-light ml-3 w-75" style="font-size: 20px;color: #000;">(0556) 75-94-44</p>
             </a>
         </div>
+
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center">
                 <img src="{{ asset('images/map-location.png')  }}" class="w-5" alt="">
