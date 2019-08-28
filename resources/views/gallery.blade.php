@@ -74,7 +74,7 @@
                         <div class="row photos">
                             @foreach($galleries as $gallery)
                                 @if($gallery->type == "Столовая")
-                            <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4 item text-center pt-lg-4 pt-4"><a href="{{ asset('storage/'.$gallery->image)  }}" data-lightbox="photos"><img class="img-fluid" src="{{ asset('storage/'.$gallery->image)  }}"></a></div>
                                 @endif
                             @endforeach
                         </div>
@@ -146,7 +146,7 @@
                 <div class="col-lg-4 col-md-4 col-12">
                     <div class="phone">
                         <img src="{{ asset('images/phone-call.png')  }}" alt="">
-                        <p class="text-fut-light" style="font-size: 20px;color: #000;">(0556) 75-94-44</p>
+                        <a href="tel:+996556759444" class="text-fut-light" style="font-size: 20px;color: #000; text-decoration:none;">(0556) 75-94-44</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
@@ -167,20 +167,19 @@
                 <div class="col-4"> </div>
                 <div class="col-lg-4 col-md-4 col-12 pl-lg-5 pr-lg-5">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-4">
+                        <div class="row justify-content-around justify-content-md-center">
+                            <div class="col-auto">
                                 <div class="soc-icons">
-                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img src="{{ asset('images/instagram.png') }}" alt=""></a>
+                                    <a href="https://www.instagram.com/detskiy_sad_gnomik/">
+                                        <img src="{{ asset('images/instagram.svg') }}" alt="">
+                                    </a>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-auto">
                                 <div class="soc-icons">
-                                    <img src="{{ asset('images/fb.png') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="soc-icons">
-                                    <img src="{{ asset('images/whattsapp.png') }}" alt="">
+                                    <a href="https://wa.me/+996556759444/" class="soc-icons">
+                                        <img src="{{ asset('images/whattsapp.svg') }}" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -195,14 +194,13 @@
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HYAqAFk578JUrPPqoesDQW3JtaSLwgdK" width="100%" height="550"></iframe>
     </div>
     @push('scripts')
-    <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-        $("a.nav").css({"position": "absolute"});
-
-    </script>
+        <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+            $("a.nav").css({"position": "absolute"});
+        </script>
     @endpush
 
 @endsection

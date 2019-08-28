@@ -1,4 +1,3 @@
-
 <nav class="navbar menuse navbar-expand-lg py-0 w-100 pr-0 d-lg-block d-none container-fluid" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
     <div class="container">
         <div class="row w-100">
@@ -74,5 +73,3 @@
         </div>
     </div>
 </nav>
-
-

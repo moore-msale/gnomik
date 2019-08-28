@@ -7,18 +7,18 @@
         </div>
     </div>
     <div class="container-fluid">
-    <div class="row align-items-center">
-        <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pr-lg-5">
-            <p class="text-fut-light ml-3 mr-3 pl-lg-4 pr-lg-4"
-               style="font-size: 24px;line-height: 30px;text-align: center;color: #000000; letter-spacing: 0.02em;">В <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> за годы работы
-                сформировался собственный опыт, благодаря которому привыкание малыша к саду проходит в среднем за
-                неделю. Малыш становится своим в группе ребят, совместные игры – продолжительнее, а и их «сюжеты» всё
-                длиннее.</p>
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12 pl-lg-5 pr-lg-5">
+                <p class="text-fut-light ml-3 mr-3 pl-lg-4 pr-lg-4"
+                   style="font-size: 24px;line-height: 30px;text-align: center;color: #000000; letter-spacing: 0.02em;">В <img style="height: 30px;width: 95px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> за годы работы
+                    сформировался собственный опыт, благодаря которому привыкание малыша к саду проходит в среднем за
+                    неделю. Малыш становится своим в группе ребят, совместные игры – продолжительнее, а и их «сюжеты» всё
+                    длиннее.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 text-md-left text-center">
+                <img class="w-75" src="{{ asset('images/pic.png') }}" alt="">
+            </div>
         </div>
-        <div class="col-lg-6 col-md-6 text-md-left text-center">
-            <img class="w-75" src="{{ asset('images/pic.png') }}" alt="">
-        </div>
-    </div>
     </div>
 
     <div class="container-fluid pt-3" id="courses">

@@ -4,10 +4,10 @@
     </div>
     <div class="row align-items-center justify-content-center">
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
-            <div class="d-flex align-items-center justify-content-center">
+            <a href="tel:+996556759444" class="d-flex align-items-center justify-content-center" style="text-decoration:none;">
                 <img src="{{ asset('images/phone-call.png')  }}" alt="">
                 <p class="text-fut-light ml-3" style="font-size: 20px;color: #000;">(0556) 75-94-44</p>
-            </div>
+            </a>
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center">
@@ -29,18 +29,13 @@
         <div class="col-auto">
             <div class="soc-icons">
                 <a href="https://www.instagram.com/detskiy_sad_gnomik/"><img
-                            src="{{ asset('images/instagram.svg') }}" alt=""></a>
+                        src="{{ asset('images/instagram.svg') }}" alt=""></a>
             </div>
         </div>
         <div class="col-auto">
-            <div class="soc-icons">
-                <img src="{{ asset('images/fb.svg') }}" alt="">
-            </div>
-        </div>
-        <div class="col-auto">
-            <div class="soc-icons">
+            <a href="https://wa.me/+996556759444/" class="soc-icons">
                 <img src="{{ asset('images/whattsapp.svg') }}" alt="">
-            </div>
+            </a>
         </div>
     </div>
 </div>
