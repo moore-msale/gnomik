@@ -2,8 +2,8 @@
 @section('content')
     <div class="container-fluid header"
          style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }});">
-        <div class="row align-items-center justify-content-center  pt-5" style="height: 300px;">
-            <h1 style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF;">Список занятий</h1>
+        <div class="row align-items-center text-md-center justify-content-center  pt-5" style="height: 300px;">
+            <h1 class=" text-md-center" style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF;">Список занятий</h1>
         </div>
     </div>
     <div class="container-fluid">

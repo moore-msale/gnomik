@@ -8,7 +8,7 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 10%;">
-                    <h1 class="text-media text-white blok1-h1 text-center">
+                    <h1 class="text-media text-white blok1-h1 text-center title-h">
                         ЧАСТНЫЙ ДЕТСКИЙ
                         <br>САД <img style="height: 65px;width: 164px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">
                     </h1>
@@ -100,9 +100,8 @@
                     дома.
                 </p>
 
-                <button class="py-lg-3 px-lg-5 py-2 px-3 text-fut-light btn" style="background-color: #518CDC;">
-                    <a style="text-decoration: none;color: #fff;" href="/lessons">Перейти к списку занятий </a>
-                </button>
+                <a class="py-lg-3 px-lg-5 py-2 px-3 text-fut-light btn" style="background-color: #518CDC;text-decoration: none;color: #fff;" href="/lessons">Перейти к списку занятий
+                </a>
             </div>
             <div class="col-6 pt-5">
                 <img class="d-lg-block d-none in-bottom img-fluid" src="{{ asset('images/kid.png')  }}" alt="">
@@ -629,7 +628,7 @@
 
     <div class="container pt-lg-5 pt-0 mt-5 mb-5 pb-lg-5 pb-0" id="certificates">
         <div class="col-12 text-center pb-lg-5 pb-3">
-            <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Наши сертификаты</h2>
+            <h2 style="font-family: Coiny; font-size: 2.1rem; line-height: 43px;">Наши сертификаты</h2>
         </div>
 
         <div class="container-fluid">
@@ -803,7 +802,7 @@
                 </div>
                 <div class="col-lg-5 col-md-6 col-12 pt-md-0 pt-5">
 
-                    <form>
+                    <form class=" text-md-center justify-content-center">
                         <div class="send-success-mail p-1 d-none">
                             <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-white"
                                                                                             style="font-family:'Coiny'; font-size:12px;">Отзыв успешно отправлен!</span>
