@@ -650,30 +650,12 @@ p {
 .owl-dots {
     display: none;
 }
-/*@media screen and (min-width: 700px) {*/
-/*    .connect p {*/
-/*        font-size: 28px;*/
-/*    }*/
-/*}*/
 
-/*@media screen and (min-width: 600px) and (max-width: 699px) {*/
-/*    .connect p {*/
-/*        font-size: 25px;*/
-/*    }*/
-/*}*/
-
-/*@media screen and (min-width: 500px) and (max-width: 599px) {*/
-/*    .connect p {*/
-/*        font-size: 21px;*/
-/*    }*/
-/*}*/
-
-@media screen and (min-width: 300px) and (max-width: 499px) {
+@media screen and (min-width: 321px) and (max-width: 499px) {
     .car-media {
         height: 450px;
     }
 }
-
 @media only screen and (max-width: 700px) {
     .footer-fix
     {
@@ -737,6 +719,23 @@ p {
         position: absolute;
         opacity: 1;
     }
+
+    .call-a {
+        animation: none!important;
+        border-radius: 0!important;
+        bottom: 1%!important;
+        width: 20%!important;
+        height: 8%!important;
+    }
+
+    .wa-a {
+        animation: none!important;
+        bottom: 1%!important;
+        border-radius: 0!important;
+        width: 20%!important;
+        height: 8%!important;
+    }
+
 }
 @media only screen and (max-width: 1400px) and (min-width: 1000px) {
     .menu-point {
@@ -772,22 +771,23 @@ p {
         height:100%;
     }
 
-}
 
+}
 
 /* Icons */
 
 .call-a {
-    background:#00D9C0;
-    border:2px solid #00D9C0;
+    background:#9EAEED;
+    border:2px solid #9EAEED;
     border-radius:70px!important;
     height:68px;
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:68px;
     position: fixed;
     left: 4%;
     bottom: 9%;
-    padding: 1%;
     transition:.3s;
     -webkit-animation:hoverWave linear 1s infinite;
     animation:hoverWave linear 1s infinite;
@@ -800,47 +800,49 @@ p {
     -webkit-animation: 1200ms ease 0s normal none 1 running shake;
     -webkit-animation-iteration-count: infinite;
 }
+
 @-webkit-keyframes hoverWave {
     0% {
-        box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 0 rgba(0, 217, 192, 0.2),0 0 0 0 rgba(0, 217, 192, 0.2)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 0 rgba(158, 174, 237 0.2),0 0 0 0 rgba(158, 174, 237 0.2)
     }
     40% {
-        box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 15px rgba(0, 217, 192, 0.2),0 0 0 0 rgba(0, 217, 192, 0.2)
+        box-shadow:0 8px 10px rgba(158, 174, 237 0.3),0 0 0 15px rgba(158, 174, 237 0.2),0 0 0 0 rgba(158, 174, 237, 0.2)
     }
     80% {
-        box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 30px rgba(0, 217, 192, 0),0 0 0 26.7px rgba(0, 217, 192, 0.07)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237, 0),0 0 0 26.7px rgba(158, 174, 237, 0.07)
     }
     100% {
-        box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 30px rgba(0, 217, 192, 0),0 0 0 40px rgba(0, 217, 192, 0)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237, 0),0 0 0 40px rgba(158, 174, 237, 0)
     }
 }@keyframes hoverWave {
      0% {
-         box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 0 rgba(0, 217, 192, 0.2),0 0 0 0 rgba(0, 217, 192, 0.2)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 0 rgba(0, 217, 192, 0.2),0 0 0 0 rgba(158, 174, 237, 0.2)
      }
      40% {
-         box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 15px rgba(0, 217, 192, 0.2),0 0 0 0 rgba(0, 217, 192, 0.2)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 15px rgba(158, 174, 237, 0.2),0 0 0 0 rgba(158, 174, 237, 0.2)
      }
      80% {
-         box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(0, 217, 192, 0.07)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237,0),0 0 0 26.7px rgba(158, 174, 237, 0.07)
      }
      100% {
-         box-shadow:0 8px 10px rgba(0, 217, 192, 0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237,0),0 0 0 40px rgba(158, 174, 237,0.0)
      }
  }
 
 /*кнопка обратной связи*/
 
 .wa-a {
-    background: #25d366;
-    border:2px solid #25d366;
+    background: #9EAEED;
+    border:2px solid #9EAEED;
     border-radius:70px!important;
     height:68px;
-    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:68px;
     position: fixed;
     right: 4%;
     bottom: 9%;
-    padding: 1%;
     transition:.3s;
     -webkit-animation:email-an linear 1s infinite;
     animation:email-an linear 1s infinite;
@@ -856,30 +858,30 @@ p {
 
 @-webkit-keyframes email-an {
     0% {
-        box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 0 rgba(37, 211, 102, 0.2),0 0 0 0 rgba(37, 211, 102, 0.2)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 0 rgba(158, 174, 237, 0.2),0 0 0 0 rgba(158, 174, 237, 0.2)
     }
     40% {
-        box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 15px rgba(37, 211, 102, 0.2),0 0 0 0 rgba(37, 211, 102, 0.2)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 15px rgba(158, 174, 237,0.2),0 0 0 0 rgba(158, 174, 237, 0.2)
     }
     80% {
-        box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 30px rgba(37, 211, 102, 0),0 0 0 26.7px rgba(37, 211, 102, 0.07)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237,0),0 0 0 26.7px rgba(158, 174, 237, 0.07)
     }
     100% {
-        box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 30px rgba(37, 211, 102, 0),0 0 0 40px rgba(37, 211, 102, 0)
+        box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237,0),0 0 0 40px rgba(158, 174, 237, 0)
     }
 }
 @keyframes email-an {
      0% {
-         box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 0 rgba(37, 211, 102, 0.2),0 0 0 0 rgba(37, 211, 102, 0.2)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 0 rgba(158, 174, 237,0.2),0 0 0 0 rgba(158, 174, 237,0.2)
      }
      40% {
-         box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 15px rgba(37, 211, 102, 0.2),0 0 0 0 rgba(37, 211, 102, 0.2)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 15px rgba(158, 174, 237,0.2),0 0 0 0 rgba(158, 174, 237,0.2)
      }
      80% {
-         box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 26.7px rgba(37, 211, 102, 0.07)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237,0),0 0 0 26.7px rgba(158, 174, 237,0.07)
      }
      100% {
-         box-shadow:0 8px 10px rgba(37, 211, 102, 0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 40px rgba(37, 211, 102, 0)
+         box-shadow:0 8px 10px rgba(158, 174, 237, 0.3),0 0 0 30px rgba(158, 174, 237,0),0 0 0 40px rgba(158, 174, 237,0)
      }
  }
 
