@@ -3,7 +3,7 @@
         <div class="row w-100">
             <div class="col-md-1 col-4 px-4 logs logs3 pt-3">
                 <a href="/" style="">
-                    <img class="logo main-logo" src="{{asset('images/logo.png')}}" alt="">
+                    <img class="logo main-logo" src="{{secure_asset('images/logo.png')}}" alt="">
                 </a>
             </div>
             <div class="col-md-11 col-8 collapse navbar-collapse"  id="navbarSupportedContent">
@@ -38,7 +38,7 @@
         <div class="row w-100">
             <div class="col-lg-1 col-4 px-4 py-2">
                 <a href="/">
-                    <img class="w-50" src="{{asset('images/logo.png')}}" alt="">
+                    <img class="w-50" src="{{secure_asset('images/logo.png')}}" alt="">
                 </a>
             </div>
             <div class="col-auto my-auto ml-auto d-xl-none px-0">
