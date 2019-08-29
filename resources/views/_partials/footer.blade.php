@@ -8,10 +8,10 @@
                 <br>© 2019</p></div>
     </div>
     <div>
-        <a class="call-a align-items-center" href="tel: +996556759444">
+        <a class="call-a align-items-center" href="tel: +996556759444" style="text-decoration:none;">
             <i class="call-ic fa fa-phone fa-2x"></i>
         </a>
-        <a class="wa-a" href="https://api.whatsapp.com/send?phone=996556759444">
+        <a class="wa-a" href="https://api.whatsapp.com/send?phone=996556759444" style="text-decoration:none;">
             <i class="wa-ic fab fa-whatsapp fa-2x"></i>
         </a>
     </div>
