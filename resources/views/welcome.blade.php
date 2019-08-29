@@ -3,25 +3,25 @@
 @endpush
 @section('content')
     <div class="" id="main"
-         style="padding-top:7%; background-image: url({{ asset('images/mainbg.png') }});background-position: bottom; background-size: cover;">
+         style="padding-top:7%; background-image: url({{ secure_asset('images/mainbg.png') }});background-position: bottom; background-size: cover;">
         <div class="container-fluid main-ht" style="padding-left: 8%; padding-bottom:10%;">
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12 text-coin" style="padding-top: 10%;">
                     <h1 class="text-media text-white blok1-h1 text-center title-h">
                         ЧАСТНЫЙ ДЕТСКИЙ
-                        <br>САД <img style="height: 65px;width: 164px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">
+                        <br>САД <img style="height: 65px;width: 164px; display: inline"  src="{{ secure_asset('images/logo_gnomik.svg') }}">
                     </h1>
                     <div class="container-fluid row pt-2 nomarnopad">
                         <div class="col-lg-2 col-3 p-2">
-                            <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main1.png')}}"
+                            <img class="img-in-first-block" style="width: 100%;" src="{{secure_asset('images/main1.png')}}"
                                  alt="">
                         </div>
                         <div class="col-lg-4 col-9 p-2">
                             <span class="text-fut-light text-white blok1-span">Малыши чувствуют заботу и внимание воспитателей с первых дней пребывания  в нашем саду</span>
                         </div>
                         <div class="col-lg-2 col-3 p-2">
-                            <img class="img-in-first-block" style="width: 100%;" src="{{asset('images/main2.png')}}"
+                            <img class="img-in-first-block" style="width: 100%;" src="{{secure_asset('images/main2.png')}}"
                                  alt="">
                         </div>
                         <div class="col-lg-4 col-9 p-2">
@@ -44,11 +44,10 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 col-12 pb-lg-0 pb-5">
-                    <img class="w-100" src="{{ asset('images/bmain.png') }}" alt="">
+                    <img class="w-100" src="{{ secure_asset('images/bmain.png') }}" alt="">
                     <div class="container-fluid row nomarnopad d-lg-none d-block" style="padding-top: 5%;">
                         <div class="col-12 text-left" style="padding-left: 40%;">
                             <p class="text-white text-slogan" style="font-family: 'Segoe Print'; font-size:25px; line-height: 44px;
-
   transform: rotate(-22.54deg);
   -webkit-transform: rotate(-22.54deg);
   -moz-transform: rotate(-22.54deg);
@@ -73,19 +72,19 @@
 
     <div class="container-fluid">
         <div class="row pb-lg-5 pb-5"
-             style="background-image: url('{{asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom;">
+             style="background-image: url('{{secure_asset('images/sector.jpg')}}'); background-size: cover; background-position: bottom;">
             <div class="col-lg-6 col-12" style="padding-left:12%; padding-top: 5%;">
                 <h2 class="" style="font-family: Coiny; font-size: 39px; line-height: 43px; color: white;">
                     О наших занятиях
                 </h2>
 
                 <p class="maxwidth" style="padding-top:10%;">
-                    <img src="{{asset('images/31.svg')}}" alt="">
-                    <img src="{{asset('images/32.svg')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/33.svg')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/34.svg')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/35.svg')}}" style="padding-left:5%;" alt="">
-                    <img src="{{asset('images/36.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{secure_asset('images/31.svg')}}" alt="">
+                    <img src="{{secure_asset('images/32.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{secure_asset('images/33.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{secure_asset('images/34.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{secure_asset('images/35.svg')}}" style="padding-left:5%;" alt="">
+                    <img src="{{secure_asset('images/36.svg')}}" style="padding-left:5%;" alt="">
                 </p>
 
                 <p class="text-fut-light"
@@ -105,12 +104,12 @@
                 </a>
             </div>
             <div class="col-6 pt-5">
-                <img class="d-lg-block d-none in-bottom img-fluid" src="{{ asset('images/kid.png')  }}" alt="">
+                <img class="d-lg-block d-none in-bottom img-fluid" src="{{ secure_asset('images/kid.png')  }}" alt="">
             </div>
         </div>
     </div>
 
-    <div class="w-100" style="background-image: url('{{ asset('images/5.png') }}'); background-size:cover;" id="gallery">
+    <div class="w-100" style="background-image: url('{{ secure_asset('images/5.png') }}'); background-size:cover;" id="gallery">
         <div class="container" id="gallery">
             <div class="row nopadsides padsides">
                 <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
@@ -125,7 +124,7 @@
                                  style="padding-top:8%; padding-bottom:7%;">
                                 <p class="text-white text-fut-bold mb-2"
                                    style="padding: 1%;font-size: 24px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ secure_asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
                                     <a href="/gallery/5" class="py-lg-3 py-2 px-3 text-fut-light btn"
@@ -142,33 +141,34 @@
                         </div>
                     </div>
                 </div>
-                <a href="{{ asset('gallery/4') }}" class="hover-effect col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
-                   style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
+                <a href="{{ secure_asset('gallery/4') }}" class="hover-effect col-lg-4 col-md-6 col-12 h40 d-md-block d-none mt-4"
+                   style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
                     <p class="text-fut-bold pl-4 pb-3"
                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
                         Сад
                     </p>
                 </a>
 
-                <a href="{{ asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
+                <a href="{{ secure_asset('gallery/2') }}" class="col-lg-4 col-md-6 col-12 h40 padbot d-md-block d-none mt-4">
                     <div class="hover-effect "
-                         style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                            <p class="text-fut-bold  pb-3 pl-3"
-                               style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom: 0">
-                                Столовая
-                            </p>
+                         style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
+                        <p class="text-fut-bold  pb-3 pl-3"
+                           style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom: 0">
+                            Столовая
+                        </p>
 
                     </div>
-                 </a>
+                </a>
 
-                <a href="{{ asset('gallery/3') }}" class="hover-effect col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
-                     style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
+                <a href="{{ secure_asset('gallery/3') }}" class="hover-effect col-lg-8 col-md-6 col-12 h40 mt-4 d-md-block d-none"
+                   style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
 
-                        <p class="text-fut-bold pl-4 pb-3"
-                           style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
-                            Игровая
-                        </p>
-                    </a>
+                    <p class="text-fut-bold pl-4 pb-3"
+                       style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0; left:0;">
+                        Игровая
+                    </p>
+                </a>
+
 
                 <div class="col-lg-8 col-md-8 col-12 d-md-none d-block">
                     <div class="container"
@@ -177,7 +177,7 @@
                             <div class="col-lg-6 col-md-12 col-12"
                                  style="padding-top:8%; padding-left: 5%; padding-bottom:8%;">
                                 <p class="text-white text-fut-bold" style="font-size: 23px; line-height: 31px;">
-                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">»
+                                    Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ secure_asset('images/logo_gnomik.svg') }}">»
                                 </p>
                                 <p>
                                     <a href="/gallery/5"  class="py-lg-3 py-2 px-lg-5 px-3 text-fut-light btn"
@@ -194,9 +194,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
                     <div class="row">
-                        <a href="{{ asset('gallery/4') }}" class="col-lg-12 col-md-12 col-12">
+                        <a href="{{ secure_asset('gallery/4') }}" class="col-lg-12 col-md-12 col-12">
                             <div class="container"
-                                 style="padding-top:48%; padding-bottom:48%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
+                                 style="padding-top:48%; padding-bottom:48%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_gar.jpg')}}); background-size: cover; border-radius: 10px;">
                                 <div>
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%; ">
@@ -212,8 +212,8 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-12 h40 padbot">
                             <div class="container"
-                                 style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                                <a  href="{{ asset('gallery/2') }}">
+                                 style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
+                                <a  href="{{ secure_asset('gallery/2') }}">
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                         Столовая
@@ -226,8 +226,8 @@
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-12">
                                     <div class="container"
-                                         style="padding-top:50%; padding-bottom:50%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
-                                        <a href="{{ asset('gallery/1') }}">
+                                         style="padding-top:50%; padding-bottom:50%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
+                                        <a href="{{ secure_asset('gallery/1') }}">
                                             <p class="text-fut-bold"
                                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                                 Игровая
@@ -245,7 +245,7 @@
 
 
     <div class="container-fluid" id="menu"
-         style="background-image: url({{ asset('images/6.png') }}); background-size: cover;">
+         style="background-image: url({{ secure_asset('images/6.png') }}); background-size: cover;">
         <div class="row pad-x-0" style="padding-left:9%; padding-right:9%;">
             <div class="col-12 text-center" style="margin-top: 10%; margin-bottom: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Пример меню на
@@ -253,7 +253,7 @@
                 <div class="container">
                     <div class="row justify-content-center flex-nowrap">
                         <img class="d-lg-block d-none col-1 mr-3" style="height: 100%;"
-                             src="{{asset('images/fruit1.png')}}" alt="">
+                             src="{{secure_asset('images/fruit1.png')}}" alt="">
                         <ul class="col-lg-10 col-12 justify-content-center pr-0 nav nav-tabs"
                             style="border:none!important;" id="myTab" role="tablist">
                             <li class="nav-item p-2">
@@ -299,7 +299,7 @@
                                    aria-selected="true">Салаты </a>
                             </li>
                         </ul>
-                        <img class="d-lg-block d-none col-1" style="height: 100%;" src="{{asset('images/fruit2.png')}}"
+                        <img class="d-lg-block d-none col-1" style="height: 100%;" src="{{secure_asset('images/fruit2.png')}}"
                              alt="">
                     </div>
                 </div>
@@ -600,9 +600,9 @@
                                                     <div class="col-lg-6 col-md-6 col-12">
                                                         <img class="d-md-block d-none"
                                                              style="position: absolute;transform: translateY(-25px);"
-                                                             src="{{ asset('storage/'.$teacher->image) }}" alt="">
+                                                             src="{{ secure_asset('storage/'.$teacher->image) }}" alt="">
                                                         <img class="d-md-none d-block"
-                                                             src="{{ asset('storage/'.$teacher->image) }}" alt="">
+                                                             src="{{ secure_asset('storage/'.$teacher->image) }}" alt="">
                                                     </div>
                                                     <div class="col-lg-6 col-md-6 col-12 align-self-center">
                                                         <h3 style="font-family: 'Futura PT Bold';font-size: 24px;line-height: 33px;color:#000;">
@@ -637,47 +637,47 @@
                     <div class="owl-carousel">
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img src="{{ asset('images/certificates/1.jpg') }}" alt="">
+                                <img src="{{ secure_asset('images/certificates/1.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img src="{{ asset('images/certificates/2.jpg') }}" alt="">
+                                <img src="{{ secure_asset('images/certificates/2.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img class="w-50 mx-auto" src="{{ asset('images/certificates/6.jpg') }}" alt="">
+                                <img class="w-50 mx-auto" src="{{ secure_asset('images/certificates/6.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img src="{{ asset('images/certificates/3.jpg') }}" alt="">
+                                <img src="{{ secure_asset('images/certificates/3.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img src="{{ asset('images/certificates/4.jpg') }}" alt="">
+                                <img src="{{ secure_asset('images/certificates/4.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img class="w-50 mx-auto" src="{{ asset('images/certificates/9.jpg') }}" alt="">
+                                <img class="w-50 mx-auto" src="{{ secure_asset('images/certificates/9.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img src="{{ asset('images/certificates/7.jpg') }}" alt="">
+                                <img src="{{ secure_asset('images/certificates/7.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img src="{{ asset('images/certificates/8.jpg') }}" alt="">
+                                <img src="{{ secure_asset('images/certificates/8.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
                             <div class="col-12">
-                                <img class="w-50 mx-auto" src="{{ asset('images/certificates/5.jpg') }}" alt="">
+                                <img class="w-50 mx-auto" src="{{ secure_asset('images/certificates/5.jpg') }}" alt="">
                             </div>
                         </div>
                         <div class="row justify-content-center item">
@@ -700,7 +700,7 @@
             <div class="row">
                 <div class="col-4"></div>
                 <div class="col-lg-5 col-md-5 col-12 mt-5 pt-0 paddingleft">
-                    <img src="{{ asset('images/right-quotation-mark.png') }}" alt="">
+                    <img src="{{ secure_asset('images/right-quotation-mark.png') }}" alt="">
                     <div id="feedback-carousel" class="owl-carousel owl-feedback pt-lg-5 pt-2">
                         <div class="item">
                             <p>Спасибо Вам за неимоверно теплую и добрую атмосферу. Приветливых воспитателей и
@@ -713,7 +713,7 @@
                             <h6>мама</h6>
                         </div>
                         <div class="item">
-                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ asset('images/logo_gnomik_white.svg') }}">»! Все было на
+                            <p>Новогодний праздник прошел на УРА! Спасибо самому лучшему садику «<img style="height: 24px;width: 65px; display: inline"  src="{{ secure_asset('images/logo_gnomik_white.svg') }}">»! Все было на
                                 высшем уровне! Спасибо за ваш труд. Мы были в восторге, а дети до космоса счастливы. Ну
                                 а подарочки всегда самые крутые!</p>
                             <h5 class="mb-0">Асель Бакыт</h5>
@@ -749,23 +749,23 @@
         <div class="row parallax-effects d-lg-block d-none">
             <div class="blokparallax">
                 <div class="parallax">
-                    <div class="water"><img class="" src="{{ asset('images/Ellipse.png') }}" alt=""></div>
+                    <div class="water"><img class="" src="{{ secure_asset('images/Ellipse.png') }}" alt=""></div>
                 </div>
             </div>
             <div class="blokparallax2">
                 <div class="parallax2">
-                    <div class="water"><img class="" src="{{ asset('images/Vector.png') }}" alt=""></div>
+                    <div class="water"><img class="" src="{{ secure_asset('images/Vector.png') }}" alt=""></div>
                 </div>
             </div>
             <div class="blokparallax3">
                 <div class="parallax2">
-                    <div class="water"><img class="" src="{{ asset('images/Ellipse-2.png') }}" alt=""></div>
+                    <div class="water"><img class="" src="{{ secure_asset('images/Ellipse-2.png') }}" alt=""></div>
                 </div>
             </div>
         </div>
         <div class="row row-with-animation3 d-lg-block d-none">
             <img class="sun" style="position:absolute;right:9%; top:15%; z-index: 0;"
-                 src="{{ asset('images/Polygon.png') }}" alt="">
+                 src="{{ secure_asset('images/Polygon.png') }}" alt="">
         </div>
 
         <div class="row h-100">
@@ -773,7 +773,7 @@
             <div class="col-lg-5 col-md-6 col-12 align-self-center pt-lg-5 pt-0" style="padding-left: 5%;">
                 <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 4%;">Открытие нашего
                     второго филиала!</h2>
-                <p class="pt-md-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 75px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}"> в новом
+                <p class="pt-md-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;"><img style="height: 30px;width: 75px; display: inline"  src="{{ secure_asset('images/logo_gnomik.svg') }}"> в новом
                     формате</p>
                 <p class="pt-2" style="font-family: Coiny; font-size: 28px; line-height: 22px; padding-bottom: 2%;">СКОРО!</p>
             </div>

@@ -13,9 +13,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="{{ asset('css/tagsinput.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/tagsinput.css') }}">
 @endpush
 
 @push('scripts')
-    <script src="{{ asset('js/tagsinput.js') }}"></script>
+    <script src="{{ secure_asset('js/tagsinput.js') }}"></script>
 @endpush
