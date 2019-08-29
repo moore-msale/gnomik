@@ -210,33 +210,32 @@
 
                 <div class="container-fluid pt-3 d-md-none d-block">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12 h40 padbot">
+                        <a  href="{{ secure_asset('gallery/2') }}" class="col-md-6 col-12 h40 padbot">
                             <div class="container"
                                  style="padding-top:50%; padding-bottom:50%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_kit.jpg')}}); background-size: cover; border-radius: 10px;">
-                                <a  href="{{ secure_asset('gallery/2') }}">
+                                <div>
                                     <p class="text-fut-bold"
                                        style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                         Столовая
                                     </p>
-                                </a>
+                                </div>
                             </div>
+                        </a>
                         </div>
 
-                        <div class="testt col-lg-8 col-md-6 col-12 mt-lg-0 mt-md-0 mt-3 d-md-none d-block">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-12">
+                            <div class="row pt-3">
+                                <a href="{{ secure_asset('gallery/1') }}" class="col-lg-12 col-md-12 col-12">
                                     <div class="container"
                                          style="padding-top:50%; padding-bottom:50%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{secure_asset('images/gal_game.jpg')}}); background-size: cover; border-radius: 10px;">
-                                        <a href="{{ secure_asset('gallery/1') }}">
+                                        <div>
                                             <p class="text-fut-bold"
                                                style="font-size:30px; line-height: 38px; color:white; position: absolute; bottom:0%; left:0%; padding-left:8%;">
                                                 Игровая
                                             </p>
-                                        </a>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
