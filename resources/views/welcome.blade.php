@@ -810,8 +810,8 @@
                         <div class="form-group">
                             <label
                                 style="font-weight: bold;font-size: 20px;line-height: 27px;text-align: center;color: #FFFFFF;">
-                                Заказать обратный звонок</label>
-                            <input type="text" class="form-control" id="form-name" placeholder="Имя">
+                                Записаться на лист ожидания</label>
+                            <input type="text" class="form-control" id="form-name" placeholder="ФИО">
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" id="form-phone" placeholder="Номер">
@@ -822,7 +822,7 @@
                                       placeholder="Коментарии"></textarea>
                         </div>
 
-                        <button id="ajax-message" type="submit" class="btn btn-submit">Перезвоните мне</button>
+                        <button id="ajax-message" type="submit" class="btn btn-submit">Записаться</button>
                     </form>
                 </div>
             </div>
@@ -833,8 +833,10 @@
 
     <div class="container-fluid footer-fix" id="divider-before-map"></div>
     <div class="container-fluid pl-0 pr-0" id="map-block">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HYAqAFk578JUrPPqoesDQW3JtaSLwgdK" width="100%"
-                height="550"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.8758142338893!2d74.60766521516513!3d42.85435531173515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb631247d21d9%3A0x2204385487219fd4!2z0J_Qu9Cw0L3QtdGC0LAg0Y3Qu9C10LrRgtGA0L7QvdC40LrQuA!5e0!3m2!1sru!2skg!4v1567055076899!5m2!1sru!2skg"
+                width="100%" height="550"></iframe>
+{{--        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HYAqAFk578JUrPPqoesDQW3JtaSLwgdK" width="100%"--}}
+{{--                height="550"></iframe>--}}
     </div>
 
     @push('scripts')

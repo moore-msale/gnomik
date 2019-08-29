@@ -21,7 +21,7 @@
         </div>
         <div class="col-lg-4 col-md-6 col-12 mb-5 mb-md-4 mb-lg-0">
             <div class="d-flex align-items-center justify-content-center">
-                <img src="{{ asset('images/time.png')  }}" class="w-25" alt="">
+                <img src="{{ asset('images/time.png')  }}" class="w-15" alt="">
                 <p class="text-fut-light ml-3" style="font-size: 20px;color: #000;">Время работы детского сада с 7.30
                     до 18.30</p>
             </div>
