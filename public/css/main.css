@@ -735,8 +735,14 @@ p {
         width: 20%!important;
         height: 8%!important;
     }
-
+    .wa-ic.fa-2x {
+        font-size: 1.5em!important;
+    }
+    .call-ic.fa-2x {
+        font-size: 1.5em!important;
+    }
 }
+
 @media only screen and (max-width: 1400px) and (min-width: 1000px) {
     .menu-point {
         font-size: 1.1rem;
@@ -770,8 +776,6 @@ p {
     {
         height:100%;
     }
-
-
 }
 
 /* Icons */
