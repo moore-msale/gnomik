@@ -4,27 +4,27 @@
         /*url('/fonts/FuturaPT-Light.woff2') format('woff2'),*/
         /*url('/fonts/FuturaPT-Light.woff') format('woff'),*/
         /*url('/fonts/FuturaPT-Light.ttf') format('truetype');*/
-    url('/fonts/FuturaPTLight.otf') format('opentype');
+    url('../fonts/FuturaPTLight.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Futura PT Bold';
     src: local('Futura PT Bold'), local('Futura-PT-Bold'),
-    url('/fonts/ofont.ru_Futura PT.ttf') format('truetype');
+    url('../fonts/ofont.ru_Futura PT.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: "Coiny";
     src: local('Coiny'), local('Coiny'),
-    url('/fonts/Coiny-Cyrillic.ttf') format('truetype');
+    url('../fonts/Coiny-Cyrillic.ttf') format('truetype');
 
 }
 @font-face {
     font-family: "Segoe Print";
     src: local('Segoe'), local('Segoe'),
-    url('/fonts/SegoePrintRegular.ttf') format('truetype');
+    url('../fonts/SegoePrintRegular.ttf') format('truetype');
 
 }
 .text-fut-bold {

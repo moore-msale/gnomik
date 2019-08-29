@@ -314,7 +314,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-4">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="https://st03.kakprosto.ru//images/article/2011/2/1/1_5254f394af4c85254f394af508.jpg" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/1_5254f394af4c85254f394af508.jpg')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold" style="font-size: 29px; line-height: 32px;">
@@ -330,7 +330,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="http://happiness.belfood.by/uploads/image/img/49/%D1%8F%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE-%D0%B1%D0%B0%D0%BD%D0%B0%D0%BD.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/apple.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <h3 class="text-fut-bold" style="font-size: 29px; line-height: 32px;">
@@ -355,7 +355,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="http://efprod.ru/wp-content/uploads/2015/09/sir.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/sir.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -366,7 +366,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="http://kira-scrap.ru/KATALOG/EDA/1/0_8b64f_8fa09c43_M.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/0_8b64f_8fa09c43_M.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -388,7 +388,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="https://st37.stblizko.ru/images/product/193/480/857_original.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/857_original.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -400,7 +400,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="http://тортики-пироженки.рф/img/Transparent_Muffin_Large_PNG_Picture.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/Transparent_Muffin_Large_PNG_Picture.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -423,7 +423,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="http://bonfit.ru/upload/iblock/743/7432c955e90eaa1b129b4214ae76da5a.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/7432c955e90eaa1b129b4214ae76da5a.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold" style="font-size: 25px; line-height: 32px;">
@@ -436,7 +436,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="https://globusgurme.ru/upload/iblock/191/191f9c5d18c2dd4c95ae8e1b274e042c310_310_thumb.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/191f9c5d18c2dd4c95ae8e1b274e042c310_310_thumb.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <h3 class="text-fut-bold pt-lg-0 pt-4" style="font-size: 25px; line-height: 32px;">
@@ -461,7 +461,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="https://fasol.tv/upload/iblock/907/90714810662a963d87a7689b540a01b6.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/90714810662a963d87a7689b540a01b6.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -473,7 +473,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="http://www.karotes.lv/content/img/zupas/__500/vistas_galas_zupa.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/vistas_galas_zupa.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -488,7 +488,7 @@
 
                         <div class="row justify-content-center" style="padding-top: 3%;">
                             <div class="col-lg-3 col-6 pt-lg-0 pt-5 pb-5">
-                                <img class="food-img" src="https://darpizza.com/image/cache/catalog/products/pervie_bluda/lapsha-500x500.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/lapsha-500x500.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -517,7 +517,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5 pb-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="https://shop.barportal.by/image/cache/data-producti-pitaniya-myaso-polyfabrikaty-plov-s-kuricey-600x600.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/data-producti-pitaniya-myaso-polyfabrikaty-plov-s-kuricey-600x600.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -528,8 +528,8 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="http://ani-mangal.in.ua/images/stories/virtuemart/product/franc.png" alt="">
-                            </div>
+                                <img class="food-img" src="{{secure_asset('images/menu/franc.png')}}" alt="">
+  </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
                                     Спагетти с мясным подливом <br>
@@ -551,7 +551,7 @@
                         </div>
                         <div class="row justify-content-center pt-lg-0 pt-5 pb-5">
                             <div class="col-lg-3 col-6">
-                                <img class="food-img" src="http://старфудс.рф/wp-content/uploads/2016/11/IMG_7880-390x310.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/IMG_7880-390x310.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
@@ -562,7 +562,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
-                                <img class="food-img" src="https://darpizza.com/image/cache/catalog/products/salats/olive-500x500.png" alt="">
+                                <img class="food-img" src="{{secure_asset('images/menu/olive-500x500.png')}}" alt="">
                             </div>
                             <div class="col-lg-3 col-6 pt-lg-0 pt-4">
                                 <p class="text-fut-light" style="font-size: 24px; line-height: 29px;">
