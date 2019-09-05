@@ -1,4 +1,4 @@
-<div class="container" id="event" style="padding-bottom: 7%;">
+<div class="container" style="padding-bottom: 7%;">
     <div class="row  align-items-center justify-content-center m-auto">
         <div class="col-12 col-lg-8">
             <div class="row">

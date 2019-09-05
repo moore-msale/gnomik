@@ -136,8 +136,10 @@
             </div>
         </div>
     </div>
+    <div id="contact-us" class="pt-5">
+        @include('_partials.pre_footer')
+    </div>
 
-    @include('_partials.pre_footer')
     <div class="container-fluid" id="divider-before-map"></div>
     <div class="container-fluid pl-0 pr-0" id="map-block">
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HYAqAFk578JUrPPqoesDQW3JtaSLwgdK" width="100%" height="550"></iframe>

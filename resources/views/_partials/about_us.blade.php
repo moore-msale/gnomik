@@ -1,11 +1,11 @@
 <div class="no-bg row"
      style="padding-top:5%; background-image: url({{ secure_asset('images/secbg.png') }}); background-size: cover;">
-    <div class="col-12 text-center pb-lg-0 pb-0">
+    <div class="col-12 text-center pb-lg-0 pb-0 pt-5">
         <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Почему мы?</h2>
     </div>
     <div class="col-12 nomarnopad">
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 d-lg-block d-none" style="padding-left: 8%;">
+            <div class="col-lg-4 col-md-6 d-lg-block d-none" style="padding-left: 5%;">
                 <img class="in-left" style="z-index:100; position: absolute; left: -50px;"
                      src="{{ secure_asset('images/toy.png') }}"
                      alt="">
@@ -75,8 +75,8 @@ border-radius: 10px; z-index:-500;">
                 </span>
                     </div>
                     <div class="col-10">
-                        <span id="events" class="text-fut-light" style="font-size: 21px; line-height: 19px;">
-Проводится подготовка к школе (тестирование)
+                        <span class="text-fut-light" style="font-size: 21px; line-height: 19px;">
+Проводится подготовка к школе <div id="events">(тестирование)</div>
                     </span>
                     </div>
                 </div>
