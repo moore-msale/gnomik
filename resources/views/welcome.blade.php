@@ -67,8 +67,7 @@
     <div class="container-fluid" id="about_us">
         @include('_partials.about_us')
     </div>
-    @include('_partials.features')
-
+        @include('_partials.features')
 
     <div class="container-fluid">
         <div class="row pb-lg-5 pb-5"
@@ -109,11 +108,11 @@
         </div>
     </div>
 
-    <div class="w-100" style="background-image: url('{{ secure_asset('images/5.png') }}'); background-size:cover;" id="gallery">
-        <div class="container" id="gallery">
-            <div class="row nopadsides padsides">
-                <div class="col-12 text-center" style="margin-top: 6%; margin-bottom: 5%;">
-                    <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:4%;">Галерея</h2>
+    <div class="w-100" style="background-image: url('{{ secure_asset('images/5.png') }}'); background-size:cover;">
+        <div class="container">
+            <div class="row nopadsides padsides" id="gallery">
+                <div class="col-12 text-center" style="margin-top: 4%; margin-bottom: 5%;">
+                    <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom:5%;">Галерея</h2>
                 </div>
 
                 <div class="col-lg-8 mt-4 col-md-6 col-12 nopadsides d-md-block d-none">
@@ -816,12 +815,12 @@
                             <input type="text" class="form-control" id="form-phone" placeholder="Номер">
                         </div>
 
-                        <div id="contact-us" class="form-group">
+                        <div class="form-group">
                             <textarea class="form-control" id="form-message" rows="3"
                                       placeholder="Коментарии"></textarea>
                         </div>
 
-                        <button id="ajax-message" type="submit" class="btn btn-submit">Записаться</button>
+                        <button id="ajax-message" type="submit" class="btn btn-submit"><p  id="contact-us">Записаться</p></button>
                     </form>
                 </div>
             </div>
@@ -832,10 +831,8 @@
 
     <div class="container-fluid footer-fix" id="divider-before-map"></div>
     <div class="container-fluid pl-0 pr-0" id="map-block">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.8758142338893!2d74.60766521516513!3d42.85435531173515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb631247d21d9%3A0x2204385487219fd4!2z0J_Qu9Cw0L3QtdGC0LAg0Y3Qu9C10LrRgtGA0L7QvdC40LrQuA!5e0!3m2!1sru!2skg!4v1567055076899!5m2!1sru!2skg"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23401.45570281762!2d74.60376226511232!3d42.84789085881331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7caef75d0e9%3A0xa11c92e71ce66659!2z0JTQtdGC0YHQutC40Lkg0YHQsNC0ICLQk9C90L7QvNC40Loi!5e0!3m2!1sru!2skg!4v1567658096353!5m2!1sru!2skg"
                 width="100%" height="550"></iframe>
-{{--        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1HYAqAFk578JUrPPqoesDQW3JtaSLwgdK" width="100%"--}}
-{{--                height="550"></iframe>--}}
     </div>
 
     @push('scripts')

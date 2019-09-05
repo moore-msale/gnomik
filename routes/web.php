@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['prefix' => 'admin'], function () {
+Route::group(['prefix' => 'moore'], function () {
     Voyager::routes();
 });
 
