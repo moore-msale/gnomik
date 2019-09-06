@@ -24,7 +24,7 @@
            <li><a href="tel: +996556759444" class="phone"><span>Телефон</span><i class="fas fa-phone fa-2x"></i></a></li>
             <!-- <li><a href="#" class="viber"><span>Viber</span><i class="fab fa-viber fa-2x"></i></a></li> -->
             <!-- <li><a href="#" class="telegram"><span>Telegram</span><i class="fab fa-telegram-plane fa-2x"></i></a></li> -->
-            
+
         </ul>
     </li>
 </ul>
