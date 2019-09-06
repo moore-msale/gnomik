@@ -153,12 +153,21 @@
     });
 
 </script>
-<script>
+<script type="text/javascript">
         $(document).ready(function(){
             $('#nav-icon3').click(function(){
                 $(this).toggleClass('open');
                 $("#shadow").toggleClass("shadow");
             });
+        });
+
+        $(document).mouseup(function(e) {
+            var $target = $(e.target);
+            if ($target.closest("#shadow").length == 0) {
+                $(".navbar-collapse").removeClass("show");
+                $("#shadow").removeClass("shadow");
+                $('#nav-icon3').toggleClass('open');
+            }
         });
 </script>
 </body>
