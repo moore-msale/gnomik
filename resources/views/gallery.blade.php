@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container-fluid header" style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }});">
+    <div class="container-fluid header" style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }}); margint-top: -10px;">
         <div class="row align-items-center justify-content-center pt-5" style="height: 300px;">
             <h1 class="px-md-0 px-4" style="font-family:'Coiny';font-size: 2.1rem;line-height: 43px;color: #FFFFFF;">Жизнь “<img style="height: 40px;width: 135px; display: inline"  src="{{ asset('images/logo_gnomik.svg') }}">” в фотографиях</h1>
         </div>

@@ -1,7 +1,7 @@
 <nav class="navbar menuse navbar-expand-lg py-0 w-100 pr-0 d-lg-block d-none container-fluid" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
     <div class="container">
         <div class="row w-100">
-            <div class="col-md-1 col-4 px-4 logs logs3 pt-3">
+            <div class="col-md-1 col-4 px-4 logs logs3" style="display: flex; align-items: center;">
                 <a href="/" style="">
                     <img class="logo main-logo" src="{{asset('images/logo.png')}}" alt="">
                 </a>
@@ -41,7 +41,7 @@
                     <img class="w-50" src="{{asset('images/logo.png')}}" alt="">
                 </a>
             </div>
-            <div class="col-auto my-auto ml-auto d-xl-none px-0">
+            {{--<div class="col-auto my-auto ml-auto d-xl-none px-0">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <div id="nav-icon3">
                           <span></span>
@@ -50,6 +50,15 @@
                           <span></span>
                         </div>
                 </button>
+            </div>--}}
+            <div class="col-auto my-auto ml-auto d-xl-none px-0">
+                <button class="text-white navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>                </button>
             </div>
             <div class="collapse navbar-collapse col-lg-11 col-8"  id="navbarSupportedContent">
                 <nav class="ml-md-auto ml-0">

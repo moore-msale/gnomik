@@ -1069,10 +1069,12 @@ p {
     transform: rotateX(180deg);
 }
 .menu.bottomRight {
-    bottom: 10px;
-    right: 10px;
+    bottom: 34px;
+    right: 33px;
 }
-
+.shadoww {
+    box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3);
+}
 .menu {
     z-index: 999;
     position: fixed;
