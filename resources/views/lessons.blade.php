@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="container-fluid header"
-         style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }});">
+         style="-webkit-background-size: cover;background-position: bottom;background-size: cover;background-image: url({{ asset('images/header.png') }}); margin-top: -10px;">
         <div class="row align-items-center justify-content-center  pt-5" style="height: 300px;">
             <h1 class=" text-md-center" style="font-family:'Coiny';font-size: 39px;line-height: 43px;color: #FFFFFF; text-align: center;">Список занятий</h1>
         </div>

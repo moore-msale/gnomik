@@ -20,7 +20,7 @@ border-radius: 10px; z-index:-500;">
                         от 2 до 7 лет.
                     </p>
                     <p class="text-fut-light text-white" style="font-size: 23px; line-height: 25px; padding-top: 10%;">
-                        Частный детский сад<img style="height: 24px;width: 80px; display: inline"  src="{{ asset('images/logo_gnomik_white.svg') }}">имеет ряд преимуществ:
+                        Частный детский сад <img style="height: 24px;width: 80px; display: inline"  src="{{ asset('images/gnomik_white_logo.png') }}"> имеет ряд преимуществ:
                     </p>
                 </div>
                 <img class="clouds d-md-block d-none" style="position: absolute; right:-30%; bottom:-15%;"
@@ -30,7 +30,7 @@ border-radius: 10px; z-index:-500;">
                 <div class="container-fluid row nomarnopad">
                     <div class="col-2">
                         <span style="font-family: Coiny; font-size: 45px; line-height: 43px;">
-                    1
+
                 </span>
                     </div>
                     <div class="col-10">
