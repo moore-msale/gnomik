@@ -1049,13 +1049,13 @@ p {
  }
 .menu .share:hover.top .submenu li:nth-child(1) {
     opacity: 1;
-    top: -55px;
+    top: -75px;
     transition-delay: 0.04s;
     transform: rotateY(0deg);
 }
 .menu .share:hover.top .submenu li:nth-child(2) {
     opacity: 1;
-    top: -110px;
+    top: -150px;
     transition-delay: 0.08s;
     transform: rotateY(0deg);
 }
@@ -1085,7 +1085,7 @@ p {
 .menu .submenu li {
     transition: all ease-in-out 0.5s;
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     z-index: 10;
     opacity: 0;
@@ -1139,6 +1139,6 @@ p {
     transform: rotateX(180deg);
 }
 .menu.bottomRight {
-    bottom: 23px;
-    right: 23px;
+    bottom: 33px;
+    right: 33px;
 }
