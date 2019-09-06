@@ -33,7 +33,7 @@
         </div>
     </div>
 </nav>
-<nav class="navbar navbar-expand-xl py-0 w-100 pr-0 bg-white d-lg-none d-block" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
+<nav class="navbar navbar-expand-xl py-0 w-100 pr-0 bg-white d-lg-none d-block" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;" id="shadow">
     <div class="container-fluid">
         <div class="row w-100">
             <div class="col-lg-1 col-4 px-4 py-2">

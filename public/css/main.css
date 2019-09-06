@@ -1140,6 +1140,11 @@ p {
     transform: rotateX(180deg);
 }
 .menu.bottomRight {
-    bottom: 33px;
-    right: 33px;
+    bottom: 24px;
+    right: 27px;
+}
+.shadow
+{
+    transition: 0.3s;
+    box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3)!important;
 }
