@@ -12,9 +12,9 @@
 
     <!-- Scripts -->
 
-    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ secure_asset('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('css/owl.theme.default.min.css') }}">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -25,7 +25,7 @@
 
 <!-- Styles -->
 
-    <link href="{{ secure_asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
 
     @stack('styles')
@@ -38,8 +38,8 @@
     </main>
 </div>
 @include('_partials.footer')
-<script src="{{ secure_asset('js/app.js') }}"></script>
-<script src="{{ secure_asset('js/owl.carousel.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/owl.carousel.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
@@ -151,7 +151,14 @@
             $('body,html').animate({scrollTop: top}, 500);
         });
     });
-</script>
 
+</script>
+<script>
+        $(document).ready(function(){
+            $('#nav-icon3').click(function(){
+                $(this).toggleClass('open');
+            });
+        });
+</script>
 </body>
 </html>
