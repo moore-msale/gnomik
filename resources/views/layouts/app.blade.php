@@ -166,7 +166,7 @@
             if ($target.closest("#shadow").length == 0) {
                 $(".navbar-collapse").removeClass("show");
                 $("#shadow").removeClass("shadow");
-                $('#nav-icon3').toggleClass('open');
+                $('#nav-icon3').removeClass('open');
             }
         });
 </script>

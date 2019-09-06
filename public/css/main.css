@@ -1056,13 +1056,13 @@ p {
  }
 .menu .share:hover.top .submenu li:nth-child(1) {
     opacity: 1;
-    top: -75px;
+    top: -57px;
     transition-delay: 0.04s;
     transform: rotateY(0deg);
 }
 .menu .share:hover.top .submenu li:nth-child(2) {
     opacity: 1;
-    top: -150px;
+    top: -115px;
     transition-delay: 0.08s;
     transform: rotateY(0deg);
 }

@@ -54,11 +54,13 @@
             <div class="col-auto my-auto ml-auto d-xl-none px-0">
                 <button class="text-white navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <div id="nav-icon3">
+                        <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        <span></span>
-                    </div>                </button>
+                    </div>
+
+                </button>
             </div>
             <div class="collapse navbar-collapse col-lg-11 col-8"  id="navbarSupportedContent">
                 <nav class="ml-md-auto ml-0">
