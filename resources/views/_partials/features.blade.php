@@ -72,10 +72,10 @@
             </div>
         </div>
         <div class="col-12 col-lg">
-            <p class="text-fut-light" style="font-size: 21px; line-height: 140%; padding-bottom: 3%">
+            <p class="text-fut-light" style="font-size: 21px; line-height: 28px; padding-bottom: 4%; padding-top: 4%">
                 Наши мероприятия нацелены на расширение кругозора и получение новых эмоций у детей.
             </p>
-            <p class="text-fut-light" style="font-size: 21px; line-height: 140%;">
+            <p class="text-fut-light" style="font-size: 21px; line-height: 28px;">
                 Мы тщательно выстраиваем среду, в которой пребывают дети, и заботимся о том, чтобы она всегда была
                 вдохновляющая, экологичная и обогащенная интересными событиями.
             </p>

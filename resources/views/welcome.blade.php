@@ -77,7 +77,7 @@
                     О наших занятиях
                 </h2>
 
-                <p class="maxwidth" style="padding-top:10%;">
+                <p class="maxwidth" style="padding-top:7%;">
                     <img src="{{asset('images/31.svg')}}" alt="">
                     <img src="{{asset('images/32.svg')}}" style="padding-left:5%;" alt="">
                     <img src="{{asset('images/33.svg')}}" style="padding-left:5%;" alt="">
@@ -87,14 +87,14 @@
                 </p>
 
                 <p class="text-fut-light"
-                   style="font-size: 21px; line-height: 140%; color:white; padding-right: 15%; padding-top:3%;padding-bottom:3%;">
+                   style="font-size: 21px; line-height: 30px; color:white; padding-right: 15%; padding-top:7%;padding-bottom:2%;">
                     Мы ценим индивидуальность каждого ребенка, применяем гибкий подход к обучению, что позволяет каждому
                     малышу развиваться в соответствии со своими способностями до полного раскрытия потенциальных
                     возможностей.
                 </p>
 
                 <p class="text-fut-light"
-                   style="font-size: 21px; line-height: 140%; color:white; padding-right: 15%; padding-top: 1%; padding-bottom: 5%;">
+                   style="font-size: 21px; line-height: 30px; color:white; padding-right: 15%; padding-top: 5%; padding-bottom: 5%;">
                     Мы следуем главному принципу: в детском саду ребёнку должно быть уютно, интересно и радостно — как
                     дома.
                 </p>
@@ -126,8 +126,8 @@
                                     Мы ценим каждый момент, проведенный с детьми в нашем детском саду «<img style="height: 24px;width: 55px; display: inline"  src="{{ asset('images/logo_gnomik_white.svg') }}">»
                                 </p>
                                 <p style="margin-top: 3%;">
-                                	
-               
+
+
                                     <a href="/gallery/5" class="py-lg-3 py-2 px-3 text-fut-light btn"
                                        style="background-color: #518CDC; width: 210px;" style="text-decoration: none;color: #fff;">Перейти в
                                         галерею
@@ -305,7 +305,7 @@
                 </div>
             </div>
             <div class="tab-content col-12" id="myTabContent">
-                <div class="tab-pane fade active show  shadow-lg pt-5 pb-5" id="каша" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade active show  shadow-lg pt-5 pb-5" id="каша" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -346,14 +346,14 @@
                 </div>
 
 
-                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="завтраки" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="завтраки" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
                                 Завтраки (на второе)
                             </h2>
                         </div>
-                        <div class="row justify-content-center pt-lg-0 pt-5">
+                        <div class="row justify-content-center pt-lg-0 pt-5 mob-menu">
                             <div class="col-lg-3 col-6">
                                 <img class="food-img" src="{{asset('images/menu/sir.png')}}" alt="">
                             </div>
@@ -379,7 +379,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="полдник" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="полдник" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -414,7 +414,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="напитки" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade   shadow-lg pt-5 pb-5" id="напитки" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -452,7 +452,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="супы" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="супы" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -486,7 +486,7 @@
                             </div>
                         </div>
 
-                        <div class="row justify-content-center" style="padding-top: 3%;">
+                        <div class="row justify-content-center mob-menu" style="padding-top: 3%;">
                             <div class="col-lg-3 col-6 pt-lg-0 pt-5 pb-5">
                                 <img class="food-img" src="{{asset('images/menu/lapsha-500x500.png')}}" alt="">
                             </div>
@@ -508,7 +508,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="второе" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="второе" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -542,7 +542,7 @@
                     </div>
                 </div>
 
-                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="салаты" role="tabpanel" aria-labelledby="">
+                <div class="tab-pane fade  shadow-lg pt-5 pb-5" id="салаты" style="border-radius: 30px;" role="tabpanel" aria-labelledby="">
                     <div class="container">
                         <div class="col-12 text-center" style="margin-bottom: 5%;">
                             <h2 class="text-fut-bold" style="font-size: 39px; line-height: 43px;">
@@ -579,9 +579,9 @@
         </div>
     </div>
 
-    <div class="container pt-lg-5 pt-0 mt-5 mb-5 pb-lg-5 pb-0" id="employees">
-        <div class="col-12 text-center pb-lg-5 pb-3">
-            <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px;">Наши сотрудники</h2>
+    <div class="container pt-lg-5 pt-5 mt-5 mb-5 pb-lg-5 pb-0" id="employees">
+        <div class="col-12 text-center">
+            <h2 style="font-family: Coiny; font-size: 39px; line-height: 43px; padding-bottom: 3%">Наши сотрудники</h2>
         </div>
 
         <div class="container-fluid">
@@ -604,7 +604,7 @@
                                                         <img class="d-md-none d-block"
                                                              src="{{ asset('storage/'.$teacher->image) }}" alt="">
                                                     </div>
-                                                    <div class="col-lg-6 col-md-6 col-12 align-self-center">
+                                                    <div class="col-lg-6 col-md-6 col-12 align-self-center pl-4">
                                                         <h3 style="font-family: 'Futura PT Bold';font-size: 24px;line-height: 33px;color:#000;">
                                                             {{ $teacher->name }}</h3>
                                                         <p class="pt-2"
