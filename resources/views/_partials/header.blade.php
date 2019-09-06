@@ -3,7 +3,7 @@
         <div class="row w-100">
             <div class="col-md-1 col-4 px-4 logs logs3 pt-3">
                 <a href="/" style="">
-                    <img class="logo main-logo" src="{{secure_asset('images/logo.png')}}" alt="">
+                    <img class="logo main-logo" src="{{asset('images/logo.png')}}" alt="">
                 </a>
             </div>
             <div class="col-md-11 col-8 collapse navbar-collapse"  id="navbarSupportedContent">
@@ -38,12 +38,17 @@
         <div class="row w-100">
             <div class="col-lg-1 col-4 px-4 py-2">
                 <a href="/">
-                    <img class="w-50" src="{{secure_asset('images/logo.png')}}" alt="">
+                    <img class="w-50" src="{{asset('images/logo.png')}}" alt="">
                 </a>
             </div>
             <div class="col-auto my-auto ml-auto d-xl-none px-0">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <i class="fas fa-bars fa-lg"></i>
+                    <div id="nav-icon3">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
                 </button>
             </div>
             <div class="collapse navbar-collapse col-lg-11 col-8"  id="navbarSupportedContent">
