@@ -979,7 +979,73 @@ p {
   width: 0%;
   left: 50%;
 }
+.menu {
+    z-index: 999;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
+.menu:hover .main-co{
+    animation: none;
+}
+.menu .share i.fab {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+    padding-bottom:10px;
+}
+.menu .share{
+    padding-bottom:11px;
+    list-style-type: none!important;
 
+}
+.menu .share i.fas {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+    background-color: #6e73ff;
+    border-radius: 10px;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+    padding-bottom:10px;
+}
+.main-co
+{
+    -webkit-animation:email-an linear 2s infinite;
+    animation:email-an linear 2s infinite;
+}
+@-webkit-keyframes email-an {
+    0% {
+        box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 0 rgba(53, 60, 228, 0.2),0 0 0 0 rgba(53, 60, 228, 0.2)
+    }
+    40% {
+        box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 15px rgba(53, 60, 228, 0.2),0 0 0 0 rgba(53, 60, 228, 0.2)
+    }
+    80% {
+        box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 30px rgba(37, 211, 102, 0),0 0 0 26.7px rgba(37, 211, 102, 0.07)
+    }
+    100% {
+        box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 30px rgba(37, 211, 102, 0),0 0 0 40px rgba(37, 211, 102, 0)
+    }
+}@keyframes email-an {
+     0% {
+         box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 0 rgba(53, 60, 228, 0.2),0 0 0 0 rgba(53, 60, 228, 0.2)
+     }
+     40% {
+         box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 15px rgba(53, 60, 228, 0.2),0 0 0 0 rgba(53, 60, 228, 0.2)
+     }
+     80% {
+         box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 30px rgba(53, 60, 228, 0),0 0 0 26.7px rgba(53, 60, 228, 0.07)
+     }
+     100% {
+         box-shadow:0 8px 10px rgba(53, 60, 228, 0.3),0 0 0 30px rgba(53, 60, 228, 0),0 0 0 40px rgba(37, 211, 102, 0)
+     }
+ }
 .menu .share:hover.top .submenu li:nth-child(1) {
     opacity: 1;
     top: -55px;
@@ -1020,26 +1086,29 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 10;
     opacity: 0;
-    padding-bottom:11px;
+    padding-bottom:9px;
+    list-style-type: none!important;
 }
 .menu .submenu li a i.fab {
     color: #fff;
+
 }
 .menu .submenu li a span {
     position: fixed;
-    padding-top:15px;
+    padding-top:8px;
     padding-right:10px;
-    left:-130px;
+    top:1px;
+    z-index:-1;
+    left:-145px;
     color:white;
-    height: 82%;
-    width:140px;
-    background: rgba(118, 122, 118, 0.55);
+    height: 78%;
+    width:150px;
+    background: rgba(95, 99, 95, 0.55);
     padding-left: 30%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    z-index: -100;
 }
 .menu .submenu li a i.fas {
     color: #fff;
@@ -1053,8 +1122,8 @@ p {
 .menu .submenu li a.viber i.fab {
     background-color: #59267c;
 }
-.menu .submenu li a.instagram i.fab {
-    background-color: #833AB4;
+.menu .submenu li a.bid i.fas {
+    background-color: #353ce4;
 }
 .menu .submenu li:nth-child(1) {
     transform: rotateX(45deg);
@@ -1069,40 +1138,6 @@ p {
     transform: rotateX(180deg);
 }
 .menu.bottomRight {
-    bottom: 34px;
-    right: 33px;
-}
-.shadoww {
-    box-shadow: 0 0 0 9999px rgba(0,0,0, 0.3);
-}
-.menu {
-    z-index: 999;
-    position: fixed;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-.menu:hover .main-co{
-        animation: none;
-}
-.menu .share i.fab {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    background-color: #fff;
-    border-radius: 10px;
-    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
-    padding-bottom:10px;
-}
-.menu .share i.fas {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    line-height: 50px;
-    color:white;
-    background-color: rgb(73, 137, 209);
-    border-radius: 10px;
-    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
-    padding-bottom:10px;
+    bottom: 23px;
+    right: 23px;
 }
